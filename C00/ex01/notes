@@ -1,0 +1,15 @@
+PhoneBook class:
+    array of strings (contacts)
+    store max of 8 contacts  (if we add 9th replace oldest with newest)
+Contacts class:
+    phonebook contacts
+
+Commands:
+    ADD:
+        adds new contact
+        shows each field once at a time
+        contact fields: first name, last name; nickname, phone num,
+    darkest secret. !!cant have empty fields
+    SEARCH:
+        display list of 4 columns: index, first name, last name, nickname
+        each col must be 10 char wide 
