@@ -30,6 +30,7 @@ int	main(int argc, char **argv)
 		std::cin >> command;
 		switch (command) {
 			case 1:
+				std::cout << "---------------------\n";
 				std::cout << "ADD\n";
 				if (index == 8)
 					phonebook.ft_replace(index, contact[index]);
@@ -38,9 +39,12 @@ int	main(int argc, char **argv)
 				index++;
 				break ;
 			case 2:
+				std::cout << "---------------------\n";
 				std::cout << "SEARCH\n";
+				phonebook.ft_search(contact);
 				break ;
 			case 3: {
+				std::cout << "---------------------\n";
 				std::cout << "Exiting...\n";
 				exit(1);
 				break ;
