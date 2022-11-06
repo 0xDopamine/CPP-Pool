@@ -19,7 +19,6 @@ int	main(int argc, char **argv)
 	int	command;
 	int	index = 0;
 	PhoneBook phonebook;
-	Contact	contact[8];
 
 	while (index < 9)
 	{
@@ -41,21 +40,20 @@ int	main(int argc, char **argv)
 					if (answer == 'y')
 					{
 						std::cout << "---------------------\n";
-						phonebook.ft_replace(index, contact);
+						phonebook.ft_replace(index);
 					}
 					else
 						break ;
 				}
 				else
 				{
-					phonebook.ft_add(index, contact[index]);
+					phonebook.ft_add(index);
 					index++;
 				}
 				break ;
 			case 2:
 				std::cout << "---------------------\n";
 				std::cout << "SEARCH\n";
-				// phonebook.ft_search(contact);
 				break ;
 			case 3: {
 				std::cout << "---------------------\n";
@@ -65,7 +63,7 @@ int	main(int argc, char **argv)
 			}
 			case 4: {
 				std::cout << "---------------------\n";
-				contact->print(index, contact);
+				phonebook.print(index);
 				printf("%d\n", index);
 				break ;
 			}
