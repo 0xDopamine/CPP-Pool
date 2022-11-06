@@ -27,26 +27,46 @@ int	main(int argc, char **argv)
 		std::cout << "1. ADD\n";
 		std::cout << "2. SEARCH\n";
 		std::cout << "3. EXIT\n";
+		std::cout << "4. PRINT\n";
 		std::cin >> command;
 		switch (command) {
 			case 1:
 				std::cout << "---------------------\n";
 				std::cout << "ADD\n";
-				if (index == 8)
-					phonebook.ft_replace(index, contact[index]);
+				if (index == 2)
+				{
+					char answer;
+					std::cout << "You have reached the maximum number of contacts\nDo you want to override an exisitng contact?\ntype y or n\n";
+					std::cin >> answer;
+					if (answer == 'y')
+					{
+						std::cout << "---------------------\n";
+						phonebook.ft_replace(index, contact);
+					}
+					else
+						break ;
+				}
 				else
+				{
 					phonebook.ft_add(index, contact[index]);
-				index++;
+					index++;
+				}
 				break ;
 			case 2:
 				std::cout << "---------------------\n";
 				std::cout << "SEARCH\n";
-				phonebook.ft_search(contact);
+				// phonebook.ft_search(contact);
 				break ;
 			case 3: {
 				std::cout << "---------------------\n";
 				std::cout << "Exiting...\n";
 				exit(1);
+				break ;
+			}
+			case 4: {
+				std::cout << "---------------------\n";
+				contact->print(index, contact);
+				printf("%d\n", index);
 				break ;
 			}
 			default:
