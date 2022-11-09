@@ -12,6 +12,7 @@
 
 #include <iostream>
 #include <cstring>
+#include <iomanip>
 #include "PhoneBook.hpp"
 
 int	main(int argc, char **argv)
@@ -54,6 +55,7 @@ int	main(int argc, char **argv)
 			case 2:
 				std::cout << "---------------------\n";
 				std::cout << "SEARCH\n";
+				phonebook.ft_search(index);
 				break ;
 			case 3: {
 				std::cout << "---------------------\n";
@@ -69,6 +71,7 @@ int	main(int argc, char **argv)
 			}
 			default:
 				std::cout << "COMMAND NOT FOUND\n";
+				command = 0;
 				break ;
 		}
 	}
