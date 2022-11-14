@@ -21,14 +21,12 @@ class Zombie {
     private:
         std::string name;
     public:
-        void    announce(void){
-            std::cout << name << ": BraiiiiiiinnnzzzZ...\n";
-        };
+        void    announce(void);
+        Zombie(std::string name);
+        ~Zombie(void);
+        std::string get_name(void);
+        Zombie *newZombie(std::string name);
 } ;
 
-Zombie *newZombie(std::string name)
-{
-    
-}
 
 #endif

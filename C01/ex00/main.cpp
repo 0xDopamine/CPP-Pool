@@ -10,5 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
+#include "include/Zombie.hpp"
+
+int main()
+{
+    Zombie ayman("Ayman");
+    ayman.announce();
+    return (0);
+}
 
