@@ -10,19 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HUMANA_HPP
-#define HUMANA_HPP
-#include <iostream>
 #include "Weapon.hpp"
 
 class HumanA {
     private:
         std::string name;
-        Weapon  arm;
+        Weapon  &arm;
     public:
         void    attack(void);
-        HumanA(std::string name, Weapon weapon);
+        Weapon& getWeapon(void);
+        HumanA(std::string name, Weapon &arm);
         ~HumanA(void);
 } ;
-
-#endif
