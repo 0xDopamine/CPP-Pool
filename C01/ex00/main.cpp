@@ -11,11 +11,19 @@
 /* ************************************************************************** */
 
 #include "include/Zombie.hpp"
+#include "Zombie.cpp"
+#include "newZombie.cpp"
+#include "randomChump.cpp"
 
 int main()
 {
     Zombie ayman("Ayman");
     ayman.announce();
+
+    Zombie *hiba = newZombie("Hiba");
+    hiba->announce();
+    delete(hiba);
+    randomChump("Amine");
     return (0);
 }
 

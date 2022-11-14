@@ -13,11 +13,7 @@
 #include "include/Zombie.hpp"
 
 void    Zombie::announce(void) {
-    std::cout << "BraiiiiiiinnnzzzZ...\n";
-}
-
-std::string Zombie::get_name(void) {
-    return (name);
+    std::cout << Zombie::get_name() << ": BraiiiiiiinnnzzzZ...\n";
 }
 
 Zombie::Zombie(std::string name) {
@@ -25,5 +21,9 @@ Zombie::Zombie(std::string name) {
 }
 
 Zombie::~Zombie(void) {
-    std::cout << "dead?\n";
+    std::cout << Zombie::get_name() << ": rip\n";
+}
+
+std::string Zombie::get_name(void) {
+    return (name);
 }

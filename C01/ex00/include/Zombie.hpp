@@ -18,14 +18,15 @@
 #include <iomanip>
 
 class Zombie {
-    private:
-        std::string name;
     public:
         void    announce(void);
         Zombie(std::string name);
         ~Zombie(void);
         std::string get_name(void);
         Zombie *newZombie(std::string name);
+        Zombie  randomChump(std::string name);
+    private:
+        std::string name;
 } ;
 
 
