@@ -12,18 +12,18 @@
 
 #include "HumanB.hpp"
 
-HumanB::HumanB(std::string name): name(name), arm("walo") {}
+HumanB::HumanB(std::string name): name(name), arm(nullptr) {}
 
 HumanB::~HumanB(void) {}
 
 void    HumanB::attack(void) {
-    std::cout << this->name << " attacks with their " << this->arm.getType() + "\n";
+    std::cout << this->name << " attacks with their " << this->arm->getType() + "\n";
 }
 
 Weapon& HumanB::getWeapon(void) {
-    return(this->arm);
+    return(*(this->arm));
 }
 
 void    HumanB::setWeapon(Weapon& newWeapon) {
-    this->arm = newWeapon;
+    this->arm = &newWeapon;
 }
