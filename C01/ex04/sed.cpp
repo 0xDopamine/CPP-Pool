@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sed.cpp                                            :+:      :+:    :+:   */
+/*   mySed.cpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,15 +12,39 @@
 
 #include "sed.hpp"
 
-File::File(std::ifstream file): file(file) {}
+mySed::mySed() {};
 
-std::string File::read(std::ifstream file) {
-	std::string output;
+mySed::~mySed() {};
 
-	if (file.is_open()) {
-		while (file.good()) {
-			file >> output;
-		}
-	}
-	std::cout << output << std::endl;
+void	mySed::init_file(std::string newFile) {
+	this->file.open(newFile);
+	this->filename = newFile;
+
+	while(getline(file, line));
+	std::cout << this->line;
 }
+
+void    mySed::writeToFile(std::string line) {
+    std::string	out = "out." + this->filename;
+	std::ofstream   outfile(out);
+
+    outfile << this->line;
+}
+
+void	mySed::myreplace(std::string s2, std::string s1) {
+
+	int j = 0;
+	int	len = s2.length();
+    int	index = this->line.find(s1); 
+	std::string	res;
+
+    for(int i = 0;  i < this->line.length(); i++) {
+        if (i == index) {
+            this->line.erase(i, len);
+            this->line.insert(i, s2);
+			break ;
+        } 
+    }
+	std::cout << this->line;
+	writeToFile(this->line);
+} ;

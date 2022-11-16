@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sed.hpp                                            :+:      :+:    :+:   */
+/*   mySed.hpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,14 +10,27 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef MYSED_HPP
+#define MYSED_HPP
+
+
 #include "iostream"
 #include <fstream>
 
-class File {
-    private:
-        std::ifstream file;
-    public:
-        File(std::ifstream file);
-        ~File();
-        std::string read(std::ifstream file);
+class mySed {
+	private:
+		std::ifstream file;
+		std::string filename;
+		std::string line;
+		std::string s2;
+	public:
+		mySed();
+		~mySed();
+		std::string read(std::ifstream file);
+		void	init_file(std::string newFile);
+		void	myreplace(std::string s2, std::string s1);
+		void	writeToFile(std::string line);
+
 };
+
+#endif
