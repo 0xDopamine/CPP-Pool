@@ -17,11 +17,10 @@ mySed::mySed() {};
 mySed::~mySed() {};
 
 void	mySed::init_file(std::string newFile) {
-	this->file.open(newFile);
 	this->filename = newFile;
+	this->file.open(this->filename);
 
-	while(getline(file, line));
-	std::cout << this->line;
+	getline(this->file, this->line);
 }
 
 void    mySed::writeToFile(std::string line) {
@@ -45,6 +44,5 @@ void	mySed::myreplace(std::string s2, std::string s1) {
 			break ;
         } 
     }
-	std::cout << this->line;
 	writeToFile(this->line);
 } ;
