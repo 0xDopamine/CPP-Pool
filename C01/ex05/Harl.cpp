@@ -12,3 +12,18 @@
 
 #include "Harl.hpp"
 
+Harl::Harl() {};
+
+Harl::~Harl() {};
+
+void    Harl::complain(std::string level)
+{
+    if (level == "DEBUG")
+        Harl::debug();
+    else if (level == "INFO")
+        Harl::info();
+    else if (level == "WARNING")
+        Harl::warning();
+    else if (level == "ERROR")
+        Harl::error();
+}
