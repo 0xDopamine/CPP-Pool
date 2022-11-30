@@ -6,13 +6,15 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:53:14 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/02 10:53:14 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/11/29 15:49:16 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHONEBOOK_HPP
 #define PHONEBOOK_HPP
 
+#include <iostream>
+#include <iomanip>
 
 class Contact {
 
@@ -43,7 +45,7 @@ class PhoneBook {
 		Contact contact[8];
 	public:
 		void    ft_add(int index);
-		void	ft_replace(int index);
+		void	ft_replace(void);
 		void	ft_search(int index);
 		void	ft_search_result(int con_index);
 		void	print(int index) {
@@ -61,90 +63,5 @@ class PhoneBook {
 			}
 		}
 } ;
-
-void	PhoneBook::ft_search_result(int con_index)
-{
-	std::cout << " | " << std::right <<  std::setw(10)  << "Index"  
-				<< "|" << std::setw(10) << "First name"
-				<< "|" << std::setw(10) << "Last name"
-				<< "|" << std::setw(10) << "Nickname"
-				<< "|" << std::setw(10) << "Phone number"
-				<< "|" << std::setw(10) << "Darkest secret" << "|\n";
-	std::cout << " | " << std::right <<  std::setw(10)  << contact[con_index].get_index()  
-				<< "|" << std::setw(10) << contact[con_index].get_first_name()
-				<< "|" << std::setw(10) << contact[con_index].get_last_name()
-				<< "|" << std::setw(10) << contact[con_index].get_nickname()
-				<< "|" << std::setw(10) << contact[con_index].get_phone_number()
-				<< "|" << std::setw(10) << contact[con_index].get_darkest_secret() << "|\n";
-
-}
-
-void	PhoneBook::ft_search(int index)
-{
-	int	i = 0;
-	int	con_index;
-	std::cout << " | " << std::right <<  std::setw(10)  << "Index"  << "|" << std::setw(10) << "First name" << "|\n";
-	while (i < index)
-	{
-		std::cout << " | "  << std::right <<  std::setw(10)   << contact[i].get_index() << "|" << std::setw(10)<< contact[i].get_first_name()<< "|\n";
-		i++;
-	}
-	std::cout << "Enter the contact you want to search for: \n";
-	std::cin >> con_index;
-	ft_search_result(con_index);
-}
-void	PhoneBook::ft_add(int i)
-{
-	std::string	first_name;
-	std::string	last_name;
-	std::string	nickname;
-	std::string	phone_number;
-	std::string	darkest_secret;
-
-	contact[i].set_index(i);
-	std::cout << "Add a contact: \n";
-	std::cout << "first name: \n";
-	std::cin >> first_name;
-	contact[i].set_first_name(first_name);
-	std::cout << "last name: \n";
-	std::cin >> last_name;
-	contact[i].set_last_name(last_name);
-	std::cout << "nickname: \n";
-	std::cin >> nickname;
-	contact[i].set_nickname(nickname);
-	std::cout << "phone number: \n";
-	std::cin >> phone_number;
-	contact[i].set_phone_number(phone_number);
-	std::cout << "darkest secret: \n";
-	std::cin >> darkest_secret;
-	contact[i].set_darkest_secret(darkest_secret);
-}
-
-void	PhoneBook::ft_replace(int index)
-{
-	std::string	first_name;
-	std::string	last_name;
-	std::string	nickname;
-	std::string	phone_number;
-	std::string	darkest_secret;
-
-	std::cout << "Add a contact: \n";
-	std::cout << "first name: \n";
-	std::cin >> first_name;
-	contact[0].set_first_name(first_name);
-	std::cout << "last name: \n";
-	std::cin >> last_name;
-	contact[0].set_last_name(last_name);
-	std::cout << "nickname: \n";
-	std::cin >> nickname;
-	contact[0].set_nickname(nickname);
-	std::cout << "phone number: \n";
-	std::cin >> phone_number;
-	contact[0].set_phone_number(phone_number);
-	std::cout << "darkest secret: \n";
-	std::cin >> darkest_secret;
-	contact[0].set_darkest_secret(darkest_secret);
-}
-
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:43:26 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/02 10:43:26 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/11/29 15:23:47 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include <iomanip>
 #include "PhoneBook.hpp"
 
-int	main(int argc, char **argv)
+int	main(void)
 {
 	int	command;
 	int	index = 0;
@@ -41,7 +41,7 @@ int	main(int argc, char **argv)
 					if (answer == 'y')
 					{
 						std::cout << "---------------------\n";
-						phonebook.ft_replace(index);
+						phonebook.ft_replace();
 					}
 					else
 						break ;

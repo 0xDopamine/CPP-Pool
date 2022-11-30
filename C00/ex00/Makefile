@@ -13,10 +13,10 @@ DEL = rm -rf
 all = $(TARGET)
 
 %.o: %.c
-	cc $(FLAGS) -c  $< -o $@
+	c++ $(FLAGS) -c  $< -o $@
 
 $(TARGET): $(OBJS)
-		cc $(FLAGS) $(OBJS) -o $(TARGET)
+		c++ $(FLAGS) $(OBJS) -o $(TARGET)
 
 re: fclean all
 
