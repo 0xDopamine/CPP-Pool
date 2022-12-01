@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/30 18:56:42 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/01 21:13:31 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/01 21:53:00 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,6 +107,6 @@ void    Account::displayStatus( void ) const
 	_displayTimestamp();
 	std::cout << "index:" << _accountIndex;
 	std::cout << ";amount:" << _amount;
-	std::cout << ";deposits:" << _totalNbDeposits;
+	std::cout << ";deposits:" << _nbDeposits;
 	std::cout << ";withdrawals:" << _totalNbWithdrawals << std::endl;
 }
