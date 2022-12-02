@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:43:26 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/29 15:23:47 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/02 19:14:29 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,15 @@ int	main(void)
 		std::cout << "1. ADD\n";
 		std::cout << "2. SEARCH\n";
 		std::cout << "3. EXIT\n";
-		std::cout << "4. PRINT\n";
 		std::cin >> command;
 		switch (command) {
 			case 1:
 				std::cout << "---------------------\n";
 				std::cout << "ADD\n";
-				if (index == 2)
+				if (index == 7)
 				{
 					char answer;
-					std::cout << "You have reached the maximum number of contacts\nDo you want to override an exisitng contact?\ntype y or n\n";
+					std::cout << "You have reached the maximum number of contacts allowed\nDo you want to override an exisitng contact?\ntype y or n\n";
 					std::cin >> answer;
 					if (answer == 'y')
 					{
@@ -61,12 +60,6 @@ int	main(void)
 				std::cout << "---------------------\n";
 				std::cout << "Exiting...\n";
 				exit(1);
-				break ;
-			}
-			case 4: {
-				std::cout << "---------------------\n";
-				phonebook.print(index);
-				printf("%d\n", index);
 				break ;
 			}
 			default:

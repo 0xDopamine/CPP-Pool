@@ -2,7 +2,7 @@ TARGET = PhoneBook
 
 SRCS = PhoneBook.cpp Functions.cpp
 
-OBJS = $(SRCS:%.c=%.o)
+OBJS = $(SRCS:%.cpp=%.o)
 
 FLAGS = -Wall -Werror -Wextra
 

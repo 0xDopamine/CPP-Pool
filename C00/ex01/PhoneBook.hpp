@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:53:14 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/29 15:49:16 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/02 19:12:38 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,20 +48,6 @@ class PhoneBook {
 		void	ft_replace(void);
 		void	ft_search(int index);
 		void	ft_search_result(int con_index);
-		void	print(int index) {
-			int	i = 0;
-
-			printf("print %d\n", index);
-			while (i < index)
-			{	
-				std::cout << contact[i].get_first_name() + "\n";
-				std::cout << contact[i].get_last_name() + "\n";
-				std::cout << contact[i].get_nickname() + "\n";
-				std::cout << contact[i].get_phone_number() + "\n";
-				std::cout << contact[i].get_darkest_secret() + "\n";
-				i++;
-			}
-		}
 } ;
 
 #endif

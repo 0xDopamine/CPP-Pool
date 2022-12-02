@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 15:47:00 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/29 15:49:09 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/02 21:17:09 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	PhoneBook::ft_search(int index)
 	std::cout << " | " << std::right <<  std::setw(10)  << "Index"  << "|" << std::setw(10) << "First name" << "|\n";
 	while (i < index)
 	{
-		std::cout << " | "  << std::right <<  std::setw(10)   << contact[i].get_index() << "|" << std::setw(10)<< contact[i].get_first_name()<< "|\n";
+		std::cout << " | "  << std::right <<  std::setw(10) << contact[i].get_index() << "|" << std::setw(10)<< contact[i].get_first_name()<< "|\n";
 		i++;
 	}
 	std::cout << "Enter the contact you want to search for: \n";
@@ -86,13 +86,13 @@ void	PhoneBook::ft_search_result(int con_index)
 				<< "|" << std::setw(10) << "First name"
 				<< "|" << std::setw(10) << "Last name"
 				<< "|" << std::setw(10) << "Nickname"
-				<< "|" << std::setw(10) << "Phone number"
-				<< "|" << std::setw(10) << "Darkest secret" << "|\n";
+				<< "|" << std::setw(15) << "Phone number"
+				<< "|" << std::setw(15) << "Darkest secret" << "|\n";
 	std::cout << " | " << std::right <<  std::setw(10)  << contact[con_index].get_index()  
 				<< "|" << std::setw(10) << contact[con_index].get_first_name()
 				<< "|" << std::setw(10) << contact[con_index].get_last_name()
 				<< "|" << std::setw(10) << contact[con_index].get_nickname()
-				<< "|" << std::setw(10) << contact[con_index].get_phone_number()
-				<< "|" << std::setw(10) << contact[con_index].get_darkest_secret() << "|\n";
+				<< "|" << std::setw(15) << contact[con_index].get_phone_number()
+				<< "|" << std::setw(15) << contact[con_index].get_darkest_secret() << "|\n";
 
 }
