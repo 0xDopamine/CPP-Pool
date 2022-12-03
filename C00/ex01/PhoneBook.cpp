@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:43:26 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/02 19:14:29 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/03 19:12:36 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	main(void)
 	int	index = 0;
 	PhoneBook phonebook;
 
-	while (index < 9)
+	while (index < 8)
 	{
 		std::cout << "Enter a command: \n";
 		std::cout << "1. ADD\n";

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 15:47:00 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/02 21:17:09 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/03 20:07:33 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,17 +39,23 @@ void	PhoneBook::ft_add(int i)
 	std::cout << "Add a contact: \n";
 	std::cout << "first name: \n";
 	std::cin >> first_name;
+	while(first_name.empty())
+	{
+		std::cout << "Segment can't be empty." << std::endl;
+		std::cout << "first name: " << std::endl;
+		std::cin >> first_name;
+	}
 	contact[i].set_first_name(first_name);
-	std::cout << "last name: \n";
+	std::cout << "last name: " << std::endl;
 	std::cin >> last_name;
 	contact[i].set_last_name(last_name);
-	std::cout << "nickname: \n";
+	std::cout << "nickname: " << std::endl;
 	std::cin >> nickname;
 	contact[i].set_nickname(nickname);
-	std::cout << "phone number: \n";
+	std::cout << "phone number: " << std::endl;
 	std::cin >> phone_number;
 	contact[i].set_phone_number(phone_number);
-	std::cout << "darkest secret: \n";
+	std::cout << "darkest secret: " << std::endl;
 	std::cin >> darkest_secret;
 	contact[i].set_darkest_secret(darkest_secret);
 }
