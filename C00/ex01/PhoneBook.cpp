@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:43:26 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/03 19:12:36 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/04 19:30:48 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,56 +17,52 @@
 
 int	main(void)
 {
-	int	command;
-	int	index = 0;
-	PhoneBook phonebook;
+	int			index = 0;
+	std::string	command;
+	PhoneBook 	phonebook;
 
 	while (index < 8)
 	{
-		std::cout << "Enter a command: \n";
-		std::cout << "1. ADD\n";
-		std::cout << "2. SEARCH\n";
-		std::cout << "3. EXIT\n";
-		std::cin >> command;
-		switch (command) {
-			case 1:
-				std::cout << "---------------------\n";
-				std::cout << "ADD\n";
-				if (index == 7)
+		std::cout << "Enter a command: " << std::endl;
+		std::cout << "1. ADD" << std::endl;
+		std::cout << "2. SEARCH" << std::endl;
+		std::cout << "3. EXIT" << std::endl;
+		std::getline(std::cin, command);
+		if (command == "ADD")
+		{
+			std::cout << "---------------------" << std::endl;
+			std::cout << "ADD" << std::endl;
+			if (index == 7)
+			{
+				std::string	answer;
+				std::cout << "You have reached the maximum number of contacts allowed\nDo you want to override an exisitng contact?\ntype y or n" << std::endl;
+				std::getline(std::cin, answer);
+				if (answer == "y")
 				{
-					char answer;
-					std::cout << "You have reached the maximum number of contacts allowed\nDo you want to override an exisitng contact?\ntype y or n\n";
-					std::cin >> answer;
-					if (answer == 'y')
-					{
-						std::cout << "---------------------\n";
-						phonebook.ft_replace();
-					}
-					else
-						break ;
+					std::cout << "---------------------" << std::endl;
+					phonebook.ft_replace();
 				}
-				else
-				{
-					phonebook.ft_add(index);
-					index++;
-				}
-				break ;
-			case 2:
-				std::cout << "---------------------\n";
-				std::cout << "SEARCH\n";
-				phonebook.ft_search(index);
-				break ;
-			case 3: {
-				std::cout << "---------------------\n";
-				std::cout << "Exiting...\n";
-				exit(1);
-				break ;
 			}
-			default:
-				std::cout << "COMMAND NOT FOUND\n";
-				command = 0;
-				break ;
+			else
+			{
+				phonebook.ft_add(index);
+				index++;
+			}
 		}
+		else if (command == "SEARCH")
+		{
+			std::cout << "---------------------" << std::endl;
+			std::cout << "SEARCH\n";
+			phonebook.ft_search(index);
+		}
+		else if (command == "EXIT")
+		{
+			std::cout << "---------------------" << std::endl;
+			std::cout << "Exiting...\n";
+			exit(1);
+		}
+		else
+			std::cout << "COMMAND NOT FOUND\n";
 	}
 	return (0);
 }
