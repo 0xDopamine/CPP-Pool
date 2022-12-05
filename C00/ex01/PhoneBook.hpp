@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:53:14 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/04 16:26:01 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/05 22:48:14 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,12 +43,11 @@ class Contact {
 class PhoneBook {
 	private:
 		Contact contact[8];
-		bool	ft_protection(std::string answer);
 	public:
 		void    ft_add(int i);
 		void	ft_replace(void);
 		void	ft_search(int index);
-		void	ft_search_result(int con_index);
+		void	ft_search_result(long index);
 } ;
 
 #endif

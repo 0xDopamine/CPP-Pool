@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 15:47:00 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/04 19:29:43 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/05 23:12:19 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,16 +15,62 @@
 void	PhoneBook::ft_search(int index)
 {
 	int	i = 0;
-	int	con_index;
-	std::cout << " | " << std::right <<  std::setw(10)  << "Index"  << "|" << std::setw(10) << "First name" << "|\n";
+	std::string	search;
+	std::string	first_name = contact[index].get_first_name();
+	std::string	last_name = contact[index].get_last_name();
+	std::string	nickname = contact[index].get_nickname();
+
+	if (first_name.length() > 9)
+		first_name = first_name.substr(0, 9) + ".";
+	if (last_name.length() > 9)
+		last_name = last_name.substr(0, 9) + ".";
+	if (nickname.length() > 9)
+		nickname = nickname.substr(0, 9) + ".";
+	std::cout << " | " << std::right <<  std::setw(10)
+		<< "Index"  << "|" << std::setw(10)
+		<< "First name" << "|" << std::setw(10)
+		<< "Last name" << "|" << std::setw(10)
+		<< "Nickname" << "|" << std::endl;
 	while (i < index)
 	{
-		std::cout << " | "  << std::right <<  std::setw(10) << contact[i].get_index() << "|" << std::setw(10)<< contact[i].get_first_name()<< "|\n";
+		std::string	first_name = contact[i].get_first_name();
+		std::string	last_name = contact[i].get_last_name();
+		std::string	nickname = contact[i].get_nickname();
+
+		if (first_name.length() > 9)
+			first_name = first_name.substr(0, 9) + ".";
+		if (last_name.length() > 9)
+			last_name = last_name.substr(0, 9) + ".";
+		if (nickname.length() > 9)
+			nickname = nickname.substr(0, 9) + ".";
+		std::cout << " | "  << std::right 
+			<<  std::setw(10) << contact[i].get_index() << "|"
+			<< std::setw(10)<< first_name << "|"
+			<< std::setw(10)<< last_name << "|"
+			<< std::setw(10)<< nickname << "|" << std::endl;
 		i++;
 	}
-	std::cout << "Enter the contact you want to search for: " << std::endl;
-	std::cin >> con_index;
-	ft_search_result(con_index);
+	std::cout << "Enter the contact you want to search for or BACK if you want to get back to the main menu: " << std::endl;
+	std::getline(std::cin, search);
+	if (search == "BACK")
+		return ;
+	while(search.length() == 0)
+	{
+		std::cout << "Segment can't be empty." << std::endl;
+		std::cout << "Enter the contact you want to search for: " << std::endl;
+		std::getline(std::cin, search);
+	}
+	while(search.length() != 1 || std::isalpha(search[0]) || std::stol(search) >= (long)index)
+	{
+		std::cout << "Index not found, please enter one of the indexes above" << std::endl;
+		std::cout << "Enter the contact you want to search for: " << std::endl;
+		std::getline(std::cin, search);
+		if (search == "BACK")
+			return ;
+	}
+	std::cout << std::endl;
+	ft_search_result(std::stol(search));
+	std::cout << std::endl;
 }
 
 void	PhoneBook::ft_add(int i)
@@ -93,37 +139,56 @@ void	PhoneBook::ft_replace(void)
 	std::string	phone_number;
 	std::string	darkest_secret;
 
-	std::cout << "Add a contact: \n";
-	std::cout << "first name: \n";
+	std::cout << "Add a contact: " << std::endl;
+	std::cout << "first name: ";
 	std::cin >> first_name;
 	contact[0].set_first_name(first_name);
-	std::cout << "last name: \n";
+	std::cout << "last name: ";
 	std::cin >> last_name;
 	contact[0].set_last_name(last_name);
-	std::cout << "nickname: \n";
+	std::cout << "nickname: ";
 	std::cin >> nickname;
 	contact[0].set_nickname(nickname);
-	std::cout << "phone number: \n";
+	std::cout << "phone number: ";
 	std::cin >> phone_number;
 	contact[0].set_phone_number(phone_number);
-	std::cout << "darkest secret: \n";
+	std::cout << "darkest secret: ";
 	std::cin >> darkest_secret;
 	contact[0].set_darkest_secret(darkest_secret);
 }
 
-void	PhoneBook::ft_search_result(int con_index)
+void	PhoneBook::ft_search_result(long index)
 {
-	std::cout << " | " << std::right <<  std::setw(10)  << "Index"  
-				<< "|" << std::setw(10) << "First name"
-				<< "|" << std::setw(10) << "Last name"
-				<< "|" << std::setw(10) << "Nickname"
-				<< "|" << std::setw(15) << "Phone number"
-				<< "|" << std::setw(15) << "Darkest secret" << "|" << std::endl;
-	std::cout << " | " << std::right <<  std::setw(10)  << contact[con_index].get_index()  
-				<< "|" << std::setw(10) << contact[con_index].get_first_name()
-				<< "|" << std::setw(10) << contact[con_index].get_last_name()
-				<< "|" << std::setw(10) << contact[con_index].get_nickname()
-				<< "|" << std::setw(15) << contact[con_index].get_phone_number()
-				<< "|" << std::setw(15) << contact[con_index].get_darkest_secret() << "|" << std::endl;
+	std::string	first_name = contact[index].get_first_name();
+	std::string	last_name = contact[index].get_last_name();
+	std::string	nickname = contact[index].get_nickname();
+	std::string	phone_number = contact[index].get_phone_number();
+	std::string	darkest_secret = contact[index].get_darkest_secret();
+	std::string	numbr = "Phone Number";
+	std::string	scrt = "Darkest Secret";
 
+	numbr = numbr.substr(0, 9) + ".";
+	scrt = scrt.substr(0, 9) + ".";
+	if (first_name.length() > 9)
+		first_name = first_name.substr(0, 9) + ".";
+	if (last_name.length() > 9)
+		last_name = last_name.substr(0, 9) + ".";
+	if (nickname.length() > 9)
+		nickname = nickname.substr(0, 9) + ".";
+	if (phone_number.length() > 9)
+		phone_number = phone_number.substr(0, 9) + ".";
+	if (darkest_secret.length() > 9)
+		darkest_secret = darkest_secret.substr(0, 9) + ".";
+	std::cout << "|" << std::right <<  std::setw(10)  << "Index"  
+				<< "|" << std::right << std::setw(10) << contact[index].get_index() << "|" << std::endl
+				<< "|" << std::right << std::setw(10) << "First name"
+				<< "|" << std::right << std::setw(10) << first_name << "|" << std::endl
+				<< "|" << std::right << std::setw(10) << "Last name"
+				<< "|" << std::right << std::setw(10) << last_name  << "|"  << std::endl
+				<< "|" << std::right << std::setw(10) << "Nickname"
+				<< "|" << std::right << std::setw(10) << nickname << "|" << std::endl
+				<< "|" << std::right << std::setw(10) << numbr
+				<< "|" << std::right << std::setw(10) << phone_number << "|" << std::endl
+				<< "|" << std::right << std::setw(10) << scrt
+				<< "|" << std::right << std::setw(10) << darkest_secret  << "|" << std::endl;
 }

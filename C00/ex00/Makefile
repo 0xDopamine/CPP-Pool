@@ -10,7 +10,7 @@ CC = c++ $(FLAGS)
 
 DEL = rm -rf
 
-all = $(TARGET)
+all: $(TARGET)
 
 %.o: %.c
 	c++ $(FLAGS) -c  $< -o $@

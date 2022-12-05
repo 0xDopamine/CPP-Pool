@@ -62,6 +62,15 @@
         "iomanip": "cpp",
         "ios": "cpp",
         "locale": "cpp",
-        "mutex": "cpp"
+        "mutex": "cpp",
+        "__hash_table": "cpp",
+        "__node_handle": "cpp",
+        "__split_buffer": "cpp",
+        "chrono": "cpp",
+        "complex": "cpp",
+        "fstream": "cpp",
+        "ratio": "cpp",
+        "sstream": "cpp",
+        "stack": "cpp"
     }
 }
