@@ -1,21 +1,13 @@
-#* TARGET *#
 TARGET = Zombie
 
-#*SOURCE FILES *#
 CPP = main.cpp
 
-#* READLINE PATH *#
-
-#* OBJECT FILES *#
 OBJS = $(CPP:%.cpp=%.o)
 
-#* FLAGS *#
 FLAGS = -Wall -Wextra -Werror
 
-#* parse FILES *#
 INCLUDE = include/
 
-#* DELETE *#
 DEL = rm -rf
 
 all: $(TARGET)

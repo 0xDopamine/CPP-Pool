@@ -1,4 +1,4 @@
-TARGET = sed
+TARGET = Harl
 
 SRCS = main.cpp
 
@@ -6,17 +6,17 @@ OBJS = $(SRCS:%.cpp=%.o)
 
 FLAGS = -Wall -Werror -Wextra
 
-CC = c++ $(FLAGS)
+CC = g++ $(FLAGS)
 
 DEL = rm -rf
 
 all: $(TARGET)
 
 %.o: %.cpp
-	c++ $(FLAGS) -c  $< -o $@
+	g++ $(FLAGS) -c  $< -o $@
 
 $(TARGET): $(OBJS)
-		c++ $(FLAGS) $(OBJS) -o $(TARGET)
+		g++ $(FLAGS) $(OBJS) -o $(TARGET)
 
 re: fclean all
 

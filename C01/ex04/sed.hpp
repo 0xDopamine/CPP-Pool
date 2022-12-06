@@ -29,7 +29,7 @@ class mySed {
 		std::string read(std::ifstream file);
 		void	init_file(std::string newFile);
 		void	myreplace(std::string s2, std::string s1);
-		void	writeToFile(std::string line);
+		void	writeToFile( void );
 
 };
 

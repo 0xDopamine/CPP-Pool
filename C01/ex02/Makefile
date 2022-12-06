@@ -1,4 +1,4 @@
-TARGET = sed
+TARGET = Brain
 
 SRCS = main.cpp
 

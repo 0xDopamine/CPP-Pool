@@ -12,7 +12,7 @@ DEL = rm -rf
 
 all: $(TARGET)
 
-%.o: %.c
+%.o: %.cpp
 	c++ $(FLAGS) -c  $< -o $@
 
 $(TARGET): $(OBJS)
