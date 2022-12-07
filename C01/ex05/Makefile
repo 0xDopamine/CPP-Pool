@@ -1,6 +1,6 @@
 TARGET = Harl
 
-SRCS = main.cpp
+SRCS = main.cpp Harl.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 
