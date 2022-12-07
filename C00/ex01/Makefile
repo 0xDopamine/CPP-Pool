@@ -1,6 +1,6 @@
 TARGET = PhoneBook
 
-SRCS = PhoneBook.cpp Functions.cpp
+SRCS = main.cpp PhoneBook.cpp Contact.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 

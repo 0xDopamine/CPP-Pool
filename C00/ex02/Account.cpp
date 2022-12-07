@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/30 18:56:42 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/02 18:55:24 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/07 19:37:02 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,13 +96,12 @@ bool    Account::makeWithdrawal( int withdrawal )
 	std::cout << ";p_amount:" << _amount;
 	if (withdrawal <= _amount)
 	{
-		std::cout << ";amount:" << _amount;
+		std::cout << ";withdrawal:" << withdrawal;
 		_totalAmount -= withdrawal;
 		_amount -= withdrawal;
-		std::cout << ";withdrawal:" << withdrawal;
+		std::cout << ";amount:" << _amount;
 		_nbWithdrawals++;
 		_totalNbWithdrawals++;
-		std::cout << ";amount:" << _amount;
 		std::cout << ";nb_withdrawals:" << _nbWithdrawals << std::endl;
 	}
 	else
