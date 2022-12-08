@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:43:26 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/07 20:55:04 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/08 20:55:41 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ int	main(void)
 		std::cout << "3. EXIT" << std::endl;
 		std::cout << "Enter a command: ";
 		std::getline(std::cin, command);
+		if (command.empty())
+			exit(1);
 		if (command == "ADD")
 		{
 			std::cout << "-----------------------" << std::endl;
