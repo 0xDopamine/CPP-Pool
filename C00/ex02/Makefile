@@ -4,7 +4,7 @@ SRCS = Account.cpp tests.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 
-FLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Werror -Wextra -std=c++98
 
 CC = c++ $(FLAGS)
 
