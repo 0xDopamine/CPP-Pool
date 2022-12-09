@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 15:47:00 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/07 21:00:02 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/09 18:10:29 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,8 @@ void	PhoneBook::ft_search(int index)
 	}
 	std::cout << "Enter the contact you want to search for or BACK if you want to get back to the main menu: " << std::endl;
 	std::getline(std::cin, search);
+	if (std::cin.eof())
+		exit(1);
 	if (search == "BACK")
 		return ;
 	while(search.length() == 0)
@@ -61,17 +63,21 @@ void	PhoneBook::ft_search(int index)
 		std::cout << "Segment can't be empty." << std::endl;
 		std::cout << "Enter the contact you want to search for: " << std::endl;
 		std::getline(std::cin, search);
+		if (std::cin.eof())
+			exit(1);
 	}
-	while(search.length() != 1 || std::isalpha(search[0]) || std::stol(search) >= (long)index)
+	while(search.length() != 1 || std::isalpha(search[0]) || std::stoi(search) >= index)
 	{
 		std::cout << "Index not found, please enter one of the indexes above" << std::endl;
 		std::cout << "Enter the contact you want to search for: " << std::endl;
 		std::getline(std::cin, search);
+		if (std::cin.eof())
+			exit(1);
 		if (search == "BACK")
 			return ;
 	}
 	std::cout << std::endl;
-	ft_search_result(std::stol(search));
+	ft_search_result(std::stoi(search));
 	std::cout << std::endl;
 }
 
@@ -92,6 +98,8 @@ void	PhoneBook::ft_add(int i)
 		std::cout << "Segment can't be empty." << std::endl;
 		std::cout << "first name: ";
 		std::getline(std::cin, first_name);
+		if (std::cin.eof())
+			exit(1);
 	}
 	contact[i].set_first_name(first_name);
 	std::cout << "last name: ";
@@ -101,6 +109,8 @@ void	PhoneBook::ft_add(int i)
 		std::cout << "Segment can't be empty." << std::endl;
 		std::cout << "last name: ";
 		std::getline(std::cin, last_name);
+		if (std::cin.eof())
+			exit(1);
 	}
 	contact[i].set_last_name(last_name);
 	std::cout << "nickname: ";
@@ -110,6 +120,8 @@ void	PhoneBook::ft_add(int i)
 		std::cout << "Segment can't be empty." << std::endl;
 		std::cout << "nickname: ";
 		std::getline(std::cin, nickname);
+		if (std::cin.eof())
+			exit(1);
 	}
 	contact[i].set_nickname(nickname);
 	std::cout << "phone number: ";
@@ -119,6 +131,8 @@ void	PhoneBook::ft_add(int i)
 		std::cout << "Segment can't be empty." << std::endl;
 		std::cout << "phone number: ";
 		std::getline(std::cin, phone_number);
+		if (std::cin.eof())
+			exit(1);
 	}
 	contact[i].set_phone_number(phone_number);
 	std::cout << "darkest secret: ";
@@ -128,6 +142,8 @@ void	PhoneBook::ft_add(int i)
 		std::cout << "Segment can't be empty." << std::endl;
 		std::cout << "darkest secret: ";
 		std::getline(std::cin, darkest_secret);
+		if (std::cin.eof())
+			exit(1);
 	}
 	contact[i].set_darkest_secret(darkest_secret);
 }
@@ -159,7 +175,7 @@ void	PhoneBook::ft_replace(int index)
 	contact[index].set_darkest_secret(darkest_secret);
 }
 
-void	PhoneBook::ft_search_result(long index)
+void	PhoneBook::ft_search_result(int index)
 {
 	std::string	first_name = contact[index].get_first_name();
 	std::string	last_name = contact[index].get_last_name();

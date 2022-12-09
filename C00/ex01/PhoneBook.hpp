@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:53:14 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/07 20:48:02 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/09 18:10:44 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class PhoneBook {
 		void    ft_add(int i);
 		void	ft_replace(int index);
 		void	ft_search(int index);
-		void	ft_search_result(long index);
+		void	ft_search_result(int index);
 } ;
 
 #endif

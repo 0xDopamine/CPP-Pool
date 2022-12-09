@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/02 10:43:26 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/08 20:55:41 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/09 18:08:35 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	main(void)
 		std::cout << "3. EXIT" << std::endl;
 		std::cout << "Enter a command: ";
 		std::getline(std::cin, command);
-		if (command.empty())
+		if (std::cin.eof())
 			exit(1);
 		if (command == "ADD")
 		{
@@ -44,6 +44,8 @@ int	main(void)
 				std::string	answer;
 				std::cout << "You have reached the maximum number of contacts allowed\nDo you want to override an exisitng contact?\ntype y or n" << std::endl;
 				std::getline(std::cin, answer);
+				if (std::cin.eof())
+					exit(1);
 				if (answer == "y")
 				{
 					std::cout << "-----------------------" << std::endl;
@@ -56,6 +58,8 @@ int	main(void)
 					{
 						std::cout << "answer should be y or n: ";
 						std::getline(std::cin, answer);
+						if (std::cin.eof())
+							exit(1);
 						if (answer == "y")
 						{
 							std::cout << "-----------------------" << std::endl;
