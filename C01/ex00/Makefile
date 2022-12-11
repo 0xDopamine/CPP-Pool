@@ -1,31 +1,22 @@
-#* TARGET *#
 TARGET = Zombie
 
-#*SOURCE FILES *#
 CPP = main.cpp
 
-#* READLINE PATH *#
-
-#* OBJECT FILES *#
 OBJS = $(CPP:%.cpp=%.o)
 
-#* FLAGS *#
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -std=c++98
 
-#* parse FILES *#
 INCLUDE = include/
 
-#* DELETE *#
 DEL = rm -rf
 
 all: $(TARGET)
-	
 
 %.o: %.c
-	g++ $(FLAGS) -c -I $(INCLUDE) $< -o $@
+	g++ $(FLAGS) -c $< -o $@
 
-$(TARGET): $(OBJS) $(INCLUDE)
-	g++ $(FLAGS) -I $(INCLUDE) $(OBJS) -o $(TARGET)
+$(TARGET): $(OBJS)
+	g++ $(FLAGS) $(OBJS) -o $(TARGET)
 
 re: fclean all
 

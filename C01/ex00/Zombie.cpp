@@ -6,24 +6,16 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 15:55:15 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/14 15:55:15 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/11 17:52:51 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "include/Zombie.hpp"
+#include "Zombie.hpp"
 
-void    Zombie::announce(void) {
-    std::cout << Zombie::get_name() << ": BraiiiiiiinnnzzzZ...\n";
-}
+void    Zombie::announce(void) { std::cout << Zombie::get_name() << ": BraiiiiiiinnnzzzZ..." << std::endl; }
 
-Zombie::Zombie(std::string name) {
-    this->name = name;
-}
+Zombie::Zombie(std::string name) { this->name = name; }
 
-Zombie::~Zombie(void) {
-    std::cout << Zombie::get_name() << ": rip\n";
-}
+Zombie::~Zombie(void) { std::cout << Zombie::get_name() << ": rip" << std::endl; }
 
-std::string Zombie::get_name(void) {
-    return (name);
-}
+std::string Zombie::get_name(void) { return (name); }

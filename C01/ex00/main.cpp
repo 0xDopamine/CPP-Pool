@@ -6,14 +6,11 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 12:06:53 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/09 12:06:53 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/11 17:56:21 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "include/Zombie.hpp"
-#include "Zombie.cpp"
-#include "newZombie.cpp"
-#include "randomChump.cpp"
+#include "Zombie.hpp"
 
 int main()
 {
