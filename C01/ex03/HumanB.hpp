@@ -6,14 +6,15 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 20:30:06 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/14 20:30:06 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/11 19:16:07 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
 #include <iostream>
 
-class HumanB {
+class HumanB
+{
     private:
         std::string name;
         Weapon*  arm;
