@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/17 12:38:40 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/08 00:40:32 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/16 18:28:43 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,45 +32,22 @@ void    Harl::complain(std::string level)
 			switch (i)
 			{
 				case 0:
-					while (i < 4)
-					{
-						std::cout << "[ " + levels[i] + " ]" << std::endl;
-						callMemberFunction(harl, arr[i]) ();
-						std::cout << std::endl;
-						i++;
-					}
-					break ;
+					std::cout << "[ " + levels[i] + " ]" << std::endl;
+					callMemberFunction(harl, arr[i++]) ();
+					std::cout << std::endl;
 				case 1:
-					while (i < 4)
-					{
-						std::cout << "[ " + levels[i] + " ]" << std::endl;
-						callMemberFunction(harl, arr[i]) ();
-						std::cout << std::endl;
-						i++;
-					}
-					break ;
+					std::cout << "[ " + levels[i] + " ]" << std::endl;
+					callMemberFunction(harl, arr[i++]) ();
+					std::cout << std::endl;
 				case 2:
-					while (i < 4)
-					{
-						std::cout << "[ " + levels[i] + " ]" << std::endl;
-						callMemberFunction(harl, arr[i]) ();
-						std::cout << std::endl;
-						i++;
-					}
-					break ;
+					std::cout << "[ " + levels[i] + " ]" << std::endl;
+					callMemberFunction(harl, arr[i++]) ();
+					std::cout << std::endl;
 				case 3:
-					while (i < 4)
-					{
-						std::cout << "[ " + levels[i] + " ]" << std::endl;
-						callMemberFunction(harl, arr[i]) ();
-						std::cout << std::endl;
-						i++;
-					}
-					break ;
-				break ;
+					std::cout << "[ " + levels[i] + " ]" << std::endl;
+					callMemberFunction(harl, arr[i++]) ();
+					std::cout << std::endl;
 			}
 		}
-		if (i == 3)
-			std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;
 	}
-}
+} 

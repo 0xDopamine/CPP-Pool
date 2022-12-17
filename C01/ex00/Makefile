@@ -1,6 +1,6 @@
 TARGET = Zombie
 
-CPP = main.cpp
+CPP = main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
 
 OBJS = $(CPP:%.cpp=%.o)
 

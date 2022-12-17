@@ -6,13 +6,11 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 18:38:38 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/11/14 18:38:38 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/16 18:45:17 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "include/Zombie.hpp"
-#include "ZombieHorde.cpp"
-#include "Zombie.cpp"
+#include "Zombie.hpp"
 
 int main(void) 
 {
