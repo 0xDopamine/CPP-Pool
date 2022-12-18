@@ -12,48 +12,38 @@
 
 #include "sed.hpp"
 
-mySed::mySed() {};
-
-mySed::~mySed() {};
-
-void	myreplace(std::string s2, std::string s1)
+void	myreplace(std::string toFind, std::string toReplace, std::string &line)
 {
-	int	len = s2.length();
-	int	index = this->line.find(s1); 
-	std::string	res;
 
-	for(int i = 0;  i < (int)this->line.length(); i++) {
-		if (i == index) {
-			this->line.erase(i, len);
-			this->line.insert(i, s2);
-			break ;
-		} 
+	for (size_t i = 0; i < line.length(); i++)
+	{
+		size_t	index = line.find(toFind);
+		int		findLen = toFind.length();
+		if (i == index)
+		{
+			line.erase(i, findLen);
+			line.insert(i, toReplace);
+		}
 	}
-	writeToFile();
-} ;
+}
 
-void	mySed::init_file(std::string newFile, std::string toFind, std::string toReplace)
+void	init_file(std::string filename, std::string toFind, std::string toReplace)
 {
-	std::ifstream	test;
+	std::ifstream	file(filename);
+	std::ofstream	outfile("out." + filename + ".txt");
 	std::string		line;
 
-	this->filename = newFile;
-	this->file.open(this->filename);
-	if (this->file.is_open())
+	if (file.is_open())
 	{
-		while (getline(this->file, this->line))
-			myreplace(toReplace, toFind);
-	
+		while(std::getline(file, line))
+		{
+			myreplace(toFind, toReplace, line);
+			outfile << line;
+			outfile << '\n';
+		}
+		file.close();
+		outfile.close();
 	}
 	else
-		std::cerr << newFile <<  ": File does not exist" << std::endl;
+		std::cerr << "file is not found" << std::endl;
 }
-
-void    mySed::writeToFile( void )
-{
-	std::string	out = "out." + this->filename + ".txt";
-	std::ofstream   outfile(out);
-
-	outfile << this->line;
-}
-

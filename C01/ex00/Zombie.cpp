@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 15:55:15 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/11 17:52:51 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/18 17:18:45 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@ void    Zombie::announce(void) { std::cout << Zombie::get_name() << ": Braiiiiii
 
 Zombie::Zombie(std::string name) { this->name = name; }
 
-Zombie::~Zombie(void) { std::cout << Zombie::get_name() << ": rip" << std::endl; }
+Zombie::~Zombie(void) { std::cout << Zombie::get_name() << ": *DYING NOISES*" << std::endl; }
 
 std::string Zombie::get_name(void) { return (name); }

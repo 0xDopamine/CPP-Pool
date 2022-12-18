@@ -13,25 +13,11 @@
 #ifndef MYSED_HPP
 #define MYSED_HPP
 
-
-#include "iostream"
+#include <iostream>
 #include <fstream>
 
-class mySed {
-	private:
-		std::ifstream file;
-		std::string filename;
-		std::string line;
-		std::string s2;
-	public:
-		mySed();
-		~mySed();
-		std::string read(std::ifstream file);
-		void	init_file(std::string newFile, std::string toFind, std::string toReplace);
-		void	writeToFile( void );
+void	myreplace(std::string toFind, std::string toReplace, std::string &line);
+void	init_file(std::string filename, std::string toFind, std::string toReplace);
 
-};
-
-void	myreplace(std::string s2, std::string s1);
 
 #endif

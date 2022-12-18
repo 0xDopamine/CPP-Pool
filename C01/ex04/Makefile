@@ -1,6 +1,6 @@
 TARGET = sed
 
-SRCS = main.cpp
+SRCS = main.cpp sed.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 
@@ -9,6 +9,8 @@ FLAGS = -Wall -Werror -Wextra -std=c++98
 CC = c++ $(FLAGS)
 
 DEL = rm -rf
+
+OUTFILE = out.*
 
 all: $(TARGET)
 
@@ -21,7 +23,7 @@ $(TARGET): $(OBJS)
 re: fclean all
 
 clean:
-	$(DEL) $(OBJS)
+	$(DEL) $(OBJS) $(OUTFILE)
 
 fclean: clean
 	$(DEL) $(TARGET)

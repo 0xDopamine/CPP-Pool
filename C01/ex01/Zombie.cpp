@@ -6,14 +6,14 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 18:30:27 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/16 18:42:12 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/18 18:22:19 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
 void    Zombie::announce(void) {
-    std::cout << Zombie::get_name() << ": BraiiiiiiinnnzzzZ...\n";
+    std::cout << Zombie::get_name() << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
 
 Zombie::Zombie(void) {
@@ -21,7 +21,7 @@ Zombie::Zombie(void) {
 }
 
 Zombie::~Zombie(void) {
-    std::cout << Zombie::get_name() << ": rip\n";
+    std::cout << Zombie::get_name() << ": *DYING NOISES*" << std::endl;
 }
 
 std::string Zombie::get_name(void) {
