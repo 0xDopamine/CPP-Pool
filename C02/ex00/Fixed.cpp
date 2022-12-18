@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 00:29:59 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/13 16:18:13 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/18 16:55:56 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,8 @@ Fixed::~Fixed() { std::cout << "Destructor called" << std::endl; };
 
 Fixed&	Fixed::operator=(const Fixed& f1)
 {
-	fixedPointValue = f1.fixedPointValue;
+	if (this != &f1)
+		fixedPointValue = f1.fixedPointValue;
 	std::cout << "Copy assignment operator called" << std::endl;
 	return *this;
 };
