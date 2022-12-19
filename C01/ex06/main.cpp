@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/22 19:15:21 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/16 18:34:00 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/19 17:39:19 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int main(int argc, char **argv)
         std::string level = argv[1];
         if (ft_find_level(level))
             harl.complain(level);
-        else if (!ft_find_level(level))
+        else
             std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;    
     }
     else
