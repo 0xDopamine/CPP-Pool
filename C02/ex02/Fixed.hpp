@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 18:57:41 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/21 21:47:28 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/21 22:08:55 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,8 @@ class Fixed{
 		bool	operator<(const Fixed& f1);
 		bool	operator>=(const Fixed& f1);
 		bool	operator<=(const Fixed& f1);
+		static Fixed	max(Fixed& f1, Fixed& f2);
+		static const Fixed&	max(const Fixed& f1, const Fixed& f2);
 		float   toFloat( void ) const;
 		int		toInt( void ) const;
 } ;

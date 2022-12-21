@@ -6,37 +6,29 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 00:29:59 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/21 21:47:40 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/21 22:10:41 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
 
-Fixed::Fixed(): fixedPointValue(0) { std::cout << "Default constructor called" << std::endl; };
+Fixed::Fixed(): fixedPointValue(0) { };
 
 Fixed::Fixed(const Fixed& f1)
 {
-	std::cout << "Copy constructor called" << std::endl;
 	*this = f1;
 };
 
-Fixed::Fixed(const int value): fixedPointValue(value << fractionalBits)
-{
-	std::cout << "Int constructor called" << std::endl;
-};
+Fixed::Fixed(const int value): fixedPointValue(value << fractionalBits) { };
 
-Fixed::Fixed(const float value): fixedPointValue(roundf(value * (1 << fractionalBits)))
-{
-	std::cout << "Float constructor called" << std::endl;
-};
+Fixed::Fixed(const float value): fixedPointValue(roundf(value * (1 << fractionalBits))) { };
 
-Fixed::~Fixed() { std::cout << "Destructor called" << std::endl; };
+Fixed::~Fixed() { };
 
 Fixed&	Fixed::operator=(const Fixed& f1)
 {
 	if (this != &f1)
 		fixedPointValue = f1.fixedPointValue;
-	std::cout << "Copy assignment operator called" << std::endl;
 	return *this;
 };
 
@@ -98,11 +90,26 @@ Fixed	Fixed::operator--(int)
 	return (other);
 }
 
+Fixed	Fixed::max(Fixed& f1, Fixed& f2)
+{
+	if (f1.fixedPointValue > f2.fixedPointValue)
+		return (f1);
+	else
+		return (f2);
+}
+
+const Fixed&	Fixed::max(const Fixed& f1, const Fixed& f2)
+{
+	if (f1.fixedPointValue > f2.fixedPointValue)
+		return (f1);
+	else
+		return (f2);
+}
+
 bool	Fixed::operator==(const Fixed& f1)
 {
 	if (this == &f1)
 		return (true);
-	std::cout << "Equal assignment operator called" << std::endl;
 	return (false);
 };
 
@@ -110,7 +117,6 @@ bool	Fixed::operator!=(const Fixed& f1)
 {
 	if (this == &f1)
 		return (false);
-	std::cout << "Equal assignment operator called" << std::endl;
 	return (true);
 };
 
@@ -118,7 +124,6 @@ bool	Fixed::operator>(const Fixed& f1)
 {
 	if (this > &f1)
 		return (true);
-	std::cout << "Equal assignment operator called" << std::endl;
 	return (false);
 };
 
@@ -126,7 +131,6 @@ bool	Fixed::operator<(const Fixed& f1)
 {
 	if (this > &f1)
 		return (false);
-	std::cout << "Equal assignment operator called" << std::endl;
 	return (true);
 };
 
@@ -134,7 +138,6 @@ bool	Fixed::operator>=(const Fixed& f1)
 {
 	if (this >= &f1)
 		return (true);
-	std::cout << "Equal assignment operator called" << std::endl;
 	return (false);
 };
 
@@ -142,7 +145,6 @@ bool	Fixed::operator<=(const Fixed& f1)
 {
 	if (this <= &f1)
 		return (true);
-	std::cout << "Equal assignment operator called" << std::endl;
 	return (false);
 };
 
@@ -153,7 +155,6 @@ std::ostream& operator<<(std::ostream& output, const Fixed& f1)
 
 int Fixed::getRawBits( void ) const
 {
-	std::cout << "getRawBits member function called" << std::endl;
 	return fixedPointValue;
 };
 
