@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/21 22:16:41 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/22 00:47:45 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/22 00:49:07 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,5 +46,7 @@ bool	bsp(Point const a, Point const b, Point const c, Point const point)
 	float	charlie;
 	// area of PAC
 	float	echo;
+
+	alpha = a.getX();
 
 }
