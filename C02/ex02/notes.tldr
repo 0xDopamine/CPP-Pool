@@ -1,0 +1,896 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.5,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "0cd7e6a7-a3ba-4d1d-044f-0bdc9dd0a452": {
+            "id": "0cd7e6a7-a3ba-4d1d-044f-0bdc9dd0a452",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              466.98,
+              384.43
+            ],
+            "size": [
+              230.23,
+              58.4
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "8c94031a-40d2-42d1-03ff-2c69cc81554c": {
+            "id": "8c94031a-40d2-42d1-03ff-2c69cc81554c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              592.02,
+              159.21
+            ],
+            "rotation": 0,
+            "text": "an IEE-754 float (4 bytes) or double (8 bytes)\n \ncomponents",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "42b05edc-d0fd-49d1-3397-ddc78a07b9c4": {
+            "id": "42b05edc-d0fd-49d1-3397-ddc78a07b9c4",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 5,
+            "point": [
+              614.43,
+              253.21
+            ],
+            "rotation": 0,
+            "bend": 0.000040143246769645074,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  134.95,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "be4522ed-7a6a-418a-0a41-ceadb9b1b45e"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  117.15
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  67.47,
+                  58.58
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "16574143-3292-4a0c-02fd-ad4f63cb5b56": {
+            "id": "16574143-3292-4a0c-02fd-ad4f63cb5b56",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 8,
+            "point": [
+              496.95,
+              389.93
+            ],
+            "rotation": 0.0038430314940409716,
+            "text": "a sign bit: \nto tell if num is pos or neg",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6706174710465355,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a9946b7b-1f74-4aa8-1ec6-d7cb4620ab21": {
+            "id": "a9946b7b-1f74-4aa8-1ec6-d7cb4620ab21",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 9,
+            "point": [
+              996.35,
+              382.02
+            ],
+            "rotation": 0.016113273635468772,
+            "text": "a mantissa: specifies \nthe actual digit of the num",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.8288239970375132,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "922de9fb-180c-4026-1d7e-e042972df894": {
+            "id": "922de9fb-180c-4026-1d7e-e042972df894",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 10,
+            "point": [
+              818.63,
+              259.55,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0.00009201227163635136,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0.25,
+                  108.43
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0.13,
+                  54.22
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "7e182290-95f5-4cbd-285f-96323cff4a6e": {
+            "id": "7e182290-95f5-4cbd-285f-96323cff4a6e",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 11,
+            "point": [
+              909.54,
+              255.48,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0.000027568009013454806,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  169.11,
+                  115.82
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  84.56,
+                  57.91
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "5329e5c9-582e-4cbb-170d-67395becb694": {
+            "id": "5329e5c9-582e-4cbb-170d-67395becb694",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 12,
+            "point": [
+              721.46,
+              384.07
+            ],
+            "size": [
+              230.23,
+              58.69
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "56a99ab3-4dce-4ab5-11bc-18a9c589928e": {
+            "id": "56a99ab3-4dce-4ab5-11bc-18a9c589928e",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 13,
+            "point": [
+              989.58,
+              382.63
+            ],
+            "size": [
+              230.23,
+              58.69
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "b87c60ec-b32a-4ecf-056f-63b3048c9777": {
+            "id": "b87c60ec-b32a-4ecf-056f-63b3048c9777",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 14,
+            "point": [
+              761.09,
+              387.04
+            ],
+            "rotation": 0,
+            "text": "an exponent giving \nits order of magnitude",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7149289099526067,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "86a72d9b-9665-4eef-32b8-f6f468adc793": {
+            "id": "86a72d9b-9665-4eef-32b8-f6f468adc793",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 15,
+            "point": [
+              433.84,
+              456.06
+            ],
+            "size": [
+              279.46,
+              416.27
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "5f2d81ed-a074-4d02-11ac-15643a539d56": {
+            "id": "5f2d81ed-a074-4d02-11ac-15643a539d56",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 16,
+            "point": [
+              712.23,
+              456.86
+            ],
+            "size": [
+              279.46,
+              416.27
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "3e3659bf-2be7-4866-39c7-171562f97817": {
+            "id": "3e3659bf-2be7-4866-39c7-171562f97817",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 17,
+            "point": [
+              466.98,
+              384.43
+            ],
+            "size": [
+              230.23,
+              58.4
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "cb54aefa-c897-47d4-32a9-a4c748a0b244": {
+            "id": "cb54aefa-c897-47d4-32a9-a4c748a0b244",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 17,
+            "point": [
+              991.55,
+              457.42
+            ],
+            "size": [
+              279.46,
+              416.27
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "84639b8e-a6c7-44c6-2767-58728ba2011c": {
+            "id": "84639b8e-a6c7-44c6-2767-58728ba2011c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 18,
+            "point": [
+              466.96,
+              474.38
+            ],
+            "rotation": 0,
+            "text": "Good ol' binary sign \nrepresentation, \n0 for pos and 1 for neg",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a80bd29d-5b1b-462b-3edd-48d1b8645c66": {
+            "id": "a80bd29d-5b1b-462b-3edd-48d1b8645c66",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 19,
+            "point": [
+              725.51,
+              470.07
+            ],
+            "rotation": 0,
+            "text": "-the exponent field is \nunsigned integer stored in excess notation",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6474293059125964,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c97631cb-561b-497a-1233-c3eb24fa57c2": {
+            "id": "c97631cb-561b-497a-1233-c3eb24fa57c2",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 20,
+            "point": [
+              753.6,
+              520.53
+            ],
+            "rotation": 0,
+            "text": " -the actual exponent value is\nequal to to the stored value\nminus a \"predermined bias\"",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6981593667881674,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "b60953a1-fc71-455f-26f5-95ea7e643b1f": {
+            "id": "b60953a1-fc71-455f-26f5-95ea7e643b1f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 21,
+            "point": [
+              732.73,
+              595.3
+            ],
+            "rotation": 0,
+            "text": "(example: \ngiven a float (4 bytes), the bias is 127\nan exponent value is 128\nso it would represent an exponent of 1 (128-127))",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.4916393442622952,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "bed44c9d-634b-48d7-34ab-9d4be3602829": {
+            "id": "bed44c9d-634b-48d7-34ab-9d4be3602829",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 22,
+            "point": [
+              611.51,
+              892.28,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": -0.00003067610131103797,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  140.67,
+                  80.66
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  70.33,
+                  40.33
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "d19893ef-7b00-457b-2dba-2ab913252b3b": {
+            "id": "d19893ef-7b00-457b-2dba-2ab913252b3b",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 23,
+            "point": [
+              827.5,
+              887.88,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  1.18,
+                  75.84
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  0.59,
+                  37.92
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "87d4bdac-31e9-4740-0638-dc4f167554fe": {
+            "id": "87d4bdac-31e9-4740-0638-dc4f167554fe",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 24,
+            "point": [
+              908.38,
+              896.11
+            ],
+            "rotation": 0,
+            "bend": 0.00001823553584741862,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  191.75,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  78.2
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  95.88,
+                  39.1
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "e586e612-f2e5-44f1-1f97-f541642ad70d": {
+            "id": "e586e612-f2e5-44f1-1f97-f541642ad70d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 25,
+            "point": [
+              606.38,
+              988
+            ],
+            "rotation": 0,
+            "text": "the bit layout \nseeeeeeeemmmmmmmmmmmmmmmmmmmmmmm\n \ns: sign bit,\ne = exponent\nm = mantissa",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "59f94030-7b20-4842-0488-78e4adeb4893": {
+            "id": "59f94030-7b20-4842-0488-78e4adeb4893",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 26,
+            "point": [
+              467.06,
+              1205.04
+            ],
+            "rotation": 0,
+            "text": "- The value of the number is the MANTISSA times 2^x, where x is the EXPONENT.\n ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "75834a04-d065-478b-27b9-036f9d39b755": {
+            "id": "75834a04-d065-478b-27b9-036f9d39b755",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 27,
+            "point": [
+              996,
+              481.35
+            ],
+            "rotation": 0,
+            "text": "- a fraction represented in\nbinary, with the impilicit binary point assumed\nto be the right of the most significant bit\n(the one to the left of the binary point is always 1)",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.561885245901639,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "44945eb2-93a8-4b55-3c9d-0bec5a77f9e7": {
+            "id": "44945eb2-93a8-4b55-3c9d-0bec5a77f9e7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 28,
+            "point": [
+              1002.45,
+              572.74
+            ],
+            "rotation": 0,
+            "text": "-mantissa and exponent determine\nthe precision of the number",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7580564640267702,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e62692f7-ec42-46b4-00a8-bc95808b17b3": {
+            "id": "e62692f7-ec42-46b4-00a8-bc95808b17b3",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 29,
+            "point": [
+              293.05,
+              92.33
+            ],
+            "size": [
+              1087.92,
+              1373.54
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "73c4187a-f9c9-40b0-2376-9fb0d355f86f": {
+            "id": "73c4187a-f9c9-40b0-2376-9fb0d355f86f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 30,
+            "point": [
+              255.76999999999998,
+              -973.6000000000001
+            ],
+            "rotation": 0,
+            "text": "Copying and Copy Constructors\n ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {
+          "be4522ed-7a6a-418a-0a41-ceadb9b1b45e": {
+            "id": "be4522ed-7a6a-418a-0a41-ceadb9b1b45e",
+            "type": "arrow",
+            "fromId": "42b05edc-d0fd-49d1-3397-ddc78a07b9c4",
+            "toId": "8c94031a-40d2-42d1-03ff-2c69cc81554c",
+            "handleId": "start",
+            "point": [
+              0.5,
+              0.5
+            ],
+            "distance": 8
+          }
+        }
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}
