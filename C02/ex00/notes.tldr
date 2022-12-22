@@ -1,0 +1,54 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.5,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "015af944-91a3-44f0-00ce-f4681d69e5e1": {
+            "id": "015af944-91a3-44f0-00ce-f4681d69e5e1",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              6.37,
+              -912.16
+            ],
+            "rotation": 0,
+            "text": "What's a floating point?\na positive or negative number with a decimal point\n \nWhy floating poinr numbers are needed:\n-Memory is limited\n-you cant store numbers with infinite precision\n \nHow floating point numbers work:\nwe need to compose the number of two main parts:\n-a significand: contains the num digits\n-an exponent: says where the decimal point is placed relative to the beginning of the significand\n \n \nWhy this format?\n-Represents number at widely different magniturdes (limited by len of exponent)\n-provides sa;e relative accuracy at all magnitudes,\n-allows calculations accross magnitudes: multipying a large or a small number preserves the accuracy of both res\n \n \n In computing floating points are represented as integers with a fixed precision",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        }
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}
