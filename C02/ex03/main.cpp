@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 01:41:56 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/22 19:06:49 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/22 20:37:19 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,18 +16,12 @@
 
 int	main( void ) {
 
-	Point	a(2, 3);
-	Point	b(3, 1);
-	Point	c(1, 1);
+	Point	a(-2, 4.12f);
+	Point	b(2.22f, 1);
+	Point	c(-3, -2.40f);
 
-	Point	point(2, 2);
+	Point	point(1, 5);
 
-	std::cout << "---------------" << std::endl;
-	std::cout << "a: " << std::endl << "x: " << a.getX() << std::endl << "y: " << a.getY() << std::endl;
-	// std::cout << "b: " << std::endl << "x: " << b.getX() << std::endl << "y: " << b.getY() << std::endl;
-	// std::cout << "c: " << std::endl << "x: " << c.getX() << std::endl << "y: " << c.getY() << std::endl;
-	// std::cout << "point: " << std::endl << "x: " << point.getX() << std::endl << "y: " << point.getY() << std::endl;
-	
 	if (bsp(a, b, c, point))
 		std::cout << "inside" << std::endl;
 	else

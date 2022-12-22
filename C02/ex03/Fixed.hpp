@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 18:57:41 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/21 22:08:55 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/22 20:25:19 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,14 +37,16 @@ class Fixed{
 		Fixed&	operator++( void );
 		Fixed	operator--(int);
 		Fixed&	operator--( void );
-		bool	operator==(const Fixed& f1);
-		bool	operator!=(const Fixed &f1);
-		bool	operator>(const Fixed& f1);
-		bool	operator<(const Fixed& f1);
-		bool	operator>=(const Fixed& f1);
-		bool	operator<=(const Fixed& f1);
+		bool	operator==(const Fixed& f1) const;
+		bool	operator!=(const Fixed &f1) const;
+		bool	operator>(const Fixed& f1) const;
+		bool	operator<(const Fixed& f1) const;
+		bool	operator>=(const Fixed& f1) const;
+		bool	operator<=(const Fixed& f1) const;
 		static Fixed	max(Fixed& f1, Fixed& f2);
+		static Fixed	min(Fixed& f1, Fixed &f2);
 		static const Fixed&	max(const Fixed& f1, const Fixed& f2);
+		static const Fixed&	min(const Fixed& f1, const Fixed& f2);
 		float   toFloat( void ) const;
 		int		toInt( void ) const;
 } ;
