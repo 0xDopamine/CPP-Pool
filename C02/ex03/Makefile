@@ -4,7 +4,7 @@ SRCS = main.cpp Fixed.cpp Point.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 
-FLAGS = -Wall -Werror -Wextra -std=c++98
+FLAGS = -std=c++98
 
 CC = g++ $(FLAGS)
 
