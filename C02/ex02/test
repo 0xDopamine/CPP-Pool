@@ -1,0 +1,15 @@
+0
+0.00390625
+0.00390625
+0.00390625
+0.0078125
+10.1016
+10.1016
+the min nbr of a: 0.0078125 and b: 10.1016 is a: 0.0078125
+b: 10.1016 is bigger or equal than a: 0.0078125 ===> b >= a
+c: 1.59766 is smaller or equal than b: 10.1016 ===> c <= b
+a: 0.0078125 is smaller than b: 10.1016 ===> a < b
+b: 10.1016 is bigger than c: 1.59766 ===> b > c
+d: 2.5 is equal to f: 2.5 ===> d == f
+b: 10.1016 and c: 1.59766 aren't equal ===> b != c
+d: 2.5 and I: 2 aren't equal ===> d != I

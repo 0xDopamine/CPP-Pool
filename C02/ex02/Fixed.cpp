@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/11 00:29:59 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/21 22:10:41 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/22 20:25:04 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,46 +106,51 @@ const Fixed&	Fixed::max(const Fixed& f1, const Fixed& f2)
 		return (f2);
 }
 
-bool	Fixed::operator==(const Fixed& f1)
+Fixed	Fixed::min(Fixed& f1, Fixed& f2)
 {
-	if (this == &f1)
-		return (true);
-	return (false);
+	if (f1.fixedPointValue < f2.fixedPointValue)
+		return (f1);
+	else
+		return (f2);
+}
+
+const Fixed&	Fixed::min(const Fixed& f1, const Fixed& f2)
+{
+	if (f1.fixedPointValue < f2.fixedPointValue)
+		return (f1);
+	else
+		return (f2);
+}
+
+bool	Fixed::operator==(const Fixed& f1) const
+{
+	return (this->fixedPointValue == f1.fixedPointValue);
+	
 };
 
-bool	Fixed::operator!=(const Fixed& f1)
+bool	Fixed::operator!=(const Fixed& f1) const
 {
-	if (this == &f1)
-		return (false);
-	return (true);
+	return (this->fixedPointValue != f1.fixedPointValue);
 };
 
-bool	Fixed::operator>(const Fixed& f1)
+bool	Fixed::operator>(const Fixed& f1) const
 {
-	if (this > &f1)
-		return (true);
-	return (false);
+	return (this->fixedPointValue > f1.fixedPointValue);
 };
 
-bool	Fixed::operator<(const Fixed& f1)
+bool	Fixed::operator<(const Fixed& f1) const
 {
-	if (this > &f1)
-		return (false);
-	return (true);
+	return (this->fixedPointValue < f1.fixedPointValue);
 };
 
-bool	Fixed::operator>=(const Fixed& f1)
+bool	Fixed::operator>=(const Fixed& f1) const
 {
-	if (this >= &f1)
-		return (true);
-	return (false);
+	return (this->fixedPointValue >= f1.fixedPointValue);
 };
 
-bool	Fixed::operator<=(const Fixed& f1)
+bool	Fixed::operator<=(const Fixed& f1) const
 {
-	if (this <= &f1)
-		return (true);
-	return (false);
+	return (this->fixedPointValue <= f1.fixedPointValue);
 };
 
 std::ostream& operator<<(std::ostream& output, const Fixed& f1)
