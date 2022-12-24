@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/14 15:55:15 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/19 19:02:56 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/23 17:28:34 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void    Zombie::announce(void)
     std::cout << Zombie::get_name() << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }
 
-Zombie::Zombie(std::string name) { this->name = name; }
+Zombie::Zombie(std::string name): name(name) {}
 
 Zombie::~Zombie(void)
 {
