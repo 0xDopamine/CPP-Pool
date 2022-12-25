@@ -16,12 +16,12 @@
             "parentId": "page",
             "childIndex": 1,
             "point": [
-              466.98,
-              384.43
+              -350.94,
+              98.96
             ],
             "size": [
-              230.23,
-              58.4
+              277.3,
+              69.84
             ],
             "rotation": 0,
             "style": {
@@ -44,8 +44,8 @@
             "parentId": "page",
             "childIndex": 4,
             "point": [
-              592.02,
-              159.21
+              -200.34252077358627,
+              -170.38706306332546
             ],
             "rotation": 0,
             "text": "an IEE-754 float (4 bytes) or double (8 bytes)\n \ncomponents",
@@ -54,7 +54,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 1.1959171192684597,
               "font": "script",
               "textAlign": "middle"
             }
@@ -66,8 +66,8 @@
             "parentId": "page",
             "childIndex": 5,
             "point": [
-              614.43,
-              253.21
+              -173.35,
+              -60.39
             ],
             "rotation": 0,
             "bend": 0.000040143246769645074,
@@ -76,7 +76,7 @@
                 "id": "start",
                 "index": 0,
                 "point": [
-                  134.95,
+                  162.35,
                   0
                 ],
                 "canBind": true,
@@ -87,7 +87,7 @@
                 "index": 1,
                 "point": [
                   0,
-                  117.15
+                  142.52
                 ],
                 "canBind": true
               },
@@ -95,8 +95,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  67.47,
-                  58.58
+                  81.18,
+                  71.26
                 ]
               }
             },
@@ -123,8 +123,8 @@
             "parentId": "page",
             "childIndex": 8,
             "point": [
-              496.95,
-              389.93
+              -314.8473762776674,
+              105.53493469429353
             ],
             "rotation": 0.0038430314940409716,
             "text": "a sign bit: \nto tell if num is pos or neg",
@@ -133,7 +133,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6706174710465355,
+              "scale": 0.8020029141050724,
               "font": "script",
               "textAlign": "middle"
             }
@@ -145,8 +145,8 @@
             "parentId": "page",
             "childIndex": 9,
             "point": [
-              996.35,
-              382.02
+              286.6433656886537,
+              96.07523028088005
             ],
             "rotation": 0.016113273635468772,
             "text": "a mantissa: specifies \nthe actual digit of the num",
@@ -155,7 +155,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.8288239970375132,
+              "scale": 0.9912048069176731,
               "font": "script",
               "textAlign": "middle"
             }
@@ -167,9 +167,8 @@
             "parentId": "page",
             "childIndex": 10,
             "point": [
-              818.63,
-              259.55,
-              0.5
+              72.59,
+              -50.39
             ],
             "rotation": 0,
             "bend": 0.00009201227163635136,
@@ -187,8 +186,8 @@
                 "id": "end",
                 "index": 1,
                 "point": [
-                  0.25,
-                  108.43
+                  0.3011066990219869,
+                  129.67329324227907
                 ],
                 "canBind": true
               },
@@ -196,8 +195,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  0.13,
-                  54.22
+                  0.15,
+                  64.84
                 ]
               }
             },
@@ -224,9 +223,8 @@
             "parentId": "page",
             "childIndex": 11,
             "point": [
-              909.54,
-              255.48,
-              0.5
+              182.09,
+              -55.26
             ],
             "rotation": 0,
             "bend": 0.000027568009013454806,
@@ -244,8 +242,8 @@
                 "id": "end",
                 "index": 1,
                 "point": [
-                  169.11,
-                  115.82
+                  203.68061548643286,
+                  138.511120753673
                 ],
                 "canBind": true
               },
@@ -253,8 +251,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  84.56,
-                  57.91
+                  101.84,
+                  69.26
                 ]
               }
             },
@@ -281,12 +279,12 @@
             "parentId": "page",
             "childIndex": 12,
             "point": [
-              721.46,
-              384.07
+              -44.44,
+              98.53
             ],
             "size": [
-              230.23,
-              58.69
+              277.3,
+              70.19
             ],
             "rotation": 0,
             "style": {
@@ -309,12 +307,12 @@
             "parentId": "page",
             "childIndex": 13,
             "point": [
-              989.58,
-              382.63
+              278.49,
+              96.8
             ],
             "size": [
-              230.23,
-              58.69
+              277.3,
+              70.19
             ],
             "rotation": 0,
             "style": {
@@ -337,8 +335,8 @@
             "parentId": "page",
             "childIndex": 14,
             "point": [
-              761.09,
-              387.04
+              3.2899176410030577,
+              102.0787342196077
             ],
             "rotation": 0,
             "text": "an exponent giving \nits order of magnitude",
@@ -347,7 +345,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.7149289099526067,
+              "scale": 0.8549957224722614,
               "font": "script",
               "textAlign": "middle"
             }
@@ -359,12 +357,12 @@
             "parentId": "page",
             "childIndex": 15,
             "point": [
-              433.84,
-              456.06
+              -390.86,
+              184.62
             ],
             "size": [
-              279.46,
-              416.27
+              336.59,
+              497.82
             ],
             "rotation": 0,
             "style": {
@@ -387,12 +385,12 @@
             "parentId": "page",
             "childIndex": 16,
             "point": [
-              712.23,
-              456.86
+              -55.56,
+              185.58
             ],
             "size": [
-              279.46,
-              416.27
+              336.59,
+              497.82
             ],
             "rotation": 0,
             "style": {
@@ -415,12 +413,12 @@
             "parentId": "page",
             "childIndex": 17,
             "point": [
-              466.98,
-              384.43
+              -350.94,
+              98.96
             ],
             "size": [
-              230.23,
-              58.4
+              277.3,
+              69.84
             ],
             "rotation": 0,
             "style": {
@@ -443,12 +441,12 @@
             "parentId": "page",
             "childIndex": 17,
             "point": [
-              991.55,
-              457.42
+              280.86,
+              186.25
             ],
             "size": [
-              279.46,
-              416.27
+              336.59,
+              497.82
             ],
             "rotation": 0,
             "style": {
@@ -471,8 +469,8 @@
             "parentId": "page",
             "childIndex": 18,
             "point": [
-              466.96,
-              474.38
+              -350.968135892345,
+              206.53013541651498
             ],
             "rotation": 0,
             "text": "Good ol' binary sign \nrepresentation, \n0 for pos and 1 for neg",
@@ -481,7 +479,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 1.1959171192684597,
               "font": "script",
               "textAlign": "middle"
             }
@@ -493,8 +491,8 @@
             "parentId": "page",
             "childIndex": 19,
             "point": [
-              725.51,
-              470.07
+              -39.56358776380614,
+              201.37573263246796
             ],
             "rotation": 0,
             "text": "-the exponent field is \nunsigned integer stored in excess notation",
@@ -503,7 +501,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6474293059125964,
+              "scale": 0.7742717904569706,
               "font": "script",
               "textAlign": "middle"
             }
@@ -515,8 +513,8 @@
             "parentId": "page",
             "childIndex": 20,
             "point": [
-              753.6,
-              520.53
+              -5.731239061695646,
+              261.7217104707545
             ],
             "rotation": 0,
             "text": " -the actual exponent value is\nequal to to the stored value\nminus a \"predermined bias\"",
@@ -525,7 +523,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6981593667881674,
+              "scale": 0.8349407387195971,
               "font": "script",
               "textAlign": "middle"
             }
@@ -537,8 +535,8 @@
             "parentId": "page",
             "childIndex": 21,
             "point": [
-              732.73,
-              595.3
+              -30.867626296051185,
+              351.1404334784572
             ],
             "rotation": 0,
             "text": "(example: \ngiven a float (4 bytes), the bias is 127\nan exponent value is 128\nso it would represent an exponent of 1 (128-127))",
@@ -547,7 +545,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.4916393442622952,
+              "scale": 0.5879599083091986,
               "font": "script",
               "textAlign": "middle"
             }
@@ -559,9 +557,8 @@
             "parentId": "page",
             "childIndex": 22,
             "point": [
-              611.51,
-              892.28,
-              0.5
+              -176.87,
+              706.3
             ],
             "rotation": 0,
             "bend": -0.00003067610131103797,
@@ -579,8 +576,8 @@
                 "id": "end",
                 "index": 1,
                 "point": [
-                  140.67,
-                  80.66
+                  169.4267174056916,
+                  96.46267484019396
                 ],
                 "canBind": true
               },
@@ -588,8 +585,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  70.33,
-                  40.33
+                  84.71,
+                  48.23
                 ]
               }
             },
@@ -616,9 +613,8 @@
             "parentId": "page",
             "childIndex": 23,
             "point": [
-              827.5,
-              887.88,
-              0.5
+              83.28,
+              701.04
             ],
             "rotation": 0,
             "bend": 0,
@@ -636,8 +632,8 @@
                 "id": "end",
                 "index": 1,
                 "point": [
-                  1.18,
-                  75.84
+                  1.4212236193837784,
+                  90.69835432531998
                 ],
                 "canBind": true
               },
@@ -645,8 +641,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  0.59,
-                  37.92
+                  0.71,
+                  45.35
                 ]
               }
             },
@@ -673,8 +669,8 @@
             "parentId": "page",
             "childIndex": 24,
             "point": [
-              908.38,
-              896.11
+              180.69,
+              710.88
             ],
             "rotation": 0,
             "bend": 0.00001823553584741862,
@@ -683,7 +679,7 @@
                 "id": "start",
                 "index": 0,
                 "point": [
-                  191.75,
+                  230.94883814986397,
                   0
                 ],
                 "canBind": true
@@ -693,7 +689,7 @@
                 "index": 1,
                 "point": [
                   0,
-                  78.2
+                  93.52071872679355
                 ],
                 "canBind": true
               },
@@ -701,8 +697,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  95.88,
-                  39.1
+                  115.47,
+                  46.76
                 ]
               }
             },
@@ -729,8 +725,8 @@
             "parentId": "page",
             "childIndex": 25,
             "point": [
-              606.38,
-              988
+              -183.04695198176336,
+              820.7770862151814
             ],
             "rotation": 0,
             "text": "the bit layout \nseeeeeeeemmmmmmmmmmmmmmmmmmmmmmm\n \ns: sign bit,\ne = exponent\nm = mantissa",
@@ -739,7 +735,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 1.1959171192684597,
               "font": "script",
               "textAlign": "middle"
             }
@@ -751,8 +747,8 @@
             "parentId": "page",
             "childIndex": 26,
             "point": [
-              467.06,
-              1205.04
+              -350.84769321273626,
+              1080.3389377812077
             ],
             "rotation": 0,
             "text": "- The value of the number is the MANTISSA times 2^x, where x is the EXPONENT.\n ",
@@ -761,7 +757,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 1.1959171192684597,
               "font": "script",
               "textAlign": "middle"
             }
@@ -773,8 +769,8 @@
             "parentId": "page",
             "childIndex": 27,
             "point": [
-              996,
-              481.35
+              286.22181631002286,
+              214.86567773781613
             ],
             "rotation": 0,
             "text": "- a fraction represented in\nbinary, with the impilicit binary point assumed\nto be the right of the most significant bit\n(the one to the left of the binary point is always 1)",
@@ -783,7 +779,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.561885245901639,
+              "scale": 0.6719681846381382,
               "font": "script",
               "textAlign": "middle"
             }
@@ -795,8 +791,8 @@
             "parentId": "page",
             "childIndex": 28,
             "point": [
-              1002.45,
-              572.74
+              293.9903691447902,
+              324.16054326776066
             ],
             "rotation": 0,
             "text": "-mantissa and exponent determine\nthe precision of the number",
@@ -805,7 +801,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.7580564640267702,
+              "scale": 0.9065727027017297,
               "font": "script",
               "textAlign": "middle"
             }
@@ -817,12 +813,12 @@
             "parentId": "page",
             "childIndex": 29,
             "point": [
-              293.05,
-              92.33
+              -560.43,
+              -250.37
             ],
             "size": [
-              1087.92,
-              1373.54
+              1310.32,
+              1642.64
             ],
             "rotation": 0,
             "style": {
@@ -845,8 +841,8 @@
             "parentId": "page",
             "childIndex": 31,
             "point": [
-              544.98,
-              1493.11
+              958.6,
+              -202.67
             ],
             "rotation": 0,
             "text": "To store a floating point in a fixedpointvalue:\n \n-bitshift the fractional bit value using: \nroundf(floating-point value * (1 << 8)).\n-to get the original value back the calculation is:\n (float)fixedpointvalue / (1 << 8). ",
@@ -855,7 +851,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 2.428876404494382,
               "font": "script",
               "textAlign": "middle"
             }
@@ -8994,8 +8990,8 @@
             "parentId": "page",
             "childIndex": 94,
             "point": [
-              -57.97,
-              3007.08
+              904.55,
+              533.5
             ],
             "rotation": 0,
             "text": "OCF os a design pattern for definng classes,\ninsures that the class is correctly constructed, copied and destroyed,\n known as \"rule of three\" because it impliments three special member functions:\n-copy constructor,\n-copy assignment operator,\n-destructor.",
@@ -9004,7 +9000,7 @@
               "size": "medium",
               "isFilled": false,
               "dash": "draw",
-              "scale": 1,
+              "scale": 1.075503355704698,
               "font": "script",
               "textAlign": "middle"
             }
@@ -9038,11 +9034,11 @@
             "parentId": "page",
             "childIndex": 96,
             "point": [
-              -221.14,
+              -216.64,
               -891.26
             ],
             "rotation": 0,
-            "text": "Fixed Point vs Floating Point\n \n-These designations refer to the format used to store and manipulate numeric representations of data. \n-Fixed-points are designed to represent and manipulate integers – positive and negative whole numbers\n-Floating-points represent and manipulate rational numbers in a manner similar to scientific notation, \nwhere a number is represented with a mantissa and an exponent (e.g., A x 2B, where 'A' is the mantissa and ‘B’ is the exponent), \nyielding up to 4,294,967,296 possible bit patterns (232).\n-Fixed points have more accuracy (how close it is to the true value)\n-Floating points have good precision(they never discard information to represent the number)",
+            "text": "Fixed Point vs Floating Point\n \n-These designations refer to the format used to store and manipulate numeric representations of data. \n-Fixed-points are designed to represent and manipulate integers – positive and negative whole numbers\n-Floating-points represent and manipulate rational numbers in a manner similar to scientific notation, \nwhere a number is represented with a mantissa and an exponent (e.g., A x 2B, where 'A' is the mantissa and ‘B’ is the exponent).\n-Fixed points have more accuracy (how close it is to the true value)\n-Floating points have good precision(they never discard information to represent the number)",
             "style": {
               "color": "lightGray",
               "size": "medium",
