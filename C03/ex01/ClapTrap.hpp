@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/24 16:24:58 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/25 21:33:17 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/25 21:50:36 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ class ClapTrap
 		unsigned int	attackDamage;
 	public:
 		ClapTrap( void );
+		ClapTrap(const ClapTrap& clappy);
 		ClapTrap(std::string name);
 		~ClapTrap(void);
 		std::string	getName( void );
