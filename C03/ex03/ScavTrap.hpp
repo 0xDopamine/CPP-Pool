@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ScravTrap.hpp                                      :+:      :+:    :+:   */
+/*   ScavTrap.hpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,20 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SCRAVTRAP_HPP
-#define SCRAVTRAP_HPP
+#ifndef ScavTrap_HPP
+#define ScavTrap_HPP
 
 
 
 #include "ClapTrap.hpp"
 
-class ScravTrap : virtual public ClapTrap
+class ScavTrap : virtual public ClapTrap
 {
 	public:
-		ScravTrap();
-		ScravTrap(std::string name);
-		ScravTrap(const ScravTrap& Scravster);
-		~ScravTrap( void );
+		ScavTrap();
+		ScavTrap(std::string name);
+		ScavTrap(const ScavTrap& Scravster);
+		~ScavTrap( void );
 		void	attack(const std::string& target);
 		void	guardGate( void );
 } ;

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/25 21:58:58 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/27 20:43:13 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/27 22:10:58 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,23 +15,23 @@
 
 FragTrap::FragTrap( void ): ClapTrap("Fragginton") 
 {
-    std::cout << "An NPC FragTrap Fragginton was born" << std::endl;
+    std::cout << "--FragTrap: " << "An NPC FragTrap Fragginton was born" << std::endl;
 };
 
 FragTrap::FragTrap(std::string name): ClapTrap(name)
 {
-    std::cout << "The undeniyably awesome FragStrap " << getName() << " was born" << std::endl;
+    std::cout << "--FragTrap: " << "The undeniyably awesome FragStrap " << getName() << " was born" << std::endl;
 };
 
-FragTrap::FragTrap(const FragTrap& Fragginton): ClapTrap(Fragginton) {};
+FragTrap::FragTrap(const FragTrap& Fragginton): ClapTrap(Fragginton) { std::cout << "--FragTrap: " << "The undeniyably awesome FragStrap " << getName() << " was born" << std::endl; };
 
 FragTrap::~FragTrap()
 {
-    std::cout << "FragTrap " << getName() << " died a funny death" << std::endl;
+    std::cout << "--FragTrap: " << getName() << " died a funny death" << std::endl;
 };
 
 void    FragTrap::highFivesGuys( void )
 {
-    std::cout << "FragTrap " << getName() << "is so happy he's highfiving everyone! (But we dunno why tbh)" << std::endl;
+    std::cout << "--FragTrap: " << getName() << "is so happy he's highfiving everyone! (But we dunno why tbh)" << std::endl;
 };
 

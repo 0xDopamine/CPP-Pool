@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/24 16:30:54 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/25 21:52:03 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/27 22:32:52 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,11 @@ ClapTrap::ClapTrap( void ) {};
 ClapTrap::ClapTrap(const ClapTrap& clappy): name(clappy.name), hitPoints(clappy.hitPoints), energyPoints(clappy.energyPoints), attackDamage(clappy.attackDamage) {};
 
 ClapTrap::ClapTrap(std::string name): name(name), hitPoints(100), energyPoints(50), attackDamage(20) {
-	std::cout << "The almighty " << name << " has been born." << std::endl; 
+	std::cout << "--ClapTrap: " << "The almighty " << name << " has been born." << std::endl; 
 };
 
 ClapTrap::~ClapTrap( void ) {
-	std::cout << "Rest in peace " << getName() << std::endl;
+	std::cout << "--ClapTrap: " << "Rest in peace " << getName() << std::endl;
 };
 
 std::string ClapTrap::getName( void ) { return (name); } ;
@@ -39,12 +39,12 @@ void    ClapTrap::attack(const std::string& target)
 
 void    ClapTrap::takeDamage(unsigned int amount)
 {
-	if (hitPoints >= amount)
+	if (hitPoints - amount > 0)
 	{
 		hitPoints -= amount;
 		std::cout << getName() << " has taken " << amount << " in damage" << std::endl;
 	}
-	if (hitPoints == 0)
+	if (hitPoints - amount <= 0)
 		std::cout << getName() << " is dead." << std::endl;
 } ;
 

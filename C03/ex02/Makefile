@@ -1,6 +1,6 @@
 TARGET = ClapTrap
 
-SRCS = main.cpp ClapTrap.cpp ScravTrap.cpp FragTrap.cpp
+SRCS = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 

@@ -6,18 +6,18 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/25 17:18:14 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/25 21:38:14 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/27 22:37:17 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
-#include "ScravTrap.hpp"
+#include "ScavTrap.hpp"
 
 int main()
 {
 	ClapTrap	Ayman("Ayman");
 	ClapTrap	Amine("Amine");
-	ScravTrap	Scravy("Scravy");
+	ScavTrap	Scravy("Scravy");
 
 	Amine.attack("Ayman");
 	Scravy.attack("Amine");
