@@ -6206,6 +6206,50 @@
               "font": "script",
               "textAlign": "middle"
             }
+          },
+          "8607183c-88f5-4154-32c7-7ef2d6a89ac8": {
+            "id": "8607183c-88f5-4154-32c7-7ef2d6a89ac8",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 114,
+            "point": [
+              474.6,
+              1838.83
+            ],
+            "rotation": 0,
+            "text": "Shadowing Flags",
+            "style": {
+              "color": "indigo",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "5c65e900-1460-46da-3f65-d148cb89cafa": {
+            "id": "5c65e900-1460-46da-3f65-d148cb89cafa",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 115,
+            "point": [
+              -488.89,
+              2034.41
+            ],
+            "rotation": 0,
+            "text": "shadowing occurs in C++ when a local variable or function parameter has the same name as a global variable or \nanother local variable that is in scope. When this happens, the local variable or function parameter \"shadows\" the other variable, \nwhich means that it hides the other variable and can cause confusion and make the code harder to understand.\n \nThe -Wshadow compiler flag enables warning messages for shadowing. \nThis can be helpful when you are developing code, because it can alert you to potential issues with shadowing that might cause problems later on.\n \nThe -Wno-shadow compiler flag disables warning messages for shadowing.\nThis can be useful if you want to suppress warning messages for shadowing in your code, or if you are working with code that uses shadowing in a way that you are comfortable with.",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.9392628964670705,
+              "font": "script",
+              "textAlign": "middle"
+            }
           }
         },
         "bindings": {
@@ -6366,6 +6410,13 @@
             "distance": 16
           }
         }
+      },
+      "2961fc30-de42-4dc7-2c09-c5809a9e067a": {
+        "id": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+        "name": "Page 2",
+        "childIndex": 2,
+        "shapes": {},
+        "bindings": {}
       }
     },
     "pageStates": {
@@ -6380,6 +6431,17 @@
             84.46
           ],
           "zoom": 0.5
+        }
+      },
+      "2961fc30-de42-4dc7-2c09-c5809a9e067a": {
+        "id": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+        "selectedIds": [],
+        "camera": {
+          "point": [
+            -730.5,
+            -472.5
+          ],
+          "zoom": 1
         }
       }
     },

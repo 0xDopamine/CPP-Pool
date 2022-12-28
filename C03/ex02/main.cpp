@@ -6,27 +6,40 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/25 17:18:14 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/27 22:12:35 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:15:58 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 
 int main()
 {
+	std::cout << std::endl;
+    std::cout << "---THE BIRTH---" << std::endl;
+	std::cout << std::endl;
 	ClapTrap	Ayman("Ayman");
 	ClapTrap	Amine("Amine");
-	ScavTrap	Scravy("Scravy");
+	ScavTrap	Saad("Saad");
+	ScavTrap	SaadClone = Saad;
+	FragTrap	Froggo("Froggo");
 
+	std::cout << std::endl;
+    std::cout << "---BATTLEGROUND---" << std::endl;
+	std::cout << std::endl;
 	Amine.attack("Ayman");
-	Scravy.attack("Amine");
-	Scravy.guardGate();
 	Ayman.takeDamage(5);
-	Ayman.attack("Amine");
-	Amine.takeDamage(5);
-	Ayman.attack("Amine");
+	Ayman.beRepaired(10);
+	Saad.attack("Amine");
+	SaadClone.attack("Amine");
 	Amine.takeDamage(10);
-	Amine.beRepaired(20);
+	Ayman.beRepaired(1);
+	Saad.guardGate();
+	SaadClone.guardGate();
+	Froggo.highFivesGuys();
+	std::cout << std::endl;
+    std::cout << "---DOOMSDAY---" << std::endl;
+	std::cout << std::endl;
 	return (0);
 }

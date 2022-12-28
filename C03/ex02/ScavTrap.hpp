@@ -13,19 +13,18 @@
 #ifndef ScavTrap_HPP
 #define ScavTrap_HPP
 
-
-
 #include "ClapTrap.hpp"
 
 class ScavTrap : public ClapTrap
 {
 	public:
+		ScavTrap();
 		ScavTrap(std::string name);
 		ScavTrap(const ScavTrap& Scravster);
 		~ScavTrap( void );
+		ScavTrap&	operator=(const ScavTrap& Scavvy);
 		void	attack(const std::string& target);
 		void	guardGate( void );
 } ;
-
 
 #endif

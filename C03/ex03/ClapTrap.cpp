@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/24 16:30:54 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/27 22:19:19 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/28 20:22:54 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ ClapTrap::ClapTrap(const ClapTrap& clappy): name(clappy.name), hitPoints(clappy.
 	std::cout << "--ClapTrap: " << "copy The almighty " << name << " has been born." << std::endl; 
 };
 
-ClapTrap::ClapTrap(std::string name): name(name), hitPoints(100), energyPoints(50), attackDamage(20) {
+ClapTrap::ClapTrap(std::string name): name(name), hitPoints(100), energyPoints(50), attackDamage(30) {
 	std::cout << "--ClapTrap: " << "The almighty " << name << " has been born." << std::endl; 
 };
 
