@@ -1,32 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Brain.hpp                                          :+:      :+:    :+:   */
+/*   Dog.hpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/28 22:12:32 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/29 19:02:51 by mbaioumy         ###   ########.fr       */
+/*   Created: 2022/12/28 21:50:26 by mbaioumy          #+#    #+#             */
+/*   Updated: 2022/12/29 15:46:27 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef BRAIN_HPP
-#define BRAIN_HPP
+#ifndef DOG_HPP
+#define DOG_HPP
 
-#include <iostream>
+#include "Animal.hpp"
+#include "Brain.hpp"
 
-class Brain
+class Dog: public Animal
 {
     private:
-        std::string ideas[100];
+        Brain*  brain;
     public:
-        Brain();
-        Brain(const std::string ideas[]);
-        Brain(const Brain& Brainy);
-        ~Brain();
-        Brain&  operator=(const Brain& Brainy);
-        void    setter(std::string idea);
-        std::string getter(void);
+        Dog();
+        Dog(const std::string type);
+        Dog(const Dog& Woof);
+        ~Dog();
+        Dog&    operator=(const Dog& Woof);
+		virtual void	makeSound() const;
 } ;
 
 #endif
