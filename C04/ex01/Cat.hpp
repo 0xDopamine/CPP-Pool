@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 21:38:11 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/28 23:08:14 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/29 15:46:31 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ class Cat: public Animal
 		~Cat();
 		Cat&	operator=(const Cat& Meow);
 		virtual void	makeSound() const;
+        void    setIdeas(std::string idea);
+
 } ;
 
 #endif

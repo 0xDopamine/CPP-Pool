@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 22:12:32 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/28 23:04:06 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/29 15:48:49 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ class Brain
         Brain(const Brain& Brainy);
         ~Brain();
         Brain&  operator=(const Brain& Brainy);
+        void    setter(std::string idea);
 } ;
 
 #endif

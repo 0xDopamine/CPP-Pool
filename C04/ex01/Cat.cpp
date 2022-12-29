@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 21:41:37 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/28 23:10:49 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/29 15:52:34 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,10 @@ void    Cat::makeSound() const {
 
     std::cout << "Meow.." << std::endl;
     delete brain;
+}
+
+void    Cat::setIdeas(std::string idea)
+{
+    for (int i = 0; i < 100; i++)
+        brain[i].setter(idea);
 }
