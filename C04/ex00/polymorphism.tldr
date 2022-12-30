@@ -6415,7 +6415,889 @@
         "id": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
         "name": "Page 2",
         "childIndex": 2,
-        "shapes": {},
+        "shapes": {
+          "3237acd6-e79f-42c0-2471-8c9a4cb8c61a": {
+            "id": "3237acd6-e79f-42c0-2471-8c9a4cb8c61a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 1,
+            "point": [
+              1011.72,
+              -109.19
+            ],
+            "rotation": 0,
+            "text": "Virutal Functions",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "57aa1304-cf07-408f-032d-0876f2163c8f": {
+            "id": "57aa1304-cf07-408f-032d-0876f2163c8f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 2,
+            "point": [
+              410.58000000000015,
+              54.81999999999999
+            ],
+            "rotation": 0,
+            "text": "a special type of function that when called resolves to the most-derived version of the function that exists\nbetween the base and the derived class",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "47fcf818-977e-4d35-2a81-0b1c0c756788": {
+            "id": "47fcf818-977e-4d35-2a81-0b1c0c756788",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 3,
+            "point": [
+              604.64,
+              192.74
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  552.14,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  0,
+                  169.78
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  276.07,
+                  84.89
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "e48e8307-8dfa-41db-1a9f-34a30ebf3353": {
+            "id": "e48e8307-8dfa-41db-1a9f-34a30ebf3353",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 4,
+            "point": [
+              436.56,
+              384.06
+            ],
+            "rotation": 0,
+            "text": "This capability is called ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "6ea7531b-e9ce-4dd8-2d8b-18198b05be6a": {
+            "id": "6ea7531b-e9ce-4dd8-2d8b-18198b05be6a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 5,
+            "point": [
+              518.44,
+              441.28
+            ],
+            "rotation": 0,
+            "text": "Polymorphism",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1448f561-04c3-4971-3151-844ff61887d3": {
+            "id": "1448f561-04c3-4971-3151-844ff61887d3",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 6,
+            "point": [
+              1393.8400000000001,
+              198.72000000000003,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  416.1,
+                  161.14
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  208.05,
+                  80.57
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "3996bbc6-01bb-4649-2ed4-4b70a8ea5cf4": {
+            "id": "3996bbc6-01bb-4649-2ed4-4b70a8ea5cf4",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 7,
+            "point": [
+              1371.98,
+              411.32000000000005
+            ],
+            "rotation": 0,
+            "text": "A derived function is considered a match if it has:\n-same name, parameter types, and if its const.\n-return type as the base version of the function\n \nthese functions are called\n ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "9663deb9-bff7-43be-2a09-98c51c7e42cb": {
+            "id": "9663deb9-bff7-43be-2a09-98c51c7e42cb",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 8,
+            "point": [
+              1713.12,
+              654.78
+            ],
+            "rotation": 0,
+            "text": "overrides",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "cafc8da8-98c7-45a7-2b2f-9ed5f991cb02": {
+            "id": "cafc8da8-98c7-45a7-2b2f-9ed5f991cb02",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 9,
+            "point": [
+              952.46,
+              763.54
+            ],
+            "rotation": 0,
+            "text": "VIRTUAL keyword tells the program to go look\nand see if there are any more derived versions\nof the function between base and derived",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "5a28b5b7-2824-4b25-0599-34a6632cbb9a": {
+            "id": "5a28b5b7-2824-4b25-0599-34a6632cbb9a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 10,
+            "point": [
+              170.04,
+              1102.58
+            ],
+            "rotation": 0,
+            "text": "class A\n{\npublic:\n    virtual std::string_view getName() const { return \"A\"; }\n};\n \nclass B: public A\n{\npublic:\n    virtual std::string_view getName() const { return \"B\"; }\n};\n \nclass C: public B\n{\npublic:\n    virtual std::string_view getName() const { return \"C\"; }\n};\n \nclass D: public C\n{\npublic:\n    virtual std::string_view getName() const { return \"D\"; }\n};\n \nint main()\n{\n    C c {};\n    A& rBase{ c };\n    std::cout << \"rBase is a \" << rBase.getName() << '\\n';\n \n    return 0;\n}",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.5190286453520608,
+              "font": "mono",
+              "textAlign": "start"
+            }
+          },
+          "0a0914d1-63cc-41da-0b39-75a867a8dfe2": {
+            "id": "0a0914d1-63cc-41da-0b39-75a867a8dfe2",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 11,
+            "point": [
+              1147.82,
+              1469.91
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  416.3,
+                  2.2
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  208.15,
+                  1.1
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "2ee4b23b-caee-48c7-2261-25965ae022d2": {
+            "id": "2ee4b23b-caee-48c7-2261-25965ae022d2",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 12,
+            "point": [
+              1200.66,
+              1386.43
+            ],
+            "rotation": 0,
+            "text": "Outputs \"rBase is C\"",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e6d48c3a-f5c8-437f-0982-9766b65dd02e": {
+            "id": "e6d48c3a-f5c8-437f-0982-9766b65dd02e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 13,
+            "point": [
+              1880.24,
+              1271.11
+            ],
+            "rotation": 0,
+            "text": "Since we instantiated a C class object,\nwe call rBase.getname() evalutes to A::getname()\nHowever, A::getname is virtual, so the compiler will call the most derived\nmatch between A and C, which is C.\n \n*Note: it will not call D::getname() because our original object is a C,\nso only funcs between A and C are considered.",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ba4492e0-c6b1-45de-0445-f15e77571616": {
+            "id": "ba4492e0-c6b1-45de-0445-f15e77571616",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 15,
+            "point": [
+              643.38,
+              2006.99
+            ],
+            "rotation": 0,
+            "text": "Biggest benefit of virtual functions:\n \nThe ability to structure your code in such a way that newly derived classes will automatically work\nwith the old code without modifications.\n \n \n*Note: the signature of the derived class funct must be exactly match the signature of the base class virtual function.\n-A funct marked as virtual, all matching overrides are also considered virtual, even if they are not explicitly marked as such.\n-Return types must match as well.",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "fcaaf0b7-c06f-49c0-2f7a-bc03107453e1": {
+            "id": "fcaaf0b7-c06f-49c0-2f7a-bc03107453e1",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 16,
+            "point": [
+              505.12,
+              2691.71
+            ],
+            "rotation": 0,
+            "text": "You can't call a virtual function funct from constructors or destructors, why?\n \nWhen a Derived class is created, the Base portion is constructed first. so if you call a virtual funct from the Base constructor, and Derived portion\nhasnt been created yet. It wouldnt be able to call the Derived version of the funct bcs there is no Derived object for the Derived funct to work on.\nIt would call the Base version instead.\n \nA similar issue happens with destructors.\n \nIt will always resolve to the Base class version of the funct cause the Derived portion has already been destroyed.",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "048e2670-3c4d-48cf-266f-5acbfff19d5a": {
+            "id": "048e2670-3c4d-48cf-266f-5acbfff19d5a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 17,
+            "point": [
+              646.86,
+              3281.23
+            ],
+            "rotation": 0,
+            "text": "Downside of Virtual functs:\n \nWhy not make all functs virtual? its not efficient, resolving a virtual function call takes longer than resolving a regular one.\nThe compiler also has to allocate an extra pointer for each class object that has one or more virtual functs.",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "962eadb9-60bf-44a4-0a5d-ad8ed56ac879": {
+            "id": "962eadb9-60bf-44a4-0a5d-ad8ed56ac879",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 18,
+            "point": [
+              48.06,
+              3944.53
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                7.36,
+                0,
+                0.5
+              ],
+              [
+                26.84,
+                3.44,
+                0.5
+              ],
+              [
+                86.76,
+                11.72,
+                0.5
+              ],
+              [
+                158.34,
+                11.72,
+                0.5
+              ],
+              [
+                323.34,
+                11.72,
+                0.5
+              ],
+              [
+                515.72,
+                11.72,
+                0.5
+              ],
+              [
+                804.64,
+                11.72,
+                0.5
+              ],
+              [
+                954.92,
+                11.72,
+                0.5
+              ],
+              [
+                1081.22,
+                11.72,
+                0.5
+              ],
+              [
+                1207.52,
+                13.6,
+                0.5
+              ],
+              [
+                1308.8,
+                16.98,
+                0.5
+              ],
+              [
+                1401.46,
+                16.98,
+                0.5
+              ],
+              [
+                1468.22,
+                16.98,
+                0.5
+              ],
+              [
+                1528.12,
+                16.98,
+                0.5
+              ],
+              [
+                1578.96,
+                16.98,
+                0.5
+              ],
+              [
+                1621.82,
+                16.98,
+                0.5
+              ],
+              [
+                1672.74,
+                16.98,
+                0.5
+              ],
+              [
+                1757.82,
+                16.98,
+                0.5
+              ],
+              [
+                1819.7,
+                16.98,
+                0.5
+              ],
+              [
+                1883.98,
+                16.98,
+                0.5
+              ],
+              [
+                1941.34,
+                16.98,
+                0.5
+              ],
+              [
+                2005.52,
+                18.36,
+                0.5
+              ],
+              [
+                2069.8,
+                18.36,
+                0.5
+              ],
+              [
+                2134,
+                18.36,
+                0.5
+              ],
+              [
+                2189.2,
+                18.36,
+                0.5
+              ],
+              [
+                2246.56,
+                18.36,
+                0.5
+              ],
+              [
+                2313.14,
+                18.36,
+                0.5
+              ],
+              [
+                2377.42,
+                18.36,
+                0.5
+              ],
+              [
+                2444.52,
+                18.36,
+                0.5
+              ],
+              [
+                2552.94,
+                18.36,
+                0.5
+              ],
+              [
+                2629.44,
+                18.36,
+                0.5
+              ],
+              [
+                2671.62,
+                18.36,
+                0.5
+              ],
+              [
+                2738.72,
+                18.36,
+                0.5
+              ],
+              [
+                2807.78,
+                18.36,
+                0.5
+              ],
+              [
+                2863.24,
+                18.36,
+                0.5
+              ],
+              [
+                2909.96,
+                18.36,
+                0.5
+              ],
+              [
+                2943.6,
+                18.36,
+                0.5
+              ],
+              [
+                2982.58,
+                18.36,
+                0.5
+              ],
+              [
+                3021.58,
+                18.36,
+                0.5
+              ],
+              [
+                3068.62,
+                18.36,
+                0.5
+              ],
+              [
+                3144.96,
+                18.36,
+                0.5
+              ],
+              [
+                3188.28,
+                18.36,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "832057b0-5d0f-4632-2c69-37a136636020": {
+            "id": "832057b0-5d0f-4632-2c69-37a136636020",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 19,
+            "point": [
+              1337.88,
+              3590.17
+            ],
+            "rotation": 0,
+            "text": "Override Specifier",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "226a41ad-bcfd-4a40-1c5b-07cb105b781b": {
+            "id": "226a41ad-bcfd-4a40-1c5b-07cb105b781b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 1,
+            "point": [
+              793.7,
+              3773.15
+            ],
+            "rotation": 0,
+            "text": "a derived class virtual function is only considered an override if its signature and return types match exactly.",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "573ac449-4894-4cf1-081c-649738efc5a8": {
+            "id": "573ac449-4894-4cf1-081c-649738efc5a8",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 20,
+            "point": [
+              1331.78,
+              4029.87
+            ],
+            "rotation": 0,
+            "text": "Virtual Distructors",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1351d06e-154b-4faa-0b3f-0474c086c2cd": {
+            "id": "1351d06e-154b-4faa-0b3f-0474c086c2cd",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 21,
+            "point": [
+              1020.16,
+              4196.02
+            ],
+            "rotation": 0,
+            "text": "You should always make your destrcutor virtual if you're working with inheritence",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "9b109775-8660-4ed9-0fe0-2dabdaa3b373": {
+            "id": "9b109775-8660-4ed9-0fe0-2dabdaa3b373",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 22,
+            "point": [
+              900.82,
+              4282.86
+            ],
+            "rotation": 0,
+            "text": "It is used when a class is intended to be used a base class, and derived classes will be created from it",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "23e5b588-68d7-4588-2d08-35d80bf4b837": {
+            "id": "23e5b588-68d7-4588-2d08-35d80bf4b837",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 23,
+            "point": [
+              508.28,
+              4441.76
+            ],
+            "rotation": 0,
+            "text": "When a Derived class object is destroyed, the destructor for the base class is also called to clean up any resources that the base class may have allocated.\nIf the base class destructor is not declared as virtual, the derived class destructor will only call the base class destructor directly,\nrather than using the derived class's version of the destructor.\nThis can cause problems if the derived class has an additional resource that need to be cleaned up in its destructor",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "20035e8c-614e-4896-39ab-361595715eb3": {
+            "id": "20035e8c-614e-4896-39ab-361595715eb3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 24,
+            "point": [
+              698.22,
+              4696.78
+            ],
+            "rotation": 0,
+            "text": "Pure virtual (abstract functions) and abstract base classes\n ",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c8ba31e7-6cb1-43ed-0f13-23b71c9fb2d0": {
+            "id": "c8ba31e7-6cb1-43ed-0f13-23b71c9fb2d0",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2961fc30-de42-4dc7-2c09-c5809a9e067a",
+            "childIndex": 25,
+            "point": [
+              1021.64,
+              4856.96
+            ],
+            "rotation": 0,
+            "text": "-It has no body at all\n-simply acts as a placeholder that is meant to be redefined by derived classes\n-if a class has at least one pure virtual funct, its called an abstract class",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
         "bindings": {}
       }
     },

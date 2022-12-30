@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/25 17:18:14 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/27 22:12:35 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/29 16:27:00 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,5 +49,7 @@ int main()
 	std::cout << std::endl;
 	std::cout << "---DOOMSDAY---" << std::endl;
 	std::cout << std::endl;
+
+	Diamond.print();
 	return (0);
 }

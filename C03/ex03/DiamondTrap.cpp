@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/27 19:25:25 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/28 20:27:43 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/29 16:26:30 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,4 +48,9 @@ void    DiamondTrap::whoAmI( void )
 void    DiamondTrap::attack(const std::string& target)
 {
     ScavTrap::attack(target);
+}
+
+void    DiamondTrap::print() {
+    std::cout << this->name << " " << this->hitPoints << " " << this->attackDamage << " " << this->energyPoints;
+    
 }

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 21:29:05 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/29 19:06:48 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/30 21:20:00 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ class Animal
 		virtual ~Animal();
 		std::string	getType() const;
 		Animal&	operator=(const Animal& Beast);
-		virtual void	makeSound() const;
+		virtual void	makeSound() const = 0;
 } ;
 
 #endif
