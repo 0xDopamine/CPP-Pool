@@ -1,32 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Animal.hpp                                         :+:      :+:    :+:   */
+/*   Bureaucrat.hpp                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/28 21:29:05 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/31 16:40:20 by mbaioumy         ###   ########.fr       */
+/*   Created: 2022/12/31 18:03:55 by mbaioumy          #+#    #+#             */
+/*   Updated: 2022/12/31 21:15:16 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ANIMAL_HPP
-#define ANIMAL_HPP
+#ifndef BUREAUCRAT_HPP
+#define BUREAUCRAT_HPP
 
 #include <iostream>
+#include <exception>
 
-class Animal
-{
-	protected:
-		std::string type;
+class Bureaucrat {
+
+	private:
+		const std::string   name;
+		int           		grade;
 	public:
-		Animal();
-		Animal(const std::string type);
-		Animal(const Animal& Beast);
-		virtual ~Animal();
-		std::string	getType() const;
-		Animal&	operator=(const Animal& Beast);
-		virtual void	makeSound() const;
+		Bureaucrat();
+		Bureaucrat(const std::string name, int const grade);
+		~Bureaucrat();
+		std::string getName() const;
+		int			getGrade() const;
+		void		increment(int& grade);
+		void		decrement(int& grade);
+		Bureaucrat&	operator++();
+		Bureaucrat&	operator--();
 } ;
 
 #endif

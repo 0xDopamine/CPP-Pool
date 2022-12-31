@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 21:51:49 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/28 23:10:53 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/31 16:42:50 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,23 +14,25 @@
 
 Dog::Dog(): Animal("Doggo"), brain(new Brain()) {
 
-    std::cout << "A new pup just came to the world!" << std::endl;
+    std::cout << "--Dog: " << "A new pup just came to the world!" << std::endl;
 }
 
 Dog::Dog(const std::string type): Animal(type), brain(new Brain()) {
 
-    std::cout << "A new pup just came to the world!" << std::endl;
+    std::cout << "--Dog: " << "A new pup just came to the world!" << std::endl;
     
 }
 
-Dog::Dog(const Dog& Woof): Animal(Woof), brain(new Brain()) {
+Dog::Dog(const Dog& Woof): brain(NULL) {
 
-    std::cout << "A new pup just came to the world!" << std::endl;
+    std::cout << "--Dog: " << "A new pup just came to the world!" << std::endl;
+    *this = Woof;
 }
 
 Dog::~Dog() {
 
-    std::cout << "Puppy just died :(!" << std::endl;
+    std::cout << "--Dog: " << "Puppy just died :(!" << std::endl;
+    delete brain;
 }
 
 Dog&    Dog::operator=(const Dog& Woof) {
@@ -45,6 +47,5 @@ Dog&    Dog::operator=(const Dog& Woof) {
 
 void    Dog::makeSound() const {
 
-    std::cout << "Woof!" << std::endl;
-    delete brain;
+    std::cout << "--Dog: " << "Woof!" << std::endl;
 }

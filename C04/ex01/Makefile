@@ -4,7 +4,7 @@ SRCS = main.cpp Dog.cpp Cat.cpp Animal.cpp Brain.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 
-FLAGS = -Wall -Werror -Wextra -std=c++98
+FLAGS = #-Wall -Werror -Wextra -std=c++98
 
 CC = g++ $(FLAGS)
 

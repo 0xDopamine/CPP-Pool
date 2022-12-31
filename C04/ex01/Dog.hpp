@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 21:50:26 by mbaioumy          #+#    #+#             */
-/*   Updated: 2022/12/29 15:46:27 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2022/12/31 16:30:26 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class Dog: public Animal
         Dog();
         Dog(const std::string type);
         Dog(const Dog& Woof);
-        ~Dog();
+        virtual ~Dog();
         Dog&    operator=(const Dog& Woof);
 		virtual void	makeSound() const;
 } ;
