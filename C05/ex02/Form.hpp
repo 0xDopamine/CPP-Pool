@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 18:45:35 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 20:37:42 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/01 21:32:19 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class	Bureaucrat;
 
 class   Form
 {
-	private:
+	protected:
 		const std::string	name;
 		bool				signature;
 		const int			requiredGradeSign;
