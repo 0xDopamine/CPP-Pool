@@ -1,6 +1,6 @@
 TARGET = Bureaucrat
 
-SRCS = main.cpp Bureaucrat.cpp GradeTooHighException.cpp GradeTooLowException.cpp
+SRCS = Bureaucrat.cpp GradeTooHighException.cpp GradeTooLowException.cpp Form.cpp main.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 

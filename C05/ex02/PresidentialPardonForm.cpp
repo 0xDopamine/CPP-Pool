@@ -1,28 +1,15 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   PresidentialPardonForm.cpp                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/01 18:15:59 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 18:35:07 by mbaioumy         ###   ########.fr       */
+/*   Created: 2023/01/01 20:50:03 by mbaioumy          #+#    #+#             */
+/*   Updated: 2023/01/01 20:51:10 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Bureaucrat.hpp"
+#include "PresidentialPardonForm.hpp"
 
-int main()
-{
-    try
-    {
-        Bureaucrat  akhenouch("akhenouch", 1);
-        akhenouch.increment();
-    }
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() << '\n';
-    }
-    
-    return(0);
-}
+PresidentialPardonForm::PresidentialPardonForm(): name("default"), signature(false),  {};

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/31 18:03:55 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 18:32:21 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/01 20:24:12 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@
 #include <exception>
 #include "GradeTooHighException.hpp"
 #include "GradeTooLowException.hpp"
+#include "Form.hpp"
+
+class Form;
 
 class Bureaucrat {
 
@@ -33,6 +36,7 @@ class Bureaucrat {
 		int			getGrade() const;
 		void		increment();
 		void		decrement();
+		void		signForm(const Form& F);
 } ;
 
 	std::ostream&	operator<<(std::ostream& output, const Bureaucrat& Buro);

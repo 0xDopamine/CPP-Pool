@@ -1,28 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   GradeTooLowException.hpp                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/01 18:15:59 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 18:35:07 by mbaioumy         ###   ########.fr       */
+/*   Created: 2023/01/01 18:05:43 by mbaioumy          #+#    #+#             */
+/*   Updated: 2023/01/01 18:17:25 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Bureaucrat.hpp"
+#ifndef GRADETOOLOWEXCEPTION_HPP
+#define GRADETOOLOWEXCEPTION_HPP
 
-int main()
+#include <iostream>
+#include <exception>
+
+class GradeTooLowException: public std::exception
 {
-    try
-    {
-        Bureaucrat  akhenouch("akhenouch", 1);
-        akhenouch.increment();
-    }
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() << '\n';
-    }
-    
-    return(0);
-}
+    public:
+        const char* what() const throw();    
+} ;
+
+#endif

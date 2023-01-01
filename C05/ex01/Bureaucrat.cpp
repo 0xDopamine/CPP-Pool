@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/31 18:06:21 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 18:32:30 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/01 19:43:11 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,14 @@ void    Bureaucrat::decrement() {
         throw GradeTooLowException();
     grade++;
 } ;
+
+void    Bureaucrat::signForm(const Form& F) {
+
+    if (F.getSignature())
+        std::cout << getName() << " signed " << F.getName() << std::endl;
+    else if (!F.getSignature() && F.getRequiredGradeSign() > grade)
+        std::cout << getName() << " couldn't sign the " << F.getName() << " because " <<  "grade too low";
+}
 
 std::ostream&   operator<<(std::ostream& output, const Bureaucrat& Buro)
 {

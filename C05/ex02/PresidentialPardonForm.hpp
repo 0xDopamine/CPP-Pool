@@ -1,28 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   PresidentialPardonForm.hpp                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/01 18:15:59 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 18:35:07 by mbaioumy         ###   ########.fr       */
+/*   Created: 2023/01/01 20:45:55 by mbaioumy          #+#    #+#             */
+/*   Updated: 2023/01/01 20:49:54 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Bureaucrat.hpp"
+#ifndef PRESIDENTIALPARDOMFORM_HPP
+#define PRESIDENTIALPARDONFORM_HPP
 
-int main()
+#include "Form.hpp"
+
+class PresidentialPardonForm: public Form
 {
-    try
-    {
-        Bureaucrat  akhenouch("akhenouch", 1);
-        akhenouch.increment();
-    }
-    catch(const std::exception& e)
-    {
-        std::cerr << e.what() << '\n';
-    }
-    
-    return(0);
-}
+    public:
+        PresidentialPardonForm();
+        PresidentialPardonForm(const std::string& name, const int& requiredGradeSign, const int& requiredGradeExecute);
+        ~PresidentialPardonForm();
+        virtual void    beSigned(const Bureaucrat& Buro);  
+} ;
+
+#endif
