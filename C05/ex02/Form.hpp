@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 18:45:35 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 21:32:19 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/02 17:35:51 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,9 @@ class   Form
 		std::string			getName() const;
 		bool				getSignature() const;
 		virtual void		beSigned(const Bureaucrat& Buro) const = 0;
+		virtual void		executeForm(Form const & form) const;
 		
 } ;
-		
-		std::ostream&	operator<<(std::ostream& output, const Form& F);
+	std::ostream&	operator<<(std::ostream& output, const Form& F);
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 18:45:33 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 20:37:49 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/02 17:37:43 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,3 +68,8 @@ std::ostream&	operator<<(std::ostream& output, const Form& F) {
 
 	return (output);
 }
+
+void	Form::executeForm(Form const & form) const {
+
+	
+} ;

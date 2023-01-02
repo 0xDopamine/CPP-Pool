@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 18:15:59 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 21:33:58 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/02 16:30:49 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ int main()
     try
     {
         Bureaucrat  akhenouch("akhenouch", 0);
-        akhenouch.signForm(form);
     }
     catch(const std::exception& e)
     {
