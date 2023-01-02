@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 20:50:03 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/02 17:32:44 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/02 19:55:44 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	PresidentialPardonForm::beSigned(const Bureaucrat& Buro) {
 		throw GradeTooHighException();
 }
 
-void            PresidentialPardonForm::execute(const std::string target) const {
+void	PresidentialPardonForm::execute(const std::string target) const {
 	
 	std::cout << target << " has been pardoned by Zaphod Beeblebrox" << std::endl;
 };

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 16:30:57 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/02 17:32:47 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/02 19:50:57 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class RobotomyRequestForm: public Form
         RobotomyRequestForm(const RobotomyRequestForm& Robo);
         ~RobotomyRequestForm();
         RobotomyRequestForm&    operator=(const RobotomyRequestForm& Robo);
-        virtual void            beSigned(const Bureaucrat& Buro);
+         void            beSigned(const Bureaucrat& Buro);
         void                    execute(const std::string target) const;
 
 } ;
