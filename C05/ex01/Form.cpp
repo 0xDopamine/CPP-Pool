@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 18:45:33 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 20:26:25 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/03 17:59:36 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,9 @@ requiredGradeSign(requiredGradeSign),
 requiredGradeExecute(requiredGradeExecute)
 {
 	 if (requiredGradeSign > 150)
-		throw GradeTooHighException();
-	else if (requiredGradeSign < 1)
 		throw GradeTooLowException();
+	else if (requiredGradeSign < 1)
+		throw GradeTooHighException();
 } ;
 
 Form::Form(const Form& F):

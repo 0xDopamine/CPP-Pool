@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/31 18:06:21 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 19:43:11 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/03 19:01:22 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,21 +14,30 @@
 
 Bureaucrat::Bureaucrat(): name("default"), grade(1) {
     
-    std::cout << "Bureaucrat default constructor called" << std::endl;
 } ;
 
 Bureaucrat::Bureaucrat(const std::string name, int const grade): name(name), grade(grade) {
 
-    std::cout << "Bureaucrat constructor called" << std::endl;
     if (grade > 150)
         throw GradeTooHighException();
     else if (grade < 1)
         throw GradeTooLowException();
 } ;
 
+Bureaucrat::Bureaucrat(const Bureaucrat& Buro) {
+
+	*this = Buro;
+}
+
 Bureaucrat::~Bureaucrat() {
 
-    std::cout << "Bureaucrat destructor called" << std::endl;
+} ;
+
+Bureaucrat& Bureaucrat::operator=(const Bureaucrat& Buro) {
+   
+	if (this != &Buro)
+		this->grade = Buro.grade;
+	return (*this);
 } ;
 
 std::string Bureaucrat::getName() const {
@@ -57,10 +66,10 @@ void    Bureaucrat::decrement() {
 
 void    Bureaucrat::signForm(const Form& F) {
 
-    if (F.getSignature())
+    if (F.getSignature() && F.getRequiredGradeSign() <= grade)
         std::cout << getName() << " signed " << F.getName() << std::endl;
     else if (!F.getSignature() && F.getRequiredGradeSign() > grade)
-        std::cout << getName() << " couldn't sign the " << F.getName() << " because " <<  "grade too low";
+        std::cout << getName() << " couldn't sign the " << F.getName() << " because " ;
 }
 
 void    Bureaucrat::executeForm(Form const & form) {
@@ -68,7 +77,7 @@ void    Bureaucrat::executeForm(Form const & form) {
     try
 	{
 		form.execute(*this);
-		std::cout << this->name << " executes form " << form.getName() << std::endl;
+		std::cout << this->name << " executed " << form.getName() << std::endl;
 	}
 	catch (FormErrorException &e)
 	{

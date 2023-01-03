@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/01 20:50:03 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/02 19:55:44 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/03 15:33:27 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,12 +35,10 @@ PresidentialPardonForm::~PresidentialPardonForm() {};
 
 void	PresidentialPardonForm::beSigned(const Bureaucrat& Buro) {
 
-	if (Buro.getGrade() == requiredGradeSign)
+	if (Buro.getGrade() <= requiredGradeSign)
 		signature = true;
 	else if (Buro.getGrade() > requiredGradeSign)
 		throw GradeTooLowException();
-	else if (Buro.getGrade() < requiredGradeSign)
-		throw GradeTooHighException();
 }
 
 void	PresidentialPardonForm::execute(const Bureaucrat & executor) const {

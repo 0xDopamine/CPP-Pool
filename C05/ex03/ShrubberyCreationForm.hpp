@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   SchrubberyCreationForm.hpp                         :+:      :+:    :+:   */
+/*   ShrubberyCreationForm.hpp                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,22 +10,22 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SCHRUBBERYCREATIONFORM_HPP
-#define SCHRUBBERYCREATIONFORM_HPP
+#ifndef ShrubberyCREATIONFORM_HPP
+#define ShrubberyCREATIONFORM_HPP
 
 #include <iostream>
 #include "Form.hpp"
 
-class SchrubberyCreationForm: public Form
+class ShrubberyCreationForm: public Form
 {
 	private:
 		std::string target;
 	public:
-		SchrubberyCreationForm();
-		SchrubberyCreationForm(std::string& target);
-		SchrubberyCreationForm(const SchrubberyCreationForm& Schrub);
-		~SchrubberyCreationForm();
-		SchrubberyCreationForm&	operator=(const SchrubberyCreationForm& Schrub);
+		ShrubberyCreationForm();
+		ShrubberyCreationForm(std::string& target);
+		ShrubberyCreationForm(const ShrubberyCreationForm& Schrub);
+		~ShrubberyCreationForm();
+		ShrubberyCreationForm&	operator=(const ShrubberyCreationForm& Schrub);
 		void	beSigned(const Bureaucrat& Buro);
 		void	execute(const Bureaucrat & executor) const;
 } ;

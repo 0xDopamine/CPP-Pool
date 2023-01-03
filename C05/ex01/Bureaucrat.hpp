@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/31 18:03:55 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/01 20:24:12 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/03 18:53:31 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,10 @@ class Bureaucrat {
 		GradeTooLowException	lowException;
 	public:
 		Bureaucrat();
+		Bureaucrat(const Bureaucrat& Buro);
 		Bureaucrat(const std::string name, int const grade);
 		~Bureaucrat();
+		Bureaucrat&	operator=(const Bureaucrat& B);
 		std::string getName() const;
 		int			getGrade() const;
 		void		increment();

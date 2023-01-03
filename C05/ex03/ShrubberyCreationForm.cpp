@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   SchrubberyCreationForm.cpp                         :+:      :+:    :+:   */
+/*   ShrubberyCreationForm.cpp                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -10,30 +10,30 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "SchrubberyCreationForm.hpp"
+#include "ShrubberyCreationForm.hpp"
 
-SchrubberyCreationForm::SchrubberyCreationForm(): Form("Schrubbery Creation Form", 145, 137), target("default") {};
+ShrubberyCreationForm::ShrubberyCreationForm(): Form("Shrubbery Creation Form", 145, 137), target("default") {};
 
-SchrubberyCreationForm::SchrubberyCreationForm(std::string& target):
-Form("Schrubbery Creation Form", 145, 137),
+ShrubberyCreationForm::ShrubberyCreationForm(std::string& target):
+Form("Shrubbery Creation Form", 145, 137),
 target(target)
 {};
 
-SchrubberyCreationForm::SchrubberyCreationForm(const SchrubberyCreationForm& Schrub): Form(Schrub) {
+ShrubberyCreationForm::ShrubberyCreationForm(const ShrubberyCreationForm& Schrub): Form(Schrub) {
 
     *this = Schrub;
 };
 
-SchrubberyCreationForm::~SchrubberyCreationForm() {};
+ShrubberyCreationForm::~ShrubberyCreationForm() {};
 
-SchrubberyCreationForm&	SchrubberyCreationForm::operator=(const SchrubberyCreationForm& Schrub) {
+ShrubberyCreationForm&	ShrubberyCreationForm::operator=(const ShrubberyCreationForm& Schrub) {
 
 	if (this != &Schrub)
 		this->target = Schrub.target;
 	return (*this);
 }
 
-void    SchrubberyCreationForm::beSigned(const Bureaucrat& Buro) {
+void    ShrubberyCreationForm::beSigned(const Bureaucrat& Buro) {
 
     if (Buro.getGrade() == requiredGradeSign)
 		signature = true;
@@ -43,7 +43,7 @@ void    SchrubberyCreationForm::beSigned(const Bureaucrat& Buro) {
 		throw GradeTooHighException();
 }
 
-void	SchrubberyCreationForm::execute(const Bureaucrat & executor) const {
+void	ShrubberyCreationForm::execute(const Bureaucrat & executor) const {
 
 	this->checkRequirements(executor);
 	// ASCII tree

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/03 01:29:17 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/03 01:29:17 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/03 20:25:02 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 const char*     FormErrorException::what() const throw() {
 
-    return ("The form could not be signed!");
+    return ("The form could not be signed, or created!");
 }
