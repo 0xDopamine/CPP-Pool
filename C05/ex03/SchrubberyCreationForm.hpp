@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/02 16:14:42 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/02 19:52:12 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/02 19:50:59 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,8 @@ class SchrubberyCreationForm: public Form
 		SchrubberyCreationForm(const SchrubberyCreationForm& Schrub);
 		~SchrubberyCreationForm();
 		SchrubberyCreationForm&	operator=(const SchrubberyCreationForm& Schrub);
-		 void	beSigned(const Bureaucrat& Buro);
-		void			execute(const std::string target) const;
+		void	beSigned(const Bureaucrat& Buro);
+		void	execute(const Bureaucrat & executor) const;
 } ;
 
 #endif

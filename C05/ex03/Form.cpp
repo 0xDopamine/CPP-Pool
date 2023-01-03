@@ -69,7 +69,8 @@ std::ostream&	operator<<(std::ostream& output, const Form& F) {
 	return (output);
 }
 
-void	Form::executeForm(Form const & form) const {
+void	Form::checkRequirements(const Bureaucrat& executor) const {
 
-	
-} ;
+	if (!getSignature() || executor.getGrade() > requiredGradeExecute)
+		throw FormErrorException();
+}

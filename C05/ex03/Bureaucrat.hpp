@@ -17,6 +17,7 @@
 #include <exception>
 #include "GradeTooHighException.hpp"
 #include "GradeTooLowException.hpp"
+#include "FormErrorException.hpp"
 #include "Form.hpp"
 
 class Form;
@@ -37,6 +38,7 @@ class Bureaucrat {
 		void		increment();
 		void		decrement();
 		void		signForm(const Form& F);
+		void		executeForm(Form const & form);
 } ;
 
 	std::ostream&	operator<<(std::ostream& output, const Bureaucrat& Buro);
