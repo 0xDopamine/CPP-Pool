@@ -16,7 +16,7 @@ RobotomyRequestForm::RobotomyRequestForm(): Form("Robotomy Request", 72, 45), ta
 
 RobotomyRequestForm::RobotomyRequestForm(std::string target): Form("Robotomy Request", 72, 45), target(target) {};
 
-RobotomyRequestForm::RobotomyRequestForm(const RobotomyRequestForm& Robo) {
+RobotomyRequestForm::RobotomyRequestForm(const RobotomyRequestForm& Robo): Form(Robo) {
 
     *this = Robo;
 } ;
@@ -40,8 +40,9 @@ void    RobotomyRequestForm::beSigned(const Bureaucrat& Buro) {
 		throw GradeTooHighException();
 }
 
-void            RobotomyRequestForm::execute(const std::string target)  const {
+void            RobotomyRequestForm::execute(const Bureaucrat & executor)  const {
 
+	this->checkRequirements(executor);
     std::cout << "*DRILLING NOISES*" << std::endl;
     std::cout << target << " has been robotomized successfully!" << std::endl;
 };

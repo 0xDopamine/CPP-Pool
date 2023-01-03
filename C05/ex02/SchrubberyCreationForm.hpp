@@ -26,8 +26,8 @@ class SchrubberyCreationForm: public Form
 		SchrubberyCreationForm(const SchrubberyCreationForm& Schrub);
 		~SchrubberyCreationForm();
 		SchrubberyCreationForm&	operator=(const SchrubberyCreationForm& Schrub);
-		 void	beSigned(const Bureaucrat& Buro);
-		void			execute(const std::string target) const;
+		void	beSigned(const Bureaucrat& Buro);
+		void	execute(const Bureaucrat & executor) const;
 } ;
 
 #endif

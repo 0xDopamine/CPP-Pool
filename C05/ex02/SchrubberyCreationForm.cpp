@@ -19,7 +19,7 @@ Form("Schrubbery Creation Form", 145, 137),
 target(target)
 {};
 
-SchrubberyCreationForm::SchrubberyCreationForm(const SchrubberyCreationForm& Schrub) {
+SchrubberyCreationForm::SchrubberyCreationForm(const SchrubberyCreationForm& Schrub): Form(Schrub) {
 
     *this = Schrub;
 };
@@ -43,7 +43,8 @@ void    SchrubberyCreationForm::beSigned(const Bureaucrat& Buro) {
 		throw GradeTooHighException();
 }
 
-void	SchrubberyCreationForm::execute(const std::string target) const {
+void	SchrubberyCreationForm::execute(const Bureaucrat & executor) const {
 
+	this->checkRequirements(executor);
 	// ASCII tree
 } ;

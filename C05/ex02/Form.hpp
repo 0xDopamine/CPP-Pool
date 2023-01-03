@@ -35,8 +35,10 @@ class   Form
 		int					getRequiredGradeExecute() const;
 		std::string			getName() const;
 		bool				getSignature() const;
-		virtual void		beSigned(const Bureaucrat& Buro) const = 0;
-		virtual void		executeForm(Form const & form) const;
+		void				beSigned(const Bureaucrat& Buro) const;
+		virtual void            	execute(const Bureaucrat & executor) const = 0;
+		void				checkRequirements(const Bureaucrat& executor) const;
+
 		
 } ;
 	std::ostream&	operator<<(std::ostream& output, const Form& F);

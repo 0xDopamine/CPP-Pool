@@ -19,7 +19,7 @@ Form("Presidential Pardon Form", 25, 5),
 target(target)
 {};
 
-PresidentialPardonForm::PresidentialPardonForm(const PresidentialPardonForm& P_form) {
+PresidentialPardonForm::PresidentialPardonForm(const PresidentialPardonForm& P_form): Form(P_form) {
 
 	*this = P_form;
 }
@@ -43,7 +43,8 @@ void	PresidentialPardonForm::beSigned(const Bureaucrat& Buro) {
 		throw GradeTooHighException();
 }
 
-void	PresidentialPardonForm::execute(const std::string target) const {
+void	PresidentialPardonForm::execute(const Bureaucrat & executor) const {
 	
+	this->checkRequirements(executor);
 	std::cout << target << " has been pardoned by Zaphod Beeblebrox" << std::endl;
 };

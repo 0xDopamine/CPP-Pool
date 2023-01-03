@@ -26,7 +26,7 @@ class RobotomyRequestForm: public Form
         ~RobotomyRequestForm();
         RobotomyRequestForm&    operator=(const RobotomyRequestForm& Robo);
          void            beSigned(const Bureaucrat& Buro);
-        void                    execute(const std::string target) const;
+        void             execute(const Bureaucrat & executor)  const;
 
 } ;
 

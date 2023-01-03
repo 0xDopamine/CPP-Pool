@@ -11,12 +11,21 @@
 /* ************************************************************************** */
 
 #include "Form.hpp"
+#include "PresidentialPardonForm.hpp"
+#include "RobotomyRequestForm.hpp"
+#include "SchrubberyCreationForm.hpp"
+
 
 int main()
 {
     try
     {
-        Bureaucrat  akhenouch("akhenouch", 0);
+        Bureaucrat  akhenouch("akhenouch", 1);
+        PresidentialPardonForm  form("ayman");
+        akhenouch.signForm(form);
+        form.beSigned(akhenouch);
+        akhenouch.executeForm(form);
+        form.execute(akhenouch);
     }
     catch(const std::exception& e)
     {
