@@ -1,19 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
+/*   iter.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/04 19:36:07 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/04 19:36:46 by mbaioumy         ###   ########.fr       */
+/*   Created: 2023/01/04 22:30:35 by mbaioumy          #+#    #+#             */
+/*   Updated: 2023/01/04 22:31:37 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
-
-int main() {
-
-    std::cout << "hello world" << std::endl;
-}
+template <typename T>
+T   iter(T address, T len, T )

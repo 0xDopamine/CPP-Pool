@@ -7571,18 +7571,351 @@
           }
         },
         "bindings": {}
+      },
+      "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48": {
+        "id": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+        "name": "Page 4",
+        "childIndex": 4,
+        "shapes": {
+          "dc50af62-4dc6-4e26-3650-b34077538657": {
+            "id": "dc50af62-4dc6-4e26-3650-b34077538657",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 1,
+            "point": [
+              1041.7,
+              86.66
+            ],
+            "rotation": 0,
+            "text": "C++ Templates",
+            "style": {
+              "color": "red",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 2.3724793388429757,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "fc071642-6fa3-4d3d-17a0-dcc17de9004e": {
+            "id": "fc071642-6fa3-4d3d-17a0-dcc17de9004e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 2,
+            "point": [
+              629.28,
+              268.02
+            ],
+            "rotation": 0,
+            "text": "designed to simplify creating functions or classes that are able to work with different data types",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c1e07c84-6999-47ba-3633-ade7fd13fc00": {
+            "id": "c1e07c84-6999-47ba-3633-ade7fd13fc00",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 3,
+            "point": [
+              235.02,
+              366.14
+            ],
+            "rotation": 0,
+            "text": "once the template is defined the compiler can use the template to generate as many overloaded functions or classes as needed using different types",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7f3502e1-9e9d-4137-2a70-d0e20e075287": {
+            "id": "7f3502e1-9e9d-4137-2a70-d0e20e075287",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 4,
+            "point": [
+              1091.78,
+              511.5
+            ],
+            "rotation": 0,
+            "text": "Function templates",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.4517241379310353,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c2746da0-c540-4e21-2395-104ff7bf25c1": {
+            "id": "c2746da0-c540-4e21-2395-104ff7bf25c1",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 5,
+            "point": [
+              744.04,
+              632.72
+            ],
+            "rotation": 0,
+            "text": "a function-like definition used to generate one or more overloaded functs.\n \n ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "b07a8a7e-762f-4ea3-0e0f-c3c473aa60e2": {
+            "id": "b07a8a7e-762f-4ea3-0e0f-c3c473aa60e2",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 6,
+            "point": [
+              154.98,
+              832.7
+            ],
+            "rotation": 0,
+            "text": "Example:",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c517b109-8ac6-4ba0-199c-556d85555ade": {
+            "id": "c517b109-8ac6-4ba0-199c-556d85555ade",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 8,
+            "point": [
+              147.9,
+              1043
+            ],
+            "rotation": 0,
+            "text": "int max(int x, int y)\n{\n    return (x > y) ? x : y;\n}",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "mono",
+              "textAlign": "start"
+            }
+          },
+          "f8f7431f-afca-4668-3019-cf188ac5a52d": {
+            "id": "f8f7431f-afca-4668-3019-cf188ac5a52d",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 9,
+            "point": [
+              1871.04,
+              1019.44
+            ],
+            "rotation": 0,
+            "text": "T max(T x, T y)\n{\n    return (x > y) ? x : y;\n}",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "mono",
+              "textAlign": "start"
+            }
+          },
+          "bafb295c-5eeb-4192-2136-1b5e7d1e4a01": {
+            "id": "bafb295c-5eeb-4192-2136-1b5e7d1e4a01",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 10,
+            "point": [
+              1026.54,
+              1120.08,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  725.1,
+                  3.16
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  362.55,
+                  1.58
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "sans"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "67f61ca4-3275-4bd1-1582-e25931f126de": {
+            "id": "67f61ca4-3275-4bd1-1582-e25931f126de",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 11,
+            "point": [
+              317.76,
+              948.08
+            ],
+            "rotation": 0,
+            "text": "a normal function",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1444909f-a5ca-4a7b-2960-e2483823caab": {
+            "id": "1444909f-a5ca-4a7b-2960-e2483823caab",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 12,
+            "point": [
+              1776.72,
+              933.8
+            ],
+            "rotation": 0,
+            "text": "template of the same function (wont work cause T isnt defined)",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "962ee69e-d1f1-4f3c-1d04-2a96efe563e6": {
+            "id": "962ee69e-d1f1-4f3c-1d04-2a96efe563e6",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 13,
+            "point": [
+              1276.94,
+              1347.14
+            ],
+            "rotation": 0,
+            "text": "To define T:",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "d4d8cb32-cc00-4dc9-335f-6de3ce6e21ee": {
+            "id": "d4d8cb32-cc00-4dc9-335f-6de3ce6e21ee",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
+            "childIndex": 14,
+            "point": [
+              752.74,
+              1429.14
+            ],
+            "rotation": 0,
+            "text": "template <typename T> // this is the template parameter declaration",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.1620955882352941,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
       }
     },
     "pageStates": {
       "page": {
         "id": "page",
-        "selectedIds": [],
+        "selectedIds": [
+          "5c65e900-1460-46da-3f65-d148cb89cafa"
+        ],
         "camera": {
           "point": [
-            0,
-            0
+            635,
+            -631.13
           ],
-          "zoom": 1
+          "zoom": 0.5
         }
       },
       "2961fc30-de42-4dc7-2c09-c5809a9e067a": {
@@ -7600,11 +7933,24 @@
       },
       "2cd54e47-fb44-42fa-381c-512e95437dd1": {
         "id": "2cd54e47-fb44-42fa-381c-512e95437dd1",
+        "selectedIds": [
+          "272f8b7b-b116-462c-28c3-2e9dfa1f318b"
+        ],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 0.5
+        }
+      },
+      "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48": {
+        "id": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
         "selectedIds": [],
         "camera": {
           "point": [
-            -650,
-            -680.5
+            -705.5,
+            -446
           ],
           "zoom": 1
         }
