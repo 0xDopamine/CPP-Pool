@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/04 17:45:26 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/04 21:57:14 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/05 17:30:23 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,34 +19,23 @@ Base*   generate(void) {
 
     Base    *base;
 
-    int     random = time(0) % 3;
+    std::srand(time(0));
+    int     random = rand() % 3;
     if (random == 0)
     {
             base = new A();
             std::cout << "Base A created!" << std::endl;
     }
-    else if (random == 1)
+    if (random == 1)
     {
             base = new B();
             std::cout << "Base B created!" << std::endl;
     }
-    else if (random == 2)
+    if (random == 2)
     {
             base = new C();
             std::cout << "Base C created!" << std::endl;
     }
-    // switch (std::rand() % 2) {
-
-    //     case 0:
-    //         base = new A();
-    //         std::cout << "Base A created!" << std::endl;
-    //     case 1:
-    //         base = new B();
-    //         std::cout << "Base B created!" << std::endl;
-    //     case 2:
-    //         base = new C();
-    //         std::cout << "Base C created!" << std::endl;
-    // }
     return (base);
 }
 
