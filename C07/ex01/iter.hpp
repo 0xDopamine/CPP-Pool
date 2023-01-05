@@ -13,4 +13,16 @@
 #include <iostream>
 
 template <typename T>
-T   iter(T address, T len, T )
+void   iter(T* array, int len, void (*funct)(T)) {
+
+    for (int i = 0; i < len; i++) {
+
+        funct(array[i]);
+    }
+}
+
+template <typename T>
+void    print(T x) {
+
+    std::cout << x << std::endl;
+}
