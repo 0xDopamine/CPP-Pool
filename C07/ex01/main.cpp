@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/05 02:45:03 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/05 02:45:03 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/07 18:07:42 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,12 @@
 
 int main() {
 
-    int array[] = {1, 2, 3, 4, 5};
-    // std::string str = "Hello";
-
-    iter(array, 5, &print<int>);
-    // iter(array, 5, &print<std::string>);
+    {
+        int array[] = {1, 2, 3, 4, 5};
+        iter(array, 5, &print<int>);
+    }
+    {
+        std::string str[3] = {"Hello", "World", "!"};
+        iter(str, 3, &print<std::string>);
+    }
 }
