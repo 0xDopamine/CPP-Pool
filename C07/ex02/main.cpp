@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/06 19:41:12 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/07 02:11:26 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/07 02:53:47 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,17 @@
 
 int main() {
 
-    _Array<int> nums[10] = {1, 2, 3, 4, 5};
+    _Array<int> nums(10);
 
-    std::cout << nums << std::endl;    
+    for (int i = 0; i < 10; i++)
+        nums[i] = i;
+        
+    for (int i = 0; i < 10; i++)
+        std::cout << nums[i] << std::endl;    
     
-    return (0);
+    
+    _Array<int> num(nums);
+
+    std::cout << num[1] << std::endl;
+        return (0);
 }
