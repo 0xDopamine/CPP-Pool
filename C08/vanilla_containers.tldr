@@ -18505,6 +18505,874 @@
               ]
             ],
             "isComplete": true
+          },
+          "1c02ca4a-d642-4aed-0dae-7a6b2fa7d10c": {
+            "id": "1c02ca4a-d642-4aed-0dae-7a6b2fa7d10c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 24,
+            "point": [
+              1213.46,
+              3550.94
+            ],
+            "rotation": 0,
+            "text": "Iterators",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "77870906-c3e2-4332-0925-2730d85aafcd": {
+            "id": "77870906-c3e2-4332-0925-2730d85aafcd",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 25,
+            "point": [
+              636.52,
+              3710.74
+            ],
+            "rotation": 0,
+            "text": "an object designed to traverse through a container, prodicing access to each element along the way",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2d27c324-6d7e-4f67-08ef-ba27f0ebfc69": {
+            "id": "2d27c324-6d7e-4f67-08ef-ba27f0ebfc69",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 26,
+            "point": [
+              123.08,
+              3947.38
+            ],
+            "rotation": 0,
+            "text": "Container may provide different kinds of iterators:\n-forward iterator: walks through the array in forward order\n-reverse iterator that walks through the array in reverse order\n-input iterators,\n-output iterators,\n-bidirectional iterator\n-random access iterator",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "9bf4f788-8b1a-4536-2f9b-af84ae4f7738": {
+            "id": "9bf4f788-8b1a-4536-2f9b-af84ae4f7738",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 27,
+            "point": [
+              51.16,
+              3880.72
+            ],
+            "radius": [
+              558.1599999999996,
+              218.34000000000037
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "70719c66-1644-4d84-3264-d1b81bb2b080": {
+            "id": "70719c66-1644-4d84-3264-d1b81bb2b080",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 28,
+            "point": [
+              1228.28,
+              4088.04,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  437.62,
+                  7.36
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  218.81,
+                  3.68
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "red",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "546691aa-1153-48f9-3fe1-a05555dec17a": {
+            "id": "546691aa-1153-48f9-3fe1-a05555dec17a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 29,
+            "point": [
+              1742.94,
+              4037.2
+            ],
+            "rotation": 0,
+            "text": "Type of iterator to use depends on the type\nof the container and the operations you want to perform",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f4e6fb9d-f7a7-48a4-18c5-c6acf8bea232": {
+            "id": "f4e6fb9d-f7a7-48a4-18c5-c6acf8bea232",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 30,
+            "point": [
+              560.9,
+              4487.7
+            ],
+            "rotation": 0,
+            "text": "To walk through the elements of a container using an iterator, you can use a loop that increments or decrements\nthe iterator to move through it",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2758cf62-d21b-439b-2f83-1eff495c16b5": {
+            "id": "2758cf62-d21b-439b-2f83-1eff495c16b5",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 31,
+            "point": [
+              213.08,
+              4645.24
+            ],
+            "rotation": 0,
+            "text": "Example",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "5fda4497-9168-42d7-06a8-7abc0fcdfd1f": {
+            "id": "5fda4497-9168-42d7-06a8-7abc0fcdfd1f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 32,
+            "point": [
+              61.8,
+              4753.02
+            ],
+            "rotation": 0,
+            "text": "int main() {\n \n  std::vector<int> v = {1, 2, 3, 4, 5};\n  \n  for (std::vector<int>::iterator it = v.begin(); it != v.end(); ++it) {\n    \n      std::cout << *it << std::endl;\n  }\n  return 0;\n}",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.637647560891939,
+              "font": "mono",
+              "textAlign": "start"
+            }
+          },
+          "119df980-1873-48f0-1100-eb82a7d09530": {
+            "id": "119df980-1873-48f0-1100-eb82a7d09530",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 33,
+            "point": [
+              1034.04,
+              4944.38
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  471.58,
+                  0.48
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  235.79,
+                  0.24
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "start",
+              "font": "mono"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "35f1e958-e1a8-46c1-2c07-e273f94b041e": {
+            "id": "35f1e958-e1a8-46c1-2c07-e273f94b041e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 34,
+            "point": [
+              1575.72,
+              4833.48
+            ],
+            "rotation": 0,
+            "text": "-std::vector<int> v -> Vector of type int\n \n-std::verctor<int>::iterator it -> defining an iterator for 'v'\n \n-we initialized it with the starting iterator position of v vector\n \n-the loop iterates from v.begin (start of v) to v.end (end of v)\n \n-the * operator is used to dereference the iterator\nand access the element it points to.",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "mono",
+              "textAlign": "start"
+            }
+          },
+          "b0eba566-6415-4731-1db8-2630c97e02ea": {
+            "id": "b0eba566-6415-4731-1db8-2630c97e02ea",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 35,
+            "point": [
+              47.82,
+              5199.38
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "start",
+              "font": "mono"
+            },
+            "points": [
+              [
+                0,
+                31.3,
+                0.5
+              ],
+              [
+                0,
+                31.3,
+                0.5
+              ],
+              [
+                7.36,
+                31.3,
+                0.5
+              ],
+              [
+                50.48,
+                31.3,
+                0.5
+              ],
+              [
+                134.84,
+                35.98,
+                0.5
+              ],
+              [
+                202.06,
+                35.98,
+                0.5
+              ],
+              [
+                289.88,
+                35.98,
+                0.5
+              ],
+              [
+                422.84,
+                35.98,
+                0.5
+              ],
+              [
+                559.12,
+                35.98,
+                0.5
+              ],
+              [
+                695.94,
+                35.98,
+                0.5
+              ],
+              [
+                822.22,
+                35.98,
+                0.5
+              ],
+              [
+                996,
+                35.98,
+                0.5
+              ],
+              [
+                1088.66,
+                35.98,
+                0.5
+              ],
+              [
+                1162.6,
+                35.98,
+                0.5
+              ],
+              [
+                1239.1,
+                35.98,
+                0.5
+              ],
+              [
+                1303.38,
+                35.98,
+                0.5
+              ],
+              [
+                1365.26,
+                35.98,
+                0.5
+              ],
+              [
+                1429.44,
+                35.98,
+                0.5
+              ],
+              [
+                1491.32,
+                35.98,
+                0.5
+              ],
+              [
+                1565.26,
+                35.98,
+                0.5
+              ],
+              [
+                1624.92,
+                35.98,
+                0.5
+              ],
+              [
+                1689.2,
+                35.98,
+                0.5
+              ],
+              [
+                1751.08,
+                35.98,
+                0.5
+              ],
+              [
+                1826.04,
+                29.98,
+                0.5
+              ],
+              [
+                1863.22,
+                25.52,
+                0.5
+              ],
+              [
+                1916.2,
+                25.52,
+                0.5
+              ],
+              [
+                1969.18,
+                24.24,
+                0.5
+              ],
+              [
+                2028.84,
+                21.44,
+                0.5
+              ],
+              [
+                2088.5,
+                20.04,
+                0.5
+              ],
+              [
+                2150.38,
+                18.7,
+                0.5
+              ],
+              [
+                2212.26,
+                18.7,
+                0.5
+              ],
+              [
+                2281.32,
+                18.7,
+                0.5
+              ],
+              [
+                2347.9,
+                18.7,
+                0.5
+              ],
+              [
+                2409.78,
+                18.7,
+                0.5
+              ],
+              [
+                2471.68,
+                17.3,
+                0.5
+              ],
+              [
+                2512.72,
+                14.84,
+                0.5
+              ],
+              [
+                2563.56,
+                12.28,
+                0.5
+              ],
+              [
+                2600.74,
+                10.06,
+                0.5
+              ],
+              [
+                2636.2,
+                6.7,
+                0.5
+              ],
+              [
+                2674.14,
+                6.7,
+                0.5
+              ],
+              [
+                2674.14,
+                5.54,
+                0.5
+              ],
+              [
+                2674.14,
+                2.1,
+                0.5
+              ],
+              [
+                2674.14,
+                0.98,
+                0.5
+              ],
+              [
+                2674.14,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "0687af36-b682-4fb7-1a44-d5b0f9b95571": {
+            "id": "0687af36-b682-4fb7-1a44-d5b0f9b95571",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 36,
+            "point": [
+              1088.2,
+              5284.9
+            ],
+            "rotation": 0,
+            "text": "STD <Algorithm>",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "605ac33c-72cf-497d-0045-128ea2d19f68": {
+            "id": "605ac33c-72cf-497d-0045-128ea2d19f68",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 37,
+            "point": [
+              226.34,
+              5557.98
+            ],
+            "rotation": 0,
+            "text": "std::find:",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "10a03adf-5fa8-40b7-0385-976570189122": {
+            "id": "10a03adf-5fa8-40b7-0385-976570189122",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 38,
+            "point": [
+              275.88,
+              5629.38
+            ],
+            "rotation": 0,
+            "text": "searches for the first occurence of a value in a container",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "fde79729-bcec-4395-19e0-a3524fbe1cf4": {
+            "id": "fde79729-bcec-4395-19e0-a3524fbe1cf4",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 39,
+            "point": [
+              161.36,
+              5483.64
+            ],
+            "radius": [
+              511.47,
+              161.51999999999998
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "75a61d65-271e-4707-0b13-9b82a7856afc": {
+            "id": "75a61d65-271e-4707-0b13-9b82a7856afc",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 40,
+            "point": [
+              1106.96,
+              5758.8
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0.5,
+                0,
+                0.5
+              ],
+              [
+                3.94,
+                0,
+                0.5
+              ],
+              [
+                11.54,
+                2.7,
+                0.5
+              ],
+              [
+                35.48,
+                12.88,
+                0.5
+              ],
+              [
+                87.4,
+                29.48,
+                0.5
+              ],
+              [
+                157.42,
+                46.9,
+                0.5
+              ],
+              [
+                221.7,
+                53.9,
+                0.5
+              ],
+              [
+                272.62,
+                53.9,
+                0.5
+              ],
+              [
+                304.04,
+                53.9,
+                0.5
+              ],
+              [
+                305.76,
+                53.32,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "e1f6a305-cc57-4bfa-389f-c8298dfb3c91": {
+            "id": "e1f6a305-cc57-4bfa-389f-c8298dfb3c91",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 41,
+            "point": [
+              1419.76,
+              5785.66
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                3.28,
+                0.64,
+                0.5
+              ],
+              [
+                21.26,
+                11.44,
+                0.5
+              ],
+              [
+                44.32,
+                19.18,
+                0.5
+              ],
+              [
+                65.68,
+                23.94,
+                0.5
+              ],
+              [
+                72.3,
+                25.94,
+                0.5
+              ],
+              [
+                72.78,
+                25.94,
+                0.5
+              ],
+              [
+                72.28,
+                25.94,
+                0.5
+              ],
+              [
+                60.74,
+                29.78,
+                0.5
+              ],
+              [
+                47.98,
+                33.04,
+                0.5
+              ],
+              [
+                28.1,
+                38.42,
+                0.5
+              ],
+              [
+                11.98,
+                42.78,
+                0.5
+              ],
+              [
+                3.3,
+                46.34,
+                0.5
+              ],
+              [
+                0.34,
+                46.82,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "6c75343f-ba31-43f0-3955-45ee5110ca0c": {
+            "id": "6c75343f-ba31-43f0-3955-45ee5110ca0c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 42,
+            "point": [
+              1350.8,
+              5838.1
+            ],
+            "rotation": 0,
+            "text": "Takes 3 parameters:\n-an iterator to the starting element in the sequence",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
           }
         },
         "bindings": {}

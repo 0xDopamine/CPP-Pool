@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 18:15:32 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/07 19:56:43 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/08 17:52:37 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,9 @@ template<typename T>
 
 int easyfind(T& haystack, int needle) {
 	
-	for (int i = 0; haystack[i]; i++)
-		if (haystack[i] == needle)
-			return (i);
+	typename T::iterator it = std::find(haystack.begin(), haystack.end(), needle);
+	if (it != haystack.end())
+		return (std::distance(haystack.begin(), it));
 	throw NotFoundException();
 	return (-1);
 } ;
