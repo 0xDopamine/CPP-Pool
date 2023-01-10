@@ -23873,6 +23873,614 @@
               "font": "script",
               "textAlign": "middle"
             }
+          },
+          "e3349267-7ba8-40fd-293f-2267eb4e78f1": {
+            "id": "e3349267-7ba8-40fd-293f-2267eb4e78f1",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 81,
+            "point": [
+              10.16,
+              8769.44
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0.5,
+                40.06,
+                0.5
+              ],
+              [
+                0.5,
+                40.06,
+                0.5
+              ],
+              [
+                0,
+                40.06,
+                0.5
+              ],
+              [
+                9.08,
+                40.06,
+                0.5
+              ],
+              [
+                33.14,
+                40.06,
+                0.5
+              ],
+              [
+                80.62,
+                40.06,
+                0.5
+              ],
+              [
+                133.6,
+                40.06,
+                0.5
+              ],
+              [
+                197.88,
+                40.06,
+                0.5
+              ],
+              [
+                262.16,
+                40.06,
+                0.5
+              ],
+              [
+                274.92,
+                40.06,
+                0.5
+              ],
+              [
+                290.88,
+                40.06,
+                0.5
+              ],
+              [
+                355.16,
+                40.06,
+                0.5
+              ],
+              [
+                426.62,
+                40.06,
+                0.5
+              ],
+              [
+                503.12,
+                40.06,
+                0.5
+              ],
+              [
+                611.64,
+                40.06,
+                0.5
+              ],
+              [
+                673.52,
+                40.06,
+                0.5
+              ],
+              [
+                726.52,
+                40.06,
+                0.5
+              ],
+              [
+                775.3,
+                40.06,
+                0.5
+              ],
+              [
+                824.08,
+                40.06,
+                0.5
+              ],
+              [
+                877.06,
+                40.06,
+                0.5
+              ],
+              [
+                943.64,
+                40.06,
+                0.5
+              ],
+              [
+                1022.8,
+                40.06,
+                0.5
+              ],
+              [
+                1099.3,
+                40.06,
+                0.5
+              ],
+              [
+                1175.8,
+                40.06,
+                0.5
+              ],
+              [
+                1257.68,
+                40.06,
+                0.5
+              ],
+              [
+                1371.14,
+                40.06,
+                0.5
+              ],
+              [
+                1455.6,
+                40.06,
+                0.5
+              ],
+              [
+                1532.1,
+                40.06,
+                0.5
+              ],
+              [
+                1596.38,
+                40.06,
+                0.5
+              ],
+              [
+                1660.66,
+                40.06,
+                0.5
+              ],
+              [
+                1718.16,
+                38.78,
+                0.5
+              ],
+              [
+                1771.16,
+                34.96,
+                0.5
+              ],
+              [
+                1819.94,
+                33.74,
+                0.5
+              ],
+              [
+                1864.68,
+                33.74,
+                0.5
+              ],
+              [
+                1911.4,
+                33.74,
+                0.5
+              ],
+              [
+                1950.46,
+                33.74,
+                0.5
+              ],
+              [
+                1984.12,
+                30.48,
+                0.5
+              ],
+              [
+                2019.48,
+                29.38,
+                0.5
+              ],
+              [
+                2062.26,
+                24.62,
+                0.5
+              ],
+              [
+                2136.88,
+                15.74,
+                0.5
+              ],
+              [
+                2187.8,
+                8.1,
+                0.5
+              ],
+              [
+                2228.66,
+                4.56,
+                0.5
+              ],
+              [
+                2264.04,
+                2.34,
+                0.5
+              ],
+              [
+                2301.22,
+                2.34,
+                0.5
+              ],
+              [
+                2338.4,
+                2.34,
+                0.5
+              ],
+              [
+                2391.38,
+                2.34,
+                0.5
+              ],
+              [
+                2444.38,
+                2.34,
+                0.5
+              ],
+              [
+                2495.22,
+                2.34,
+                0.5
+              ],
+              [
+                2544,
+                2.34,
+                0.5
+              ],
+              [
+                2590.72,
+                2.34,
+                0.5
+              ],
+              [
+                2661.06,
+                2.34,
+                0.5
+              ],
+              [
+                2702.1,
+                0,
+                0.5
+              ],
+              [
+                2748.82,
+                0,
+                0.5
+              ],
+              [
+                2804.02,
+                0,
+                0.5
+              ],
+              [
+                2857.02,
+                0,
+                0.5
+              ],
+              [
+                2908.18,
+                0,
+                0.5
+              ],
+              [
+                2959.02,
+                0,
+                0.5
+              ],
+              [
+                3014.24,
+                0,
+                0.5
+              ],
+              [
+                3065.08,
+                0,
+                0.5
+              ],
+              [
+                3100.54,
+                0,
+                0.5
+              ],
+              [
+                3139.6,
+                0,
+                0.5
+              ],
+              [
+                3176.78,
+                0,
+                0.5
+              ],
+              [
+                3235.34,
+                0,
+                0.5
+              ],
+              [
+                3274.34,
+                0,
+                0.5
+              ],
+              [
+                3304.62,
+                0,
+                0.5
+              ],
+              [
+                3336.62,
+                0,
+                0.5
+              ],
+              [
+                3363.7,
+                0,
+                0.5
+              ],
+              [
+                3377.8,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "b31e029a-136d-4033-3fd9-49eb94e207c7": {
+            "id": "b31e029a-136d-4033-3fd9-49eb94e207c7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 82,
+            "point": [
+              1550.56,
+              8853.02
+            ],
+            "rotation": 0,
+            "text": "std::deque",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "977a3bad-e576-45aa-2125-a7b57b23ffc3": {
+            "id": "977a3bad-e576-45aa-2125-a7b57b23ffc3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 83,
+            "point": [
+              508.96000000000004,
+              9010.8
+            ],
+            "rotation": 0,
+            "text": "short for \"double-ended queue\", is a containter that allows for constant-time insertions and deletions at both the front and the back of the container.\nits implemented as a dynamic array -> it can grow and shrink as needed.",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f43be875-586f-4deb-0ae1-9cf27cc9dca9": {
+            "id": "f43be875-586f-4deb-0ae1-9cf27cc9dca9",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 84,
+            "point": [
+              74.92,
+              9227.48
+            ],
+            "rotation": 0,
+            "text": "---> contant time insertion means that:\ntime it takes to insert an element into deque is the same\nregardless of how many elements are already in it. ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "41c5703d-c4aa-4362-1c19-3c44e47b0656": {
+            "id": "41c5703d-c4aa-4362-1c19-3c44e47b0656",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 85,
+            "point": [
+              24.18,
+              9187.48
+            ],
+            "radius": [
+              500.4800000000001,
+              138.3100000000004
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "violet",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "c7fd82b6-a91d-4594-1ef0-67fa57c9b5bf": {
+            "id": "c7fd82b6-a91d-4594-1ef0-67fa57c9b5bf",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 86,
+            "point": [
+              1156.64,
+              9271
+            ],
+            "size": [
+              1048.1,
+              261.86
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "violet",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "68fa7227-f129-4611-0254-526348f39520": {
+            "id": "68fa7227-f129-4611-0254-526348f39520",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 87,
+            "point": [
+              1206.12,
+              9293.28
+            ],
+            "rotation": 0,
+            "text": "deque is like a deck of cards where you can add\nor remove cards from both the top and the bottom of the deck.\nYou can access any card in the deckh, but the deck is dynamic\nand will change in size when you add or remove elemnts",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ec5e0d3c-d233-41c5-3ca0-9e66fdff17ee": {
+            "id": "ec5e0d3c-d233-41c5-3ca0-9e66fdff17ee",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 88,
+            "point": [
+              2354.46,
+              9111.76
+            ],
+            "size": [
+              944.6,
+              1058.96
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "356decf8-e8e1-40f0-324f-c0d89f4fe3ca": {
+            "id": "356decf8-e8e1-40f0-324f-c0d89f4fe3ca",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 89,
+            "point": [
+              2389.46,
+              9163.1
+            ],
+            "rotation": 0,
+            "text": "You can use 'deque' as the underlying container for std::stack",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.917271273926423,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "18813508-5d42-4a83-3f7a-79b185fc2335": {
+            "id": "18813508-5d42-4a83-3f7a-79b185fc2335",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 90,
+            "point": [
+              2451.5,
+              9259.78
+            ],
+            "rotation": 0,
+            "text": "std::stack<int, std::deque<int>> stack_name;",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "mono",
+              "textAlign": "middle"
+            }
+          },
+          "0c5be15d-bc18-43e1-2f15-404dbd5d43ef": {
+            "id": "0c5be15d-bc18-43e1-2f15-404dbd5d43ef",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 91,
+            "point": [
+              2720.32,
+              9349.3
+            ],
+            "rotation": 0,
+            "text": " ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "mono",
+              "textAlign": "middle"
+            }
           }
         },
         "bindings": {}

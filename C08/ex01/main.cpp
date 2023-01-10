@@ -6,31 +6,25 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 17:33:58 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/09 18:38:16 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/10 19:08:42 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Span.hpp"
 
+void    rangeTest() {
 
-// int main() {
+    Span sp = Span(100);
+    std::vector<int> noobnoob(100);
+    std::vector<int>::iterator start = noobnoob.begin();
+    std::vector<int>::iterator finish = noobnoob.end();
 
-//     Span sp(5);
+    sp.addRange(1337, start, finish);
+    std::cout << "size: " << sp.getSize() << std::endl;
+}
 
-//     sp.addNumber(2);
-//     sp.addNumber(5);
-//     sp.addNumber(0);
-//     sp.addNumber(8);
-//     sp.addNumber(10);
+void    normalTest() {
 
-//     std::cout << sp.longestSpan() << std::endl;
-//     std::cout << sp.shortestSpan() << std::endl;
-
-//     return (0);
-// }
-
-int main()
-{
     Span sp = Span(5);
     
     sp.addNumber(6);
@@ -41,6 +35,11 @@ int main()
     
     std::cout << sp.shortestSpan() << std::endl;
     std::cout << sp.longestSpan() << std::endl;
+}
 
+int main()
+{
+    normalTest();
+    rangeTest();
     return 0;
 }

@@ -6,13 +6,15 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/08 18:39:30 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/09 18:37:48 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/10 19:08:01 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Span.hpp"
 
-Span::Span(unsigned int N): N(N) {};
+Span::Span(unsigned int N): N(N) {
+
+};
 
 Span::Span(const Span& span) {
 
@@ -56,4 +58,28 @@ int		Span::longestSpan() {
 	std::vector<int>::iterator max = std::max_element(v.begin(), v.end());
 
 	return (*max - *min);
+}
+
+iterator	Span::getBegin() {
+
+	return (v.begin());
+}
+
+iterator	Span::getEnd() {
+
+	return (v.end());
+}
+
+int			Span::getSize() {
+
+	return (v.size());
+}
+
+void	Span::addRange(int num, std::vector<int>::iterator& start, std::vector<int>::iterator& end) {
+
+	while (start != end) {
+
+		addNumber(num);
+		++start;
+	}
 }
