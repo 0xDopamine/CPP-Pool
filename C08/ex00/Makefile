@@ -6,17 +6,17 @@ OBJS = $(SRCS:%.cpp=%.o)
 
 FLAGS = -Wall -Werror -Wextra -std=c++98
 
-CC = g++ $(FLAGS)
+CC = c++ $(FLAGS)
 
 DEL = rm -rf
 
 all: $(TARGET)
 
 %.o: %.cpp
-	g++ $(FLAGS) -c  $< -o $@
+	c++ $(FLAGS) -c  $< -o $@
 
 $(TARGET): $(OBJS)
-		g++ $(FLAGS) $(OBJS) -o $(TARGET)
+		c++ $(FLAGS) $(OBJS) -o $(TARGET)
 
 re: fclean all
 

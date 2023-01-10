@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/07 18:15:32 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/08 17:52:37 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/10 19:15:47 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,9 +28,9 @@ class	NotFoundException: public std::exception {
 
 template<typename T>
 
-int easyfind(T& haystack, int needle) {
+int easyfind(const T& haystack, int needle) {
 	
-	typename T::iterator it = std::find(haystack.begin(), haystack.end(), needle);
+	typename T::const_iterator it = std::find(haystack.begin(), haystack.end(), needle);
 	if (it != haystack.end())
 		return (std::distance(haystack.begin(), it));
 	throw NotFoundException();

@@ -6,14 +6,14 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/08 18:39:30 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/01/10 19:08:01 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/01/10 19:35:05 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Span.hpp"
 
 Span::Span(unsigned int N): N(N) {
-
+	
 };
 
 Span::Span(const Span& span) {
@@ -36,50 +36,54 @@ Span&	Span::operator=(const Span& span) {
 
 void	Span::addNumber(int num) {
 
-	v.push_back(num);
+	if (N > v.size())
+		v.push_back(num);
+	else
+		throw std::out_of_range("Out of range");
 }
 
-int		Span::shortestSpan() {
+int		Span::shortestSpan() const{
 
 	int	min = INT_MAX;
-	std::sort(v.begin(), v.end());
-	for (int i = 0; i < (int)v.size() - 1; i++) {
-		for (int j = i + 1; j < (int)v.size(); j++) {
-			if (std::abs(v[i] - v[j]) < min)
-				min = std::abs(v[i] - v[j]);
+	std::vector<int> tmp(v);
+
+	if (v.empty())
+		throw std::runtime_error("vector is empty");
+	std::sort(tmp.begin(), tmp.end());
+
+	for (size_t i = 0; i < tmp.size() - 1; i++) {
+		for (size_t j = i + 1; j < tmp.size(); j++) {
+			if (std::abs(tmp[i] - tmp[j]) < min)
+				min = std::abs(tmp[i] - tmp[j]);
 		}
 	}
 	return (min);
 }
 
-int		Span::longestSpan() {
+long		Span::longestSpan()  const{
 
-	std::vector<int>::iterator min = std::min_element(v.begin(), v.end()) ;
-	std::vector<int>::iterator max = std::max_element(v.begin(), v.end());
+	if (v.empty())
+		throw std::runtime_error("vector is empty");
+	std::vector<int>::const_iterator min = std::min_element(v.begin(), v.end());
+	std::vector<int>::const_iterator max = std::max_element(v.begin(), v.end());
 
-	return (*max - *min);
+	return (static_cast<long>(*max) - static_cast<long>(*min));
 }
 
-iterator	Span::getBegin() {
-
-	return (v.begin());
-}
-
-iterator	Span::getEnd() {
-
-	return (v.end());
-}
-
-int			Span::getSize() {
+int			Span::getSize() const{
 
 	return (v.size());
 }
 
 void	Span::addRange(int num, std::vector<int>::iterator& start, std::vector<int>::iterator& end) {
 
-	while (start != end) {
-
-		addNumber(num);
-		++start;
+	if (N >= std::distance(start, end))
+	{
+		while (start != end) {
+			addNumber(num);
+			++start;
+		}
 	}
+	else
+		throw std::out_of_range("Out of range");
 }
