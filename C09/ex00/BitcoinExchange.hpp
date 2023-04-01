@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:07:29 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/01 18:13:52 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/01 21:53:11 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ class BitcoinExchange {
         ~BitcoinExchange();
         void    opendatabase(void);
         void    openinputfile(std::string filename);
-        void    print_result();
+        void    print_result(double &value, std::string date);
 } ;
 
 #endif
