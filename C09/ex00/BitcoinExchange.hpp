@@ -27,7 +27,7 @@ class BitcoinExchange {
         ~BitcoinExchange();
         void    opendatabase(void);
         void    openinputfile(std::string filename);
-        void    print_result(double &value, std::string date);
+        void    print_result(double &value, std::string &date);
 } ;
 
 #endif

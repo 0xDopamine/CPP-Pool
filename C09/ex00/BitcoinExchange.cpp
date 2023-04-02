@@ -77,9 +77,24 @@ bool    check_value(double& value)
     return (true);
 }
 
-void    BitcoinExchange::print_result(double &value, std::string date) {
+void    BitcoinExchange::print_result(double &value, std::string &date) {
 
+    double  rate;
+    double  result; 
+    std::map<std::string, double>::iterator it = map.find(date); 
     
+    if (it == map.end())
+    {
+        std::map<std::string, double>::iterator closest = map.lower_bound(date);
+        rate = map[closest->first];
+        result = value * rate;
+    }
+    else
+    {
+        rate = map[date];
+        result = value * rate;
+    }
+    std::cout << date << "==> " << value << " = " << result << std::endl;
 }
 
 void    BitcoinExchange::openinputfile(std::string filename) {
@@ -89,7 +104,7 @@ void    BitcoinExchange::openinputfile(std::string filename) {
     double      value;
     std::string date;
     std::string tmp;
-    bool        first_line;
+    bool        first_line = true;
 
     if (file.is_open())
     {
@@ -99,12 +114,10 @@ void    BitcoinExchange::openinputfile(std::string filename) {
             std::getline(str, date, '|'), str >> value;
             if (first_line)
                 first_line = false;
-            if (!first_line)
+            else
             {
                 if (check_date(date) && check_value(value))
-                {
-                    std::cout << "ok" << std::endl;
-                }
+                    print_result(value, date);
             }
         }
     }
