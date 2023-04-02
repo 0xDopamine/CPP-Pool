@@ -9418,28 +9418,6 @@
               ]
             ],
             "isComplete": true
-          },
-          "31ba62e4-800b-4a1c-3dc0-1d6e76f8edab": {
-            "id": "31ba62e4-800b-4a1c-3dc0-1d6e76f8edab",
-            "type": "text",
-            "name": "Text",
-            "parentId": "2f52c6a8-bfd5-4cc1-3bf2-949fdf50bb48",
-            "childIndex": 31,
-            "point": [
-              96.63999999999999,
-              3268.86
-            ],
-            "rotation": 0,
-            "text": "The compiler",
-            "style": {
-              "color": "blue",
-              "size": "medium",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 1,
-              "font": "script",
-              "textAlign": "middle"
-            }
           }
         },
         "bindings": {}
@@ -18505,6 +18483,5982 @@
               ]
             ],
             "isComplete": true
+          },
+          "1c02ca4a-d642-4aed-0dae-7a6b2fa7d10c": {
+            "id": "1c02ca4a-d642-4aed-0dae-7a6b2fa7d10c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 24,
+            "point": [
+              1213.46,
+              3550.94
+            ],
+            "rotation": 0,
+            "text": "Iterators",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "start"
+            }
+          },
+          "77870906-c3e2-4332-0925-2730d85aafcd": {
+            "id": "77870906-c3e2-4332-0925-2730d85aafcd",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 25,
+            "point": [
+              636.52,
+              3710.74
+            ],
+            "rotation": 0,
+            "text": "an object designed to traverse through a container, prodicing access to each element along the way",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2d27c324-6d7e-4f67-08ef-ba27f0ebfc69": {
+            "id": "2d27c324-6d7e-4f67-08ef-ba27f0ebfc69",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 26,
+            "point": [
+              123.08,
+              3947.38
+            ],
+            "rotation": 0,
+            "text": "Container may provide different kinds of iterators:\n-forward iterator: walks through the array in forward order\n-reverse iterator that walks through the array in reverse order\n-input iterators,\n-output iterators,\n-bidirectional iterator\n-random access iterator",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "9bf4f788-8b1a-4536-2f9b-af84ae4f7738": {
+            "id": "9bf4f788-8b1a-4536-2f9b-af84ae4f7738",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 27,
+            "point": [
+              51.16,
+              3880.72
+            ],
+            "radius": [
+              558.1599999999996,
+              218.34000000000037
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "red",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "70719c66-1644-4d84-3264-d1b81bb2b080": {
+            "id": "70719c66-1644-4d84-3264-d1b81bb2b080",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 28,
+            "point": [
+              1228.28,
+              4088.04,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  437.62,
+                  7.36
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  218.81,
+                  3.68
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "red",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "546691aa-1153-48f9-3fe1-a05555dec17a": {
+            "id": "546691aa-1153-48f9-3fe1-a05555dec17a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 29,
+            "point": [
+              1742.94,
+              4037.2
+            ],
+            "rotation": 0,
+            "text": "Type of iterator to use depends on the type\nof the container and the operations you want to perform",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f4e6fb9d-f7a7-48a4-18c5-c6acf8bea232": {
+            "id": "f4e6fb9d-f7a7-48a4-18c5-c6acf8bea232",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 30,
+            "point": [
+              560.9,
+              4487.7
+            ],
+            "rotation": 0,
+            "text": "To walk through the elements of a container using an iterator, you can use a loop that increments or decrements\nthe iterator to move through it",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2758cf62-d21b-439b-2f83-1eff495c16b5": {
+            "id": "2758cf62-d21b-439b-2f83-1eff495c16b5",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 31,
+            "point": [
+              213.08,
+              4645.24
+            ],
+            "rotation": 0,
+            "text": "Example",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "5fda4497-9168-42d7-06a8-7abc0fcdfd1f": {
+            "id": "5fda4497-9168-42d7-06a8-7abc0fcdfd1f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 32,
+            "point": [
+              61.8,
+              4753.02
+            ],
+            "rotation": 0,
+            "text": "int main() {\n \n  std::vector<int> v = {1, 2, 3, 4, 5};\n  \n  for (std::vector<int>::iterator it = v.begin(); it != v.end(); ++it) {\n    \n      std::cout << *it << std::endl;\n  }\n  return 0;\n}",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.637647560891939,
+              "font": "mono",
+              "textAlign": "start"
+            }
+          },
+          "119df980-1873-48f0-1100-eb82a7d09530": {
+            "id": "119df980-1873-48f0-1100-eb82a7d09530",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 33,
+            "point": [
+              1034.04,
+              4944.38
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  471.58,
+                  0.48
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  235.79,
+                  0.24
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "start",
+              "font": "mono"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "35f1e958-e1a8-46c1-2c07-e273f94b041e": {
+            "id": "35f1e958-e1a8-46c1-2c07-e273f94b041e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 34,
+            "point": [
+              1575.72,
+              4833.48
+            ],
+            "rotation": 0,
+            "text": "-std::vector<int> v -> Vector of type int\n \n-std::verctor<int>::iterator it -> defining an iterator for 'v'\n \n-we initialized it with the starting iterator position of v vector\n \n-the loop iterates from v.begin (start of v) to v.end (end of v)\n \n-the * operator is used to dereference the iterator\nand access the element it points to.",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "mono",
+              "textAlign": "start"
+            }
+          },
+          "b0eba566-6415-4731-1db8-2630c97e02ea": {
+            "id": "b0eba566-6415-4731-1db8-2630c97e02ea",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 35,
+            "point": [
+              64,
+              5824.48
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "start",
+              "font": "mono"
+            },
+            "points": [
+              [
+                0,
+                31.3,
+                0.5
+              ],
+              [
+                0,
+                31.3,
+                0.5
+              ],
+              [
+                7.36,
+                31.3,
+                0.5
+              ],
+              [
+                50.48,
+                31.3,
+                0.5
+              ],
+              [
+                134.84,
+                35.98,
+                0.5
+              ],
+              [
+                202.06,
+                35.98,
+                0.5
+              ],
+              [
+                289.88,
+                35.98,
+                0.5
+              ],
+              [
+                422.84,
+                35.98,
+                0.5
+              ],
+              [
+                559.12,
+                35.98,
+                0.5
+              ],
+              [
+                695.94,
+                35.98,
+                0.5
+              ],
+              [
+                822.22,
+                35.98,
+                0.5
+              ],
+              [
+                996,
+                35.98,
+                0.5
+              ],
+              [
+                1088.66,
+                35.98,
+                0.5
+              ],
+              [
+                1162.6,
+                35.98,
+                0.5
+              ],
+              [
+                1239.1,
+                35.98,
+                0.5
+              ],
+              [
+                1303.38,
+                35.98,
+                0.5
+              ],
+              [
+                1365.26,
+                35.98,
+                0.5
+              ],
+              [
+                1429.44,
+                35.98,
+                0.5
+              ],
+              [
+                1491.32,
+                35.98,
+                0.5
+              ],
+              [
+                1565.26,
+                35.98,
+                0.5
+              ],
+              [
+                1624.92,
+                35.98,
+                0.5
+              ],
+              [
+                1689.2,
+                35.98,
+                0.5
+              ],
+              [
+                1751.08,
+                35.98,
+                0.5
+              ],
+              [
+                1826.04,
+                29.98,
+                0.5
+              ],
+              [
+                1863.22,
+                25.52,
+                0.5
+              ],
+              [
+                1916.2,
+                25.52,
+                0.5
+              ],
+              [
+                1969.18,
+                24.24,
+                0.5
+              ],
+              [
+                2028.84,
+                21.44,
+                0.5
+              ],
+              [
+                2088.5,
+                20.04,
+                0.5
+              ],
+              [
+                2150.38,
+                18.7,
+                0.5
+              ],
+              [
+                2212.26,
+                18.7,
+                0.5
+              ],
+              [
+                2281.32,
+                18.7,
+                0.5
+              ],
+              [
+                2347.9,
+                18.7,
+                0.5
+              ],
+              [
+                2409.78,
+                18.7,
+                0.5
+              ],
+              [
+                2471.68,
+                17.3,
+                0.5
+              ],
+              [
+                2512.72,
+                14.84,
+                0.5
+              ],
+              [
+                2563.56,
+                12.28,
+                0.5
+              ],
+              [
+                2600.74,
+                10.06,
+                0.5
+              ],
+              [
+                2636.2,
+                6.7,
+                0.5
+              ],
+              [
+                2674.14,
+                6.7,
+                0.5
+              ],
+              [
+                2674.14,
+                5.54,
+                0.5
+              ],
+              [
+                2674.14,
+                2.1,
+                0.5
+              ],
+              [
+                2674.14,
+                0.98,
+                0.5
+              ],
+              [
+                2674.14,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "0687af36-b682-4fb7-1a44-d5b0f9b95571": {
+            "id": "0687af36-b682-4fb7-1a44-d5b0f9b95571",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 36,
+            "point": [
+              1104.38,
+              5910
+            ],
+            "rotation": 0,
+            "text": "STD <Algorithm>",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "605ac33c-72cf-497d-0045-128ea2d19f68": {
+            "id": "605ac33c-72cf-497d-0045-128ea2d19f68",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 37,
+            "point": [
+              261.66,
+              6192.56
+            ],
+            "rotation": 0,
+            "text": "std::find:",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "10a03adf-5fa8-40b7-0385-976570189122": {
+            "id": "10a03adf-5fa8-40b7-0385-976570189122",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 38,
+            "point": [
+              292.06,
+              6254.48
+            ],
+            "rotation": 0,
+            "text": "searches for the first occurence of a value in a container",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "fde79729-bcec-4395-19e0-a3524fbe1cf4": {
+            "id": "fde79729-bcec-4395-19e0-a3524fbe1cf4",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 39,
+            "point": [
+              177.54,
+              6108.74
+            ],
+            "radius": [
+              511.47,
+              161.51999999999998
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "75a61d65-271e-4707-0b13-9b82a7856afc": {
+            "id": "75a61d65-271e-4707-0b13-9b82a7856afc",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 40,
+            "point": [
+              1123.14,
+              6383.9
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0.5,
+                0,
+                0.5
+              ],
+              [
+                3.94,
+                0,
+                0.5
+              ],
+              [
+                11.54,
+                2.7,
+                0.5
+              ],
+              [
+                35.48,
+                12.88,
+                0.5
+              ],
+              [
+                87.4,
+                29.48,
+                0.5
+              ],
+              [
+                157.42,
+                46.9,
+                0.5
+              ],
+              [
+                221.7,
+                53.9,
+                0.5
+              ],
+              [
+                272.62,
+                53.9,
+                0.5
+              ],
+              [
+                304.04,
+                53.9,
+                0.5
+              ],
+              [
+                305.76,
+                53.32,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "e1f6a305-cc57-4bfa-389f-c8298dfb3c91": {
+            "id": "e1f6a305-cc57-4bfa-389f-c8298dfb3c91",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 41,
+            "point": [
+              1435.94,
+              6410.76
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                3.28,
+                0.64,
+                0.5
+              ],
+              [
+                21.26,
+                11.44,
+                0.5
+              ],
+              [
+                44.32,
+                19.18,
+                0.5
+              ],
+              [
+                65.68,
+                23.94,
+                0.5
+              ],
+              [
+                72.3,
+                25.94,
+                0.5
+              ],
+              [
+                72.78,
+                25.94,
+                0.5
+              ],
+              [
+                72.28,
+                25.94,
+                0.5
+              ],
+              [
+                60.74,
+                29.78,
+                0.5
+              ],
+              [
+                47.98,
+                33.04,
+                0.5
+              ],
+              [
+                28.1,
+                38.42,
+                0.5
+              ],
+              [
+                11.98,
+                42.78,
+                0.5
+              ],
+              [
+                3.3,
+                46.34,
+                0.5
+              ],
+              [
+                0.34,
+                46.82,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "6c75343f-ba31-43f0-3955-45ee5110ca0c": {
+            "id": "6c75343f-ba31-43f0-3955-45ee5110ca0c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 42,
+            "point": [
+              1323.1,
+              6422
+            ],
+            "rotation": 0,
+            "text": "Takes 3 parameters:\n-an iterator to the starting element in the sequence,\n-an iterator to the ending element\n-a value to search for",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "30e2505a-3756-4aed-1e20-e407dffd8041": {
+            "id": "30e2505a-3756-4aed-1e20-e407dffd8041",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 43,
+            "point": [
+              1268.1,
+              6597.16
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                270.66,
+                0,
+                0.5
+              ],
+              [
+                270.66,
+                0,
+                0.5
+              ],
+              [
+                269.6,
+                1.06,
+                0.5
+              ],
+              [
+                268.44,
+                2.78,
+                0.5
+              ],
+              [
+                266.6,
+                7.12,
+                0.5
+              ],
+              [
+                264.14,
+                12.1,
+                0.5
+              ],
+              [
+                260.86,
+                18.64,
+                0.5
+              ],
+              [
+                258.22,
+                25.16,
+                0.5
+              ],
+              [
+                254.94,
+                31.04,
+                0.5
+              ],
+              [
+                252.36,
+                36.76,
+                0.5
+              ],
+              [
+                248.82,
+                42.74,
+                0.5
+              ],
+              [
+                245.62,
+                47.8,
+                0.5
+              ],
+              [
+                241.02,
+                53.04,
+                0.5
+              ],
+              [
+                235.62,
+                59.12,
+                0.5
+              ],
+              [
+                228.58,
+                64.02,
+                0.5
+              ],
+              [
+                215.16,
+                74.12,
+                0.5
+              ],
+              [
+                199.6,
+                82.7,
+                0.5
+              ],
+              [
+                178.82,
+                93,
+                0.5
+              ],
+              [
+                149,
+                107.88,
+                0.5
+              ],
+              [
+                122.88,
+                117.9,
+                0.5
+              ],
+              [
+                97.34,
+                126.74,
+                0.5
+              ],
+              [
+                70.24,
+                133.72,
+                0.5
+              ],
+              [
+                34.8,
+                138.54,
+                0.5
+              ],
+              [
+                18.84,
+                141.02,
+                0.5
+              ],
+              [
+                8.44,
+                142.48,
+                0.5
+              ],
+              [
+                1.56,
+                143.22,
+                0.5
+              ],
+              [
+                0,
+                143.22,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "ca8b5ea2-bcb5-4164-2af9-6c779b5fd25b": {
+            "id": "ca8b5ea2-bcb5-4164-2af9-6c779b5fd25b",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 44,
+            "point": [
+              1208.26,
+              6718.86
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                58.82,
+                0,
+                0.5
+              ],
+              [
+                58.82,
+                0,
+                0.5
+              ],
+              [
+                57.1,
+                0,
+                0.5
+              ],
+              [
+                47.78,
+                2.9,
+                0.5
+              ],
+              [
+                32.56,
+                9.72,
+                0.5
+              ],
+              [
+                17.82,
+                16.24,
+                0.5
+              ],
+              [
+                3.28,
+                23.88,
+                0.5
+              ],
+              [
+                0.5,
+                24.98,
+                0.5
+              ],
+              [
+                0,
+                25.46,
+                0.5
+              ],
+              [
+                0,
+                25.94,
+                0.5
+              ],
+              [
+                0,
+                26.44,
+                0.5
+              ],
+              [
+                0,
+                27.5,
+                0.5
+              ],
+              [
+                0.52,
+                28.56,
+                0.5
+              ],
+              [
+                3.32,
+                29.66,
+                0.5
+              ],
+              [
+                7.48,
+                30.8,
+                0.5
+              ],
+              [
+                14.02,
+                32.1,
+                0.5
+              ],
+              [
+                28.48,
+                34.26,
+                0.5
+              ],
+              [
+                37.78,
+                34.26,
+                0.5
+              ],
+              [
+                41.54,
+                34.26,
+                0.5
+              ],
+              [
+                44,
+                34.26,
+                0.5
+              ],
+              [
+                51.42,
+                34.26,
+                0.5
+              ],
+              [
+                60.74,
+                34.26,
+                0.5
+              ],
+              [
+                65.72,
+                34.26,
+                0.5
+              ],
+              [
+                68.5,
+                34.26,
+                0.5
+              ],
+              [
+                69.56,
+                34.26,
+                0.5
+              ],
+              [
+                70.04,
+                34.26,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "c9bc836b-35b3-4a07-1a7b-2503d4f532fa": {
+            "id": "c9bc836b-35b3-4a07-1a7b-2503d4f532fa",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 45,
+            "point": [
+              325.62,
+              6718.96
+            ],
+            "rotation": 0,
+            "text": "returns an iterator pointing to the element (if found)\nor the end of the container (if not found)",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1ddf12ef-c0fd-470a-3262-e494242494b2": {
+            "id": "1ddf12ef-c0fd-470a-3262-e494242494b2",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 46,
+            "point": [
+              203.94,
+              6907.82
+            ],
+            "radius": [
+              520.05,
+              159.60000000000036
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "bdf34570-643c-44ea-36d5-ee48f3eb881e": {
+            "id": "bdf34570-643c-44ea-36d5-ee48f3eb881e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 47,
+            "point": [
+              289.6,
+              6976.46
+            ],
+            "rotation": 0,
+            "text": "std::sort:",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "7099f5d9-8436-4148-3edf-6d126513f56e": {
+            "id": "7099f5d9-8436-4148-3edf-6d126513f56e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 48,
+            "point": [
+              252.84,
+              7043.26
+            ],
+            "rotation": 0,
+            "text": "sorts the elements in a range [first, last] into ascending order",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "894124da-eba5-456f-1cb2-d00b8bf28a20": {
+            "id": "894124da-eba5-456f-1cb2-d00b8bf28a20",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 49,
+            "point": [
+              1183.88,
+              7185.21
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0.02,
+                0.5,
+                0.5
+              ],
+              [
+                3.08,
+                4.78,
+                0.5
+              ],
+              [
+                16.56,
+                16.8,
+                0.5
+              ],
+              [
+                33.7,
+                27.68,
+                0.5
+              ],
+              [
+                58.36,
+                38.42,
+                0.5
+              ],
+              [
+                95.04,
+                54.46,
+                0.5
+              ],
+              [
+                148.02,
+                68.7,
+                0.5
+              ],
+              [
+                203.24,
+                76.48,
+                0.5
+              ],
+              [
+                254.08,
+                84.1,
+                0.5
+              ],
+              [
+                293.06,
+                88.68,
+                0.5
+              ],
+              [
+                318.68,
+                92.68,
+                0.5
+              ],
+              [
+                332.4,
+                93.54,
+                0.5
+              ],
+              [
+                335.34,
+                93.54,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "d985c6e4-698a-4241-0fed-56dd0a0058e1": {
+            "id": "d985c6e4-698a-4241-0fed-56dd0a0058e1",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 50,
+            "point": [
+              1535.02,
+              7263.03
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                4.42,
+                6.22,
+                0.5
+              ],
+              [
+                25.44,
+                18.52,
+                0.5
+              ],
+              [
+                60.82,
+                29.56,
+                0.5
+              ],
+              [
+                98.16,
+                36.32,
+                0.5
+              ],
+              [
+                120.82,
+                40,
+                0.5
+              ],
+              [
+                122.38,
+                40.48,
+                0.5
+              ],
+              [
+                120.64,
+                40.48,
+                0.5
+              ],
+              [
+                108.2,
+                40.48,
+                0.5
+              ],
+              [
+                87.02,
+                40.48,
+                0.5
+              ],
+              [
+                51.48,
+                40.48,
+                0.5
+              ],
+              [
+                36.68,
+                40.48,
+                0.5
+              ],
+              [
+                32.48,
+                39.28,
+                0.5
+              ],
+              [
+                31.42,
+                39.28,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "afd0ecb1-3df5-415d-0d3e-caecc3e426f2": {
+            "id": "afd0ecb1-3df5-415d-0d3e-caecc3e426f2",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 51,
+            "point": [
+              1504.28,
+              7339.07
+            ],
+            "rotation": 0,
+            "text": "takes 2 parameters, usually v.begin() and v.end()",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "2d307048-e14c-4f60-0754-02af2b285416": {
+            "id": "2d307048-e14c-4f60-0754-02af2b285416",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 52,
+            "point": [
+              1147.96,
+              7452.67
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                410,
+                0.5,
+                0.5
+              ],
+              [
+                410,
+                0.5,
+                0.5
+              ],
+              [
+                409.5,
+                0,
+                0.5
+              ],
+              [
+                406.24,
+                1.96,
+                0.5
+              ],
+              [
+                391.5,
+                17.62,
+                0.5
+              ],
+              [
+                368,
+                40,
+                0.5
+              ],
+              [
+                332.96,
+                63.4,
+                0.5
+              ],
+              [
+                295.58,
+                83.26,
+                0.5
+              ],
+              [
+                266.36,
+                91.68,
+                0.5
+              ],
+              [
+                245.98,
+                98.3,
+                0.5
+              ],
+              [
+                226.08,
+                100.66,
+                0.5
+              ],
+              [
+                215.44,
+                100.66,
+                0.5
+              ],
+              [
+                198.18,
+                100.66,
+                0.5
+              ],
+              [
+                172.3,
+                100.66,
+                0.5
+              ],
+              [
+                140.28,
+                100.66,
+                0.5
+              ],
+              [
+                87.28,
+                100.66,
+                0.5
+              ],
+              [
+                40.46,
+                104.38,
+                0.5
+              ],
+              [
+                11.48,
+                109.42,
+                0.5
+              ],
+              [
+                1.08,
+                110.1,
+                0.5
+              ],
+              [
+                0,
+                110.1,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "e91f652a-c074-4ec0-2535-2a5fa5f89d24": {
+            "id": "e91f652a-c074-4ec0-2535-2a5fa5f89d24",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 53,
+            "point": [
+              1122.74,
+              7540.57
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                36.16,
+                0,
+                0.5
+              ],
+              [
+                36.16,
+                0,
+                0.5
+              ],
+              [
+                35.66,
+                0,
+                0.5
+              ],
+              [
+                27.08,
+                4.38,
+                0.5
+              ],
+              [
+                17.26,
+                10.42,
+                0.5
+              ],
+              [
+                10.08,
+                16.88,
+                0.5
+              ],
+              [
+                3.78,
+                23.18,
+                0.5
+              ],
+              [
+                0.98,
+                25.38,
+                0.5
+              ],
+              [
+                0,
+                26.34,
+                0.5
+              ],
+              [
+                0,
+                27.4,
+                0.5
+              ],
+              [
+                0,
+                27.88,
+                0.5
+              ],
+              [
+                9.2,
+                33,
+                0.5
+              ],
+              [
+                22.76,
+                36.22,
+                0.5
+              ],
+              [
+                31.18,
+                37.6,
+                0.5
+              ],
+              [
+                32.14,
+                37.6,
+                0.5
+              ],
+              [
+                33.2,
+                37.6,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "c164eccc-fc2b-4d53-1b1f-91a4b1560997": {
+            "id": "c164eccc-fc2b-4d53-1b1f-91a4b1560997",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 54,
+            "point": [
+              307.48,
+              7508.69
+            ],
+            "rotation": 0,
+            "text": "doesnt return a value\nit just sorts the container that was passed",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "1dcffa31-fc61-4cfd-3d04-5d9422753fa1": {
+            "id": "1dcffa31-fc61-4cfd-3d04-5d9422753fa1",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 55,
+            "point": [
+              807.58,
+              5156.82
+            ],
+            "rotation": 0,
+            "text": "Difference between a pointer and an iterator",
+            "style": {
+              "color": "green",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.3458274398868457,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "204d7131-1462-4e72-2f36-d3dad6c17d7d": {
+            "id": "204d7131-1462-4e72-2f36-d3dad6c17d7d",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 56,
+            "point": [
+              310,
+              5260.28
+            ],
+            "size": [
+              2077.7,
+              559.06
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "23e81cd0-61dd-4766-15d9-8ae7447b9900": {
+            "id": "23e81cd0-61dd-4766-15d9-8ae7447b9900",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 57,
+            "point": [
+              1313.54,
+              5267.56
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                7.5,
+                0,
+                0.5
+              ],
+              [
+                7.5,
+                0,
+                0.5
+              ],
+              [
+                7,
+                0.48,
+                0.5
+              ],
+              [
+                7,
+                15.28,
+                0.5
+              ],
+              [
+                7,
+                33.76,
+                0.5
+              ],
+              [
+                7,
+                50.94,
+                0.5
+              ],
+              [
+                7,
+                64.5,
+                0.5
+              ],
+              [
+                7,
+                75.86,
+                0.5
+              ],
+              [
+                7,
+                83.46,
+                0.5
+              ],
+              [
+                7,
+                91.64,
+                0.5
+              ],
+              [
+                7,
+                97.36,
+                0.5
+              ],
+              [
+                7,
+                103.08,
+                0.5
+              ],
+              [
+                7,
+                107.24,
+                0.5
+              ],
+              [
+                7,
+                110.76,
+                0.5
+              ],
+              [
+                7,
+                113.54,
+                0.5
+              ],
+              [
+                7,
+                118.44,
+                0.5
+              ],
+              [
+                7,
+                121.96,
+                0.5
+              ],
+              [
+                7,
+                126.88,
+                0.5
+              ],
+              [
+                7,
+                133.4,
+                0.5
+              ],
+              [
+                6.42,
+                138.38,
+                0.5
+              ],
+              [
+                5.8,
+                144.1,
+                0.5
+              ],
+              [
+                4.56,
+                152.28,
+                0.5
+              ],
+              [
+                4.56,
+                155.8,
+                0.5
+              ],
+              [
+                4.04,
+                159.3,
+                0.5
+              ],
+              [
+                4.04,
+                162.82,
+                0.5
+              ],
+              [
+                4.04,
+                167,
+                0.5
+              ],
+              [
+                3.54,
+                167.96,
+                0.5
+              ],
+              [
+                3.54,
+                170.74,
+                0.5
+              ],
+              [
+                3.54,
+                172.94,
+                0.5
+              ],
+              [
+                2.42,
+                175.74,
+                0.5
+              ],
+              [
+                1.88,
+                179.24,
+                0.5
+              ],
+              [
+                1.88,
+                182.02,
+                0.5
+              ],
+              [
+                1.88,
+                185.54,
+                0.5
+              ],
+              [
+                1.88,
+                191.52,
+                0.5
+              ],
+              [
+                1.88,
+                195.68,
+                0.5
+              ],
+              [
+                1.88,
+                199.2,
+                0.5
+              ],
+              [
+                1.88,
+                201.98,
+                0.5
+              ],
+              [
+                1.88,
+                205.5,
+                0.5
+              ],
+              [
+                1.88,
+                207.7,
+                0.5
+              ],
+              [
+                1.88,
+                211.22,
+                0.5
+              ],
+              [
+                1.88,
+                213.66,
+                0.5
+              ],
+              [
+                1.88,
+                214.64,
+                0.5
+              ],
+              [
+                1.88,
+                216.84,
+                0.5
+              ],
+              [
+                1.88,
+                220.36,
+                0.5
+              ],
+              [
+                1.88,
+                224.52,
+                0.5
+              ],
+              [
+                1.88,
+                227.96,
+                0.5
+              ],
+              [
+                1.88,
+                231.48,
+                0.5
+              ],
+              [
+                1.88,
+                235,
+                0.5
+              ],
+              [
+                1.88,
+                239.16,
+                0.5
+              ],
+              [
+                1.88,
+                242.6,
+                0.5
+              ],
+              [
+                1.88,
+                246.04,
+                0.5
+              ],
+              [
+                1.88,
+                248.82,
+                0.5
+              ],
+              [
+                1.88,
+                253.74,
+                0.5
+              ],
+              [
+                1.88,
+                257.9,
+                0.5
+              ],
+              [
+                1.88,
+                267.78,
+                0.5
+              ],
+              [
+                1.88,
+                273.5,
+                0.5
+              ],
+              [
+                1.88,
+                279.22,
+                0.5
+              ],
+              [
+                1.88,
+                285.76,
+                0.5
+              ],
+              [
+                1.88,
+                292.28,
+                0.5
+              ],
+              [
+                1.88,
+                298.82,
+                0.5
+              ],
+              [
+                1.88,
+                305.34,
+                0.5
+              ],
+              [
+                1.88,
+                312.78,
+                0.5
+              ],
+              [
+                1.88,
+                318.5,
+                0.5
+              ],
+              [
+                1.88,
+                322.02,
+                0.5
+              ],
+              [
+                1.88,
+                328.54,
+                0.5
+              ],
+              [
+                1.88,
+                332.72,
+                0.5
+              ],
+              [
+                1.88,
+                340.08,
+                0.5
+              ],
+              [
+                1.88,
+                345.06,
+                0.5
+              ],
+              [
+                1.88,
+                350.78,
+                0.5
+              ],
+              [
+                1.88,
+                357.3,
+                0.5
+              ],
+              [
+                1.88,
+                363.02,
+                0.5
+              ],
+              [
+                1.88,
+                368.74,
+                0.5
+              ],
+              [
+                1.88,
+                372.92,
+                0.5
+              ],
+              [
+                1.88,
+                378.64,
+                0.5
+              ],
+              [
+                1.88,
+                382.8,
+                0.5
+              ],
+              [
+                1.88,
+                387.72,
+                0.5
+              ],
+              [
+                1.88,
+                393.44,
+                0.5
+              ],
+              [
+                1.88,
+                398.42,
+                0.5
+              ],
+              [
+                1.88,
+                405.78,
+                0.5
+              ],
+              [
+                1.88,
+                409.22,
+                0.5
+              ],
+              [
+                1.88,
+                413.38,
+                0.5
+              ],
+              [
+                1.88,
+                419.1,
+                0.5
+              ],
+              [
+                1.26,
+                424.02,
+                0.5
+              ],
+              [
+                1.26,
+                429,
+                0.5
+              ],
+              [
+                1.26,
+                434.72,
+                0.5
+              ],
+              [
+                1.26,
+                441.24,
+                0.5
+              ],
+              [
+                1.26,
+                446.96,
+                0.5
+              ],
+              [
+                1.26,
+                451.88,
+                0.5
+              ],
+              [
+                1.26,
+                457.6,
+                0.5
+              ],
+              [
+                1.26,
+                465.92,
+                0.5
+              ],
+              [
+                1.26,
+                477.52,
+                0.5
+              ],
+              [
+                1.26,
+                484.94,
+                0.5
+              ],
+              [
+                0.6,
+                491.48,
+                0.5
+              ],
+              [
+                0,
+                497.2,
+                0.5
+              ],
+              [
+                0,
+                502.92,
+                0.5
+              ],
+              [
+                0,
+                506.34,
+                0.5
+              ],
+              [
+                0,
+                509.86,
+                0.5
+              ],
+              [
+                0,
+                512.64,
+                0.5
+              ],
+              [
+                0,
+                514.84,
+                0.5
+              ],
+              [
+                0,
+                517.62,
+                0.5
+              ],
+              [
+                0,
+                520.42,
+                0.5
+              ],
+              [
+                0,
+                522.62,
+                0.5
+              ],
+              [
+                0,
+                524.64,
+                0.5
+              ],
+              [
+                0,
+                526.76,
+                0.5
+              ],
+              [
+                0,
+                528.9,
+                0.5
+              ],
+              [
+                0,
+                531.02,
+                0.5
+              ],
+              [
+                0,
+                532.56,
+                0.5
+              ],
+              [
+                0,
+                534.12,
+                0.5
+              ],
+              [
+                0,
+                535.18,
+                0.5
+              ],
+              [
+                0,
+                536.72,
+                0.5
+              ],
+              [
+                0,
+                537.78,
+                0.5
+              ],
+              [
+                0,
+                538.26,
+                0.5
+              ],
+              [
+                0,
+                538.76,
+                0.5
+              ],
+              [
+                0,
+                539.24,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "fa87db21-0ea9-4b49-3ff2-202e1cd057d4": {
+            "id": "fa87db21-0ea9-4b49-3ff2-202e1cd057d4",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 58,
+            "point": [
+              308.66,
+              5325.92
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                17.58,
+                0.5
+              ],
+              [
+                0,
+                17.58,
+                0.5
+              ],
+              [
+                7.36,
+                17.6,
+                0.5
+              ],
+              [
+                54.44,
+                17.6,
+                0.5
+              ],
+              [
+                101.48,
+                17.6,
+                0.5
+              ],
+              [
+                140.8,
+                17.6,
+                0.5
+              ],
+              [
+                177.98,
+                17.6,
+                0.5
+              ],
+              [
+                208.44,
+                17.6,
+                0.5
+              ],
+              [
+                233.98,
+                16.62,
+                0.5
+              ],
+              [
+                253.76,
+                16.62,
+                0.5
+              ],
+              [
+                274.94,
+                16.62,
+                0.5
+              ],
+              [
+                294.72,
+                15.7,
+                0.5
+              ],
+              [
+                311.88,
+                15.7,
+                0.5
+              ],
+              [
+                326.6,
+                15.7,
+                0.5
+              ],
+              [
+                346.38,
+                15.7,
+                0.5
+              ],
+              [
+                358.9,
+                15.7,
+                0.5
+              ],
+              [
+                373.62,
+                14.06,
+                0.5
+              ],
+              [
+                388.34,
+                14.06,
+                0.5
+              ],
+              [
+                404.28,
+                14.06,
+                0.5
+              ],
+              [
+                422.76,
+                14.06,
+                0.5
+              ],
+              [
+                443.94,
+                14.06,
+                0.5
+              ],
+              [
+                466.52,
+                14.06,
+                0.5
+              ],
+              [
+                490.56,
+                14.06,
+                0.5
+              ],
+              [
+                516.1,
+                14.06,
+                0.5
+              ],
+              [
+                540.16,
+                12.14,
+                0.5
+              ],
+              [
+                564.2,
+                12.14,
+                0.5
+              ],
+              [
+                589.82,
+                12.14,
+                0.5
+              ],
+              [
+                619.52,
+                12.14,
+                0.5
+              ],
+              [
+                633.34,
+                12.14,
+                0.5
+              ],
+              [
+                655.92,
+                12.14,
+                0.5
+              ],
+              [
+                681.52,
+                12.14,
+                0.5
+              ],
+              [
+                704.18,
+                12.14,
+                0.5
+              ],
+              [
+                721.36,
+                12.14,
+                0.5
+              ],
+              [
+                737.3,
+                12.14,
+                0.5
+              ],
+              [
+                753.24,
+                12.14,
+                0.5
+              ],
+              [
+                765.66,
+                12.14,
+                0.5
+              ],
+              [
+                781.62,
+                12.14,
+                0.5
+              ],
+              [
+                800.1,
+                12.14,
+                0.5
+              ],
+              [
+                817.26,
+                11.28,
+                0.5
+              ],
+              [
+                843.1,
+                8.58,
+                0.5
+              ],
+              [
+                861.58,
+                7.72,
+                0.5
+              ],
+              [
+                882.76,
+                4.96,
+                0.5
+              ],
+              [
+                903.94,
+                4.96,
+                0.5
+              ],
+              [
+                922.42,
+                2.3,
+                0.5
+              ],
+              [
+                942.2,
+                0.5,
+                0.5
+              ],
+              [
+                964.84,
+                0.5,
+                0.5
+              ],
+              [
+                983.32,
+                0.5,
+                0.5
+              ],
+              [
+                1004.5,
+                0.5,
+                0.5
+              ],
+              [
+                1024.28,
+                0.5,
+                0.5
+              ],
+              [
+                1042.76,
+                0.5,
+                0.5
+              ],
+              [
+                1059.94,
+                0.5,
+                0.5
+              ],
+              [
+                1085.7,
+                0.5,
+                0.5
+              ],
+              [
+                1100.48,
+                0.5,
+                0.5
+              ],
+              [
+                1111.84,
+                0.5,
+                0.5
+              ],
+              [
+                1123.2,
+                0.5,
+                0.5
+              ],
+              [
+                1135.72,
+                0.5,
+                0.5
+              ],
+              [
+                1151.66,
+                0.5,
+                0.5
+              ],
+              [
+                1168.84,
+                0.5,
+                0.5
+              ],
+              [
+                1186,
+                0.5,
+                0.5
+              ],
+              [
+                1201.94,
+                0.5,
+                0.5
+              ],
+              [
+                1215.52,
+                0.5,
+                0.5
+              ],
+              [
+                1230.24,
+                0.5,
+                0.5
+              ],
+              [
+                1242.66,
+                0.5,
+                0.5
+              ],
+              [
+                1258.1,
+                0.5,
+                0.5
+              ],
+              [
+                1268.48,
+                0.5,
+                0.5
+              ],
+              [
+                1282.06,
+                0.5,
+                0.5
+              ],
+              [
+                1298,
+                0.5,
+                0.5
+              ],
+              [
+                1315.16,
+                0.5,
+                0.5
+              ],
+              [
+                1332.34,
+                0.5,
+                0.5
+              ],
+              [
+                1348.28,
+                0.5,
+                0.5
+              ],
+              [
+                1366.76,
+                0.5,
+                0.5
+              ],
+              [
+                1386.64,
+                0.5,
+                0.5
+              ],
+              [
+                1409.22,
+                0.5,
+                0.5
+              ],
+              [
+                1439.5,
+                0.5,
+                0.5
+              ],
+              [
+                1473.14,
+                0.5,
+                0.5
+              ],
+              [
+                1529.82,
+                0.5,
+                0.5
+              ],
+              [
+                1561.74,
+                0.5,
+                0.5
+              ],
+              [
+                1595.38,
+                0.5,
+                0.5
+              ],
+              [
+                1622.64,
+                0.5,
+                0.5
+              ],
+              [
+                1651.36,
+                0.5,
+                0.5
+              ],
+              [
+                1675.42,
+                0.5,
+                0.5
+              ],
+              [
+                1699.48,
+                0.5,
+                0.5
+              ],
+              [
+                1720.66,
+                0.5,
+                0.5
+              ],
+              [
+                1741.84,
+                0.5,
+                0.5
+              ],
+              [
+                1761.62,
+                0.5,
+                0.5
+              ],
+              [
+                1780.1,
+                0.5,
+                0.5
+              ],
+              [
+                1805.84,
+                0.5,
+                0.5
+              ],
+              [
+                1821.8,
+                0.5,
+                0.5
+              ],
+              [
+                1837.74,
+                0.5,
+                0.5
+              ],
+              [
+                1848.12,
+                0.5,
+                0.5
+              ],
+              [
+                1861.68,
+                0.5,
+                0.5
+              ],
+              [
+                1874.1,
+                0.5,
+                0.5
+              ],
+              [
+                1884.4,
+                0.5,
+                0.5
+              ],
+              [
+                1894.78,
+                0.5,
+                0.5
+              ],
+              [
+                1906.14,
+                0.5,
+                0.5
+              ],
+              [
+                1915.44,
+                0.5,
+                0.5
+              ],
+              [
+                1924.76,
+                0.5,
+                0.5
+              ],
+              [
+                1936.12,
+                0.5,
+                0.5
+              ],
+              [
+                1949.6,
+                0.5,
+                0.5
+              ],
+              [
+                1958.92,
+                0.5,
+                0.5
+              ],
+              [
+                1967.24,
+                0.5,
+                0.5
+              ],
+              [
+                1971.42,
+                0.5,
+                0.5
+              ],
+              [
+                1977.12,
+                0.5,
+                0.5
+              ],
+              [
+                1982.04,
+                0.5,
+                0.5
+              ],
+              [
+                1988.56,
+                0.5,
+                0.5
+              ],
+              [
+                1996,
+                0.5,
+                0.5
+              ],
+              [
+                2003.42,
+                0.5,
+                0.5
+              ],
+              [
+                2010.86,
+                0.5,
+                0.5
+              ],
+              [
+                2015.76,
+                0.5,
+                0.5
+              ],
+              [
+                2017.88,
+                0.5,
+                0.5
+              ],
+              [
+                2019.34,
+                0,
+                0.5
+              ],
+              [
+                2021.46,
+                0,
+                0.5
+              ],
+              [
+                2024.9,
+                0,
+                0.5
+              ],
+              [
+                2032.34,
+                0,
+                0.5
+              ],
+              [
+                2040.74,
+                0,
+                0.5
+              ],
+              [
+                2046.46,
+                0,
+                0.5
+              ],
+              [
+                2049.24,
+                0,
+                0.5
+              ],
+              [
+                2049.74,
+                0,
+                0.5
+              ],
+              [
+                2050.22,
+                0,
+                0.5
+              ],
+              [
+                2053.66,
+                0,
+                0.5
+              ],
+              [
+                2058.88,
+                0,
+                0.5
+              ],
+              [
+                2062.32,
+                0,
+                0.5
+              ],
+              [
+                2065.1,
+                0,
+                0.5
+              ],
+              [
+                2068.04,
+                0,
+                0.5
+              ],
+              [
+                2069.6,
+                0,
+                0.5
+              ],
+              [
+                2070.08,
+                0,
+                0.5
+              ],
+              [
+                2070.56,
+                0,
+                0.5
+              ],
+              [
+                2071.62,
+                0,
+                0.5
+              ],
+              [
+                2072.6,
+                0,
+                0.5
+              ],
+              [
+                2074.8,
+                0,
+                0.5
+              ],
+              [
+                2078.06,
+                0,
+                0.5
+              ],
+              [
+                2078.54,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "f7e5a463-1512-472e-3e67-aa71b7d85815": {
+            "id": "f7e5a463-1512-472e-3e67-aa71b7d85815",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 59,
+            "point": [
+              684.8,
+              5268.98
+            ],
+            "rotation": 0,
+            "text": "iterator",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "8f2cb6e1-c39b-44f7-2149-2f768e0c907e": {
+            "id": "8f2cb6e1-c39b-44f7-2149-2f768e0c907e",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 60,
+            "point": [
+              1724.76,
+              5263.36
+            ],
+            "rotation": 0,
+            "text": "pointer",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "0326f778-c1fd-4fb8-00fc-cafc54f99591": {
+            "id": "0326f778-c1fd-4fb8-00fc-cafc54f99591",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 61,
+            "point": [
+              303.88,
+              5420.46
+            ],
+            "rotation": 0,
+            "text": "-an iterator is an object, that allows you to iterate\nover the elements of a container\n \n-acts like a CURSOR pointing to the curr element, can be used to move\nthrough the elements in the container and access their values.\n \n ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.9188518598223522,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "adbbedec-dabb-4168-27f0-dcde84f08321": {
+            "id": "adbbedec-dabb-4168-27f0-dcde84f08321",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 62,
+            "point": [
+              1341.92,
+              5420.3
+            ],
+            "rotation": 0,
+            "text": "-a pointer is a variable that stores a memory address of another var\n \n-can be used to refer to the value stored at that mem location,\nor to manipulate the value by changing the memory location\nto which the pointer points",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.9644827586206984,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "735b8c5f-01a5-4050-1bc7-34beb40f773a": {
+            "id": "735b8c5f-01a5-4050-1bc7-34beb40f773a",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 63,
+            "point": [
+              4.68,
+              7607.01
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                60.8,
+                0.5
+              ],
+              [
+                0,
+                60.8,
+                0.5
+              ],
+              [
+                0.48,
+                60.32,
+                0.5
+              ],
+              [
+                7.84,
+                60.32,
+                0.5
+              ],
+              [
+                29.02,
+                60.32,
+                0.5
+              ],
+              [
+                57.74,
+                63.5,
+                0.5
+              ],
+              [
+                98.62,
+                63.5,
+                0.5
+              ],
+              [
+                158.28,
+                64.88,
+                0.5
+              ],
+              [
+                220.16,
+                66.24,
+                0.5
+              ],
+              [
+                294.1,
+                66.24,
+                0.5
+              ],
+              [
+                370.6,
+                66.24,
+                0.5
+              ],
+              [
+                447.1,
+                66.24,
+                0.5
+              ],
+              [
+                521.04,
+                66.24,
+                0.5
+              ],
+              [
+                597.54,
+                66.24,
+                0.5
+              ],
+              [
+                669,
+                66.24,
+                0.5
+              ],
+              [
+                767.78,
+                71.82,
+                0.5
+              ],
+              [
+                832.06,
+                78.74,
+                0.5
+              ],
+              [
+                889.4,
+                85.46,
+                0.5
+              ],
+              [
+                942.4,
+                89.34,
+                0.5
+              ],
+              [
+                993.24,
+                89.34,
+                0.5
+              ],
+              [
+                1044.16,
+                89.34,
+                0.5
+              ],
+              [
+                1092.94,
+                89.34,
+                0.5
+              ],
+              [
+                1135.78,
+                89.34,
+                0.5
+              ],
+              [
+                1184.58,
+                89.34,
+                0.5
+              ],
+              [
+                1229.32,
+                89.34,
+                0.5
+              ],
+              [
+                1278.1,
+                89.34,
+                0.5
+              ],
+              [
+                1354.44,
+                89.34,
+                0.5
+              ],
+              [
+                1401.16,
+                89.34,
+                0.5
+              ],
+              [
+                1444,
+                89.34,
+                0.5
+              ],
+              [
+                1485.4,
+                89.34,
+                0.5
+              ],
+              [
+                1526.78,
+                89.34,
+                0.5
+              ],
+              [
+                1566.1,
+                88.12,
+                0.5
+              ],
+              [
+                1601.54,
+                88.12,
+                0.5
+              ],
+              [
+                1654.54,
+                88.12,
+                0.5
+              ],
+              [
+                1701.34,
+                85.64,
+                0.5
+              ],
+              [
+                1754.32,
+                83.1,
+                0.5
+              ],
+              [
+                1805.16,
+                75.46,
+                0.5
+              ],
+              [
+                1858.14,
+                67.7,
+                0.5
+              ],
+              [
+                1920.04,
+                58.06,
+                0.5
+              ],
+              [
+                2014,
+                44.22,
+                0.5
+              ],
+              [
+                2073.58,
+                36.08,
+                0.5
+              ],
+              [
+                2124.42,
+                28.46,
+                0.5
+              ],
+              [
+                2175.36,
+                22.04,
+                0.5
+              ],
+              [
+                2222.16,
+                17.2,
+                0.5
+              ],
+              [
+                2268.88,
+                11.04,
+                0.5
+              ],
+              [
+                2311.72,
+                6.28,
+                0.5
+              ],
+              [
+                2360.5,
+                2.56,
+                0.5
+              ],
+              [
+                2411.36,
+                0,
+                0.5
+              ],
+              [
+                2464.34,
+                0,
+                0.5
+              ],
+              [
+                2521.86,
+                0,
+                0.5
+              ],
+              [
+                2574.84,
+                0,
+                0.5
+              ],
+              [
+                2651.1,
+                0,
+                0.5
+              ],
+              [
+                2701.94,
+                0,
+                0.5
+              ],
+              [
+                2754.92,
+                0,
+                0.5
+              ],
+              [
+                2793.28,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "f88705b9-4b3a-4b4c-3615-1c95feeab423": {
+            "id": "f88705b9-4b3a-4b4c-3615-1c95feeab423",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 64,
+            "point": [
+              1152.9,
+              7755.77
+            ],
+            "rotation": 0,
+            "text": "std::stack",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "bb3a2914-bbee-4d68-2591-8d81c91e2a51": {
+            "id": "bb3a2914-bbee-4d68-2591-8d81c91e2a51",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 65,
+            "point": [
+              251.08,
+              7914.76
+            ],
+            "size": [
+              567.28,
+              831.28
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "b377e880-413b-40e9-0b82-9b53ad4a82b9": {
+            "id": "b377e880-413b-40e9-0b82-9b53ad4a82b9",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 66,
+            "point": [
+              256.86,
+              8069.2
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                1.72,
+                0,
+                0.5
+              ],
+              [
+                5.88,
+                0,
+                0.5
+              ],
+              [
+                16.26,
+                2.24,
+                0.5
+              ],
+              [
+                32.2,
+                3.9,
+                0.5
+              ],
+              [
+                53.38,
+                7.54,
+                0.5
+              ],
+              [
+                71.86,
+                9.28,
+                0.5
+              ],
+              [
+                90.34,
+                11.08,
+                0.5
+              ],
+              [
+                110.22,
+                11.08,
+                0.5
+              ],
+              [
+                126.16,
+                11.08,
+                0.5
+              ],
+              [
+                136.46,
+                11.08,
+                0.5
+              ],
+              [
+                144.86,
+                11.08,
+                0.5
+              ],
+              [
+                151.4,
+                11.08,
+                0.5
+              ],
+              [
+                154.92,
+                11.08,
+                0.5
+              ],
+              [
+                165.6,
+                11.08,
+                0.5
+              ],
+              [
+                178.12,
+                12.64,
+                0.5
+              ],
+              [
+                192.84,
+                15.08,
+                0.5
+              ],
+              [
+                210,
+                16.78,
+                0.5
+              ],
+              [
+                228.48,
+                19.38,
+                0.5
+              ],
+              [
+                246.96,
+                19.38,
+                0.5
+              ],
+              [
+                262.9,
+                20.2,
+                0.5
+              ],
+              [
+                280.08,
+                20.2,
+                0.5
+              ],
+              [
+                294.8,
+                20.2,
+                0.5
+              ],
+              [
+                309.6,
+                20.2,
+                0.5
+              ],
+              [
+                324.32,
+                20.2,
+                0.5
+              ],
+              [
+                336.82,
+                20.94,
+                0.5
+              ],
+              [
+                345.72,
+                20.94,
+                0.5
+              ],
+              [
+                354.3,
+                20.94,
+                0.5
+              ],
+              [
+                366.82,
+                20.94,
+                0.5
+              ],
+              [
+                380.38,
+                20.94,
+                0.5
+              ],
+              [
+                396.32,
+                20.94,
+                0.5
+              ],
+              [
+                413.5,
+                20.94,
+                0.5
+              ],
+              [
+                430.68,
+                20.94,
+                0.5
+              ],
+              [
+                447.84,
+                20.94,
+                0.5
+              ],
+              [
+                465.02,
+                20.94,
+                0.5
+              ],
+              [
+                479.82,
+                20.94,
+                0.5
+              ],
+              [
+                490.1,
+                20.94,
+                0.5
+              ],
+              [
+                496.82,
+                20.94,
+                0.5
+              ],
+              [
+                499.02,
+                20.94,
+                0.5
+              ],
+              [
+                500.56,
+                20.94,
+                0.5
+              ],
+              [
+                503.34,
+                20.94,
+                0.5
+              ],
+              [
+                505.54,
+                20.94,
+                0.5
+              ],
+              [
+                506.04,
+                20.94,
+                0.5
+              ],
+              [
+                507.1,
+                20.94,
+                0.5
+              ],
+              [
+                508.16,
+                20.94,
+                0.5
+              ],
+              [
+                516.4,
+                20.94,
+                0.5
+              ],
+              [
+                520.58,
+                20.94,
+                0.5
+              ],
+              [
+                522.12,
+                20.94,
+                0.5
+              ],
+              [
+                522.6,
+                20.94,
+                0.5
+              ],
+              [
+                523.1,
+                20.94,
+                0.5
+              ],
+              [
+                523.58,
+                20.94,
+                0.5
+              ],
+              [
+                525.12,
+                20.94,
+                0.5
+              ],
+              [
+                525.6,
+                20.94,
+                0.5
+              ],
+              [
+                526.1,
+                20.94,
+                0.5
+              ],
+              [
+                528.88,
+                20.94,
+                0.5
+              ],
+              [
+                533.04,
+                20.94,
+                0.5
+              ],
+              [
+                537.22,
+                20.94,
+                0.5
+              ],
+              [
+                540,
+                20.94,
+                0.5
+              ],
+              [
+                540.48,
+                20.94,
+                0.5
+              ],
+              [
+                541.54,
+                20.94,
+                0.5
+              ],
+              [
+                542.04,
+                20.94,
+                0.5
+              ],
+              [
+                542.52,
+                20.94,
+                0.5
+              ],
+              [
+                544.72,
+                20.94,
+                0.5
+              ],
+              [
+                545.2,
+                20.94,
+                0.5
+              ],
+              [
+                547.98,
+                20.94,
+                0.5
+              ],
+              [
+                549.04,
+                20.94,
+                0.5
+              ],
+              [
+                550.02,
+                20.94,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "adf7101f-113a-49da-386b-fd57e6acc6b5": {
+            "id": "adf7101f-113a-49da-386b-fd57e6acc6b5",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 67,
+            "point": [
+              264.24,
+              8246.58
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                3.28,
+                0.5
+              ],
+              [
+                0,
+                3.28,
+                0.5
+              ],
+              [
+                2.46,
+                2.04,
+                0.5
+              ],
+              [
+                7.6,
+                2.04,
+                0.5
+              ],
+              [
+                48.2,
+                2.04,
+                0.5
+              ],
+              [
+                93.12,
+                2.04,
+                0.5
+              ],
+              [
+                141.9,
+                2.04,
+                0.5
+              ],
+              [
+                179.24,
+                0.98,
+                0.5
+              ],
+              [
+                203.44,
+                0.98,
+                0.5
+              ],
+              [
+                217.02,
+                0.98,
+                0.5
+              ],
+              [
+                225.44,
+                0.98,
+                0.5
+              ],
+              [
+                231.16,
+                0.98,
+                0.5
+              ],
+              [
+                235.8,
+                0.98,
+                0.5
+              ],
+              [
+                236.86,
+                0.98,
+                0.5
+              ],
+              [
+                256.64,
+                0.98,
+                0.5
+              ],
+              [
+                287.72,
+                0.98,
+                0.5
+              ],
+              [
+                310.36,
+                0.98,
+                0.5
+              ],
+              [
+                334.42,
+                0.98,
+                0.5
+              ],
+              [
+                354.2,
+                0.98,
+                0.5
+              ],
+              [
+                376.78,
+                0.98,
+                0.5
+              ],
+              [
+                395.26,
+                0.98,
+                0.5
+              ],
+              [
+                413.74,
+                0.98,
+                0.5
+              ],
+              [
+                427.3,
+                0.98,
+                0.5
+              ],
+              [
+                442.02,
+                0.98,
+                0.5
+              ],
+              [
+                459.2,
+                0.98,
+                0.5
+              ],
+              [
+                467.78,
+                0.98,
+                0.5
+              ],
+              [
+                492.32,
+                0.98,
+                0.5
+              ],
+              [
+                504.82,
+                0.98,
+                0.5
+              ],
+              [
+                511.18,
+                0.48,
+                0.5
+              ],
+              [
+                511.68,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "f95bb492-1d8c-45da-20ed-1f8b98a22055": {
+            "id": "f95bb492-1d8c-45da-20ed-1f8b98a22055",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 68,
+            "point": [
+              264.44,
+              8410.88
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0.5,
+                3.68,
+                0.5
+              ],
+              [
+                0.5,
+                3.68,
+                0.5
+              ],
+              [
+                0,
+                3.18,
+                0.5
+              ],
+              [
+                13.74,
+                3.18,
+                0.5
+              ],
+              [
+                70.58,
+                3.18,
+                0.5
+              ],
+              [
+                125.8,
+                3.18,
+                0.5
+              ],
+              [
+                181,
+                3.18,
+                0.5
+              ],
+              [
+                229.78,
+                3.18,
+                0.5
+              ],
+              [
+                260.06,
+                0,
+                0.5
+              ],
+              [
+                276.1,
+                1,
+                0.5
+              ],
+              [
+                284.7,
+                1,
+                0.5
+              ],
+              [
+                296.06,
+                1.78,
+                0.5
+              ],
+              [
+                306.42,
+                2.56,
+                0.5
+              ],
+              [
+                316.8,
+                2.56,
+                0.5
+              ],
+              [
+                327.1,
+                3.28,
+                0.5
+              ],
+              [
+                333.64,
+                5.24,
+                0.5
+              ],
+              [
+                341.96,
+                5.92,
+                0.5
+              ],
+              [
+                360.68,
+                8.98,
+                0.5
+              ],
+              [
+                377.84,
+                10.68,
+                0.5
+              ],
+              [
+                387.74,
+                12.48,
+                0.5
+              ],
+              [
+                396.32,
+                13.34,
+                0.5
+              ],
+              [
+                430.66,
+                15.04,
+                0.5
+              ],
+              [
+                445.38,
+                17.48,
+                0.5
+              ],
+              [
+                459.12,
+                19.06,
+                0.5
+              ],
+              [
+                472.7,
+                21.48,
+                0.5
+              ],
+              [
+                480.12,
+                21.48,
+                0.5
+              ],
+              [
+                484.3,
+                21.48,
+                0.5
+              ],
+              [
+                489.2,
+                21.48,
+                0.5
+              ],
+              [
+                495.16,
+                21.48,
+                0.5
+              ],
+              [
+                499.34,
+                21.48,
+                0.5
+              ],
+              [
+                501.46,
+                21.48,
+                0.5
+              ],
+              [
+                501.96,
+                21.48,
+                0.5
+              ],
+              [
+                503.02,
+                21.48,
+                0.5
+              ],
+              [
+                503.98,
+                21.48,
+                0.5
+              ],
+              [
+                506.92,
+                21.48,
+                0.5
+              ],
+              [
+                517.54,
+                21.48,
+                0.5
+              ],
+              [
+                531.12,
+                21.48,
+                0.5
+              ],
+              [
+                545.92,
+                21.48,
+                0.5
+              ],
+              [
+                551.14,
+                21.48,
+                0.5
+              ],
+              [
+                551.62,
+                21.48,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "14772e4b-35bb-44e5-0951-efda5ca74048": {
+            "id": "14772e4b-35bb-44e5-0951-efda5ca74048",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 69,
+            "point": [
+              259.28,
+              8577.48
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                0,
+                0,
+                0.5
+              ],
+              [
+                1.72,
+                0,
+                0.5
+              ],
+              [
+                30.84,
+                0,
+                0.5
+              ],
+              [
+                80.12,
+                1.34,
+                0.5
+              ],
+              [
+                128.9,
+                1.34,
+                0.5
+              ],
+              [
+                173.64,
+                1.34,
+                0.5
+              ],
+              [
+                210.82,
+                2.48,
+                0.5
+              ],
+              [
+                242.74,
+                2.48,
+                0.5
+              ],
+              [
+                273.02,
+                2.48,
+                0.5
+              ],
+              [
+                288.98,
+                2.48,
+                0.5
+              ],
+              [
+                309.12,
+                2.48,
+                0.5
+              ],
+              [
+                331.76,
+                2.48,
+                0.5
+              ],
+              [
+                354.34,
+                2.48,
+                0.5
+              ],
+              [
+                374.12,
+                2.48,
+                0.5
+              ],
+              [
+                382.46,
+                2.48,
+                0.5
+              ],
+              [
+                389.88,
+                2.48,
+                0.5
+              ],
+              [
+                401.24,
+                2.48,
+                0.5
+              ],
+              [
+                414.82,
+                2.48,
+                0.5
+              ],
+              [
+                429.54,
+                2.48,
+                0.5
+              ],
+              [
+                443.1,
+                2.48,
+                0.5
+              ],
+              [
+                453.4,
+                2.48,
+                0.5
+              ],
+              [
+                460.82,
+                2.48,
+                0.5
+              ],
+              [
+                469.24,
+                2.48,
+                0.5
+              ],
+              [
+                478.56,
+                2.48,
+                0.5
+              ],
+              [
+                487.86,
+                2.48,
+                0.5
+              ],
+              [
+                504.38,
+                2.48,
+                0.5
+              ],
+              [
+                511.8,
+                2.48,
+                0.5
+              ],
+              [
+                515.98,
+                2.48,
+                0.5
+              ],
+              [
+                517.7,
+                2.48,
+                0.5
+              ],
+              [
+                518.18,
+                2.48,
+                0.5
+              ],
+              [
+                520.38,
+                2.48,
+                0.5
+              ],
+              [
+                521.36,
+                2.48,
+                0.5
+              ],
+              [
+                522.9,
+                2.48,
+                0.5
+              ],
+              [
+                523.38,
+                2.48,
+                0.5
+              ],
+              [
+                526.64,
+                2.48,
+                0.5
+              ],
+              [
+                530.08,
+                2.48,
+                0.5
+              ],
+              [
+                533.52,
+                2.48,
+                0.5
+              ],
+              [
+                534.58,
+                2.48,
+                0.5
+              ],
+              [
+                535.08,
+                2.48,
+                0.5
+              ],
+              [
+                536.8,
+                3.06,
+                0.5
+              ],
+              [
+                539,
+                3.06,
+                0.5
+              ],
+              [
+                540.54,
+                3.06,
+                0.5
+              ],
+              [
+                542.08,
+                3.06,
+                0.5
+              ],
+              [
+                543.06,
+                3.06,
+                0.5
+              ],
+              [
+                544.12,
+                3.06,
+                0.5
+              ],
+              [
+                544.6,
+                3.06,
+                0.5
+              ],
+              [
+                545.08,
+                3.06,
+                0.5
+              ],
+              [
+                546.64,
+                3.06,
+                0.5
+              ],
+              [
+                547.12,
+                3.06,
+                0.5
+              ],
+              [
+                547.6,
+                3.06,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "90ac0e10-5669-4c9a-0b7f-ed4f11d51db0": {
+            "id": "90ac0e10-5669-4c9a-0b7f-ed4f11d51db0",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 70,
+            "point": [
+              1310.46,
+              8150.88
+            ],
+            "rotation": 0,
+            "text": "std::stack is a container adapter that gives you a last in first out data stucture\n---> means you can only add and remove elemets from the top of the stack",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c130fefd-ade0-4ff2-36a4-43f5383aeef4": {
+            "id": "c130fefd-ade0-4ff2-36a4-43f5383aeef4",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 71,
+            "point": [
+              501.92,
+              7966.74
+            ],
+            "rotation": 0,
+            "text": "e\n \n \n \nd\n \n \nc\n \n \nb\n \n \n \na",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "555362cb-cfc2-4da1-3327-4d658c5a572e": {
+            "id": "555362cb-cfc2-4da1-3327-4d658c5a572e",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 72,
+            "point": [
+              445.72,
+              7952.2
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                119.84,
+                91.5,
+                0.5
+              ],
+              [
+                119.84,
+                91.5,
+                0.5
+              ],
+              [
+                119.34,
+                91.5,
+                0.5
+              ],
+              [
+                118.36,
+                91.5,
+                0.5
+              ],
+              [
+                116.14,
+                91.5,
+                0.5
+              ],
+              [
+                113.36,
+                92.06,
+                0.5
+              ],
+              [
+                110.56,
+                92.06,
+                0.5
+              ],
+              [
+                107.1,
+                92.64,
+                0.5
+              ],
+              [
+                100.56,
+                93.28,
+                0.5
+              ],
+              [
+                91.22,
+                93.28,
+                0.5
+              ],
+              [
+                79.6,
+                93.28,
+                0.5
+              ],
+              [
+                73.06,
+                93.28,
+                0.5
+              ],
+              [
+                67.32,
+                93.28,
+                0.5
+              ],
+              [
+                63.8,
+                93.28,
+                0.5
+              ],
+              [
+                60.34,
+                92.7,
+                0.5
+              ],
+              [
+                56,
+                91.38,
+                0.5
+              ],
+              [
+                51.7,
+                88.32,
+                0.5
+              ],
+              [
+                45.96,
+                85.76,
+                0.5
+              ],
+              [
+                39.82,
+                81.68,
+                0.5
+              ],
+              [
+                32.92,
+                77.5,
+                0.5
+              ],
+              [
+                26.18,
+                72.74,
+                0.5
+              ],
+              [
+                18.24,
+                66.14,
+                0.5
+              ],
+              [
+                12.98,
+                60.9,
+                0.5
+              ],
+              [
+                9.18,
+                56.42,
+                0.5
+              ],
+              [
+                6,
+                52.74,
+                0.5
+              ],
+              [
+                2.32,
+                49.04,
+                0.5
+              ],
+              [
+                0.54,
+                45.5,
+                0.5
+              ],
+              [
+                0.54,
+                43.78,
+                0.5
+              ],
+              [
+                0,
+                42.22,
+                0.5
+              ],
+              [
+                0,
+                39.42,
+                0.5
+              ],
+              [
+                0,
+                36.62,
+                0.5
+              ],
+              [
+                1.14,
+                33.82,
+                0.5
+              ],
+              [
+                4.7,
+                31.4,
+                0.5
+              ],
+              [
+                12.54,
+                25.5,
+                0.5
+              ],
+              [
+                19.98,
+                21.44,
+                0.5
+              ],
+              [
+                29.58,
+                16.94,
+                0.5
+              ],
+              [
+                39.88,
+                12.52,
+                0.5
+              ],
+              [
+                50.18,
+                8.84,
+                0.5
+              ],
+              [
+                57.6,
+                5.44,
+                0.5
+              ],
+              [
+                63.32,
+                2.86,
+                0.5
+              ],
+              [
+                66.84,
+                1.16,
+                0.5
+              ],
+              [
+                71,
+                0.58,
+                0.5
+              ],
+              [
+                72.56,
+                0.58,
+                0.5
+              ],
+              [
+                75.34,
+                0,
+                0.5
+              ],
+              [
+                77.46,
+                0,
+                0.5
+              ],
+              [
+                80.9,
+                0,
+                0.5
+              ],
+              [
+                87.52,
+                3.02,
+                0.5
+              ],
+              [
+                91.82,
+                6.1,
+                0.5
+              ],
+              [
+                96.26,
+                9.88,
+                0.5
+              ],
+              [
+                99.04,
+                12.1,
+                0.5
+              ],
+              [
+                103.5,
+                16.54,
+                0.5
+              ],
+              [
+                107.96,
+                21,
+                0.5
+              ],
+              [
+                114.44,
+                27.5,
+                0.5
+              ],
+              [
+                118.24,
+                31.94,
+                0.5
+              ],
+              [
+                122.24,
+                37.86,
+                0.5
+              ],
+              [
+                125.42,
+                42.2,
+                0.5
+              ],
+              [
+                127.96,
+                46.54,
+                0.5
+              ],
+              [
+                131.48,
+                52.5,
+                0.5
+              ],
+              [
+                133.18,
+                55.44,
+                0.5
+              ],
+              [
+                133.18,
+                57.64,
+                0.5
+              ],
+              [
+                133.72,
+                60.42,
+                0.5
+              ],
+              [
+                133.72,
+                63.2,
+                0.5
+              ],
+              [
+                133.72,
+                65.42,
+                0.5
+              ],
+              [
+                133.72,
+                68.2,
+                0.5
+              ],
+              [
+                133.72,
+                69.74,
+                0.5
+              ],
+              [
+                133.72,
+                70.8,
+                0.5
+              ],
+              [
+                133.18,
+                71.86,
+                0.5
+              ],
+              [
+                132.68,
+                72.36,
+                0.5
+              ],
+              [
+                131.66,
+                73.9,
+                0.5
+              ],
+              [
+                130.68,
+                73.9,
+                0.5
+              ],
+              [
+                128.54,
+                74.96,
+                0.5
+              ],
+              [
+                126.2,
+                77.28,
+                0.5
+              ],
+              [
+                125.7,
+                77.28,
+                0.5
+              ],
+              [
+                124.64,
+                77.82,
+                0.5
+              ],
+              [
+                123.64,
+                78.3,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "361ba9fb-7a74-42b3-3a20-e4903ef5e7a9": {
+            "id": "361ba9fb-7a74-42b3-3a20-e4903ef5e7a9",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 73,
+            "point": [
+              580.16,
+              8004.7
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0.48,
+                8.36,
+                0.5
+              ],
+              [
+                0.48,
+                8.36,
+                0.5
+              ],
+              [
+                0,
+                7.88,
+                0.5
+              ],
+              [
+                7.36,
+                7.06,
+                0.5
+              ],
+              [
+                25.04,
+                7.06,
+                0.5
+              ],
+              [
+                84.96,
+                4.18,
+                0.5
+              ],
+              [
+                154.02,
+                0,
+                0.5
+              ],
+              [
+                213.6,
+                0,
+                0.5
+              ],
+              [
+                256.7,
+                0,
+                0.5
+              ],
+              [
+                279.36,
+                0,
+                0.5
+              ],
+              [
+                296.2,
+                0,
+                0.5
+              ],
+              [
+                299.14,
+                0,
+                0.5
+              ],
+              [
+                300.2,
+                0,
+                0.5
+              ],
+              [
+                300.68,
+                0,
+                0.5
+              ],
+              [
+                301.16,
+                0,
+                0.5
+              ],
+              [
+                301.66,
+                0,
+                0.5
+              ],
+              [
+                310.06,
+                0,
+                0.5
+              ],
+              [
+                315.94,
+                0,
+                0.5
+              ],
+              [
+                316.44,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "40278e49-7cc2-4004-0c58-d9f154874866": {
+            "id": "40278e49-7cc2-4004-0c58-d9f154874866",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 74,
+            "point": [
+              882.92,
+              7989.22
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                18.4,
+                0,
+                0.5
+              ],
+              [
+                18.4,
+                0,
+                0.5
+              ],
+              [
+                21.02,
+                2.62,
+                0.5
+              ],
+              [
+                25.18,
+                4,
+                0.5
+              ],
+              [
+                30.26,
+                5.98,
+                0.5
+              ],
+              [
+                33.04,
+                7.12,
+                0.5
+              ],
+              [
+                35.82,
+                8.74,
+                0.5
+              ],
+              [
+                38.02,
+                9.88,
+                0.5
+              ],
+              [
+                39.56,
+                11.44,
+                0.5
+              ],
+              [
+                40.04,
+                11.92,
+                0.5
+              ],
+              [
+                36.88,
+                14.94,
+                0.5
+              ],
+              [
+                28.54,
+                18.4,
+                0.5
+              ],
+              [
+                18.68,
+                25.18,
+                0.5
+              ],
+              [
+                8.8,
+                31.96,
+                0.5
+              ],
+              [
+                2.06,
+                36.7,
+                0.5
+              ],
+              [
+                0.5,
+                38.24,
+                0.5
+              ],
+              [
+                0,
+                38.72,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "f60482eb-4d02-4e7d-15eb-d02c5e658dcd": {
+            "id": "f60482eb-4d02-4e7d-15eb-d02c5e658dcd",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 75,
+            "point": [
+              941,
+              7951.04
+            ],
+            "rotation": 0,
+            "text": "first elements out\ncause its last in",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "6a105f32-021d-4487-1581-af0b9f33a138": {
+            "id": "6a105f32-021d-4487-1581-af0b9f33a138",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 76,
+            "point": [
+              1834.36,
+              7713.1
+            ],
+            "radius": [
+              476.5899999999999,
+              178
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "e5919c76-7cd0-4efb-06bd-e6c93911a9b7": {
+            "id": "e5919c76-7cd0-4efb-06bd-e6c93911a9b7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 77,
+            "point": [
+              2095.56,
+              7751.1
+            ],
+            "rotation": 0,
+            "text": "side note:",
+            "style": {
+              "color": "violet",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "d2dfc8e4-1553-434b-3063-9048e2bc0dc9": {
+            "id": "d2dfc8e4-1553-434b-3063-9048e2bc0dc9",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 78,
+            "point": [
+              1900.76,
+              7831.54
+            ],
+            "rotation": 0,
+            "text": "its like a stack of books. you can only add a new book\non top of the stack, and you can only remove\nthe book on top",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "9d5a466f-a3d4-4290-05a8-08bb9b1964d9": {
+            "id": "9d5a466f-a3d4-4290-05a8-08bb9b1964d9",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 79,
+            "point": [
+              1627.74,
+              8451.7
+            ],
+            "rotation": 0,
+            "text": "stack member functions:\n \n-push(): adds a new element to the top,\n-pop(): removes the element on top,\n-top() returns a reference to the top element",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a3ece714-21f6-4a1b-08b7-7ccc803d77e4": {
+            "id": "a3ece714-21f6-4a1b-08b7-7ccc803d77e4",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 80,
+            "point": [
+              581.04,
+              8882.21
+            ],
+            "rotation": 0,
+            "text": " ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e3349267-7ba8-40fd-293f-2267eb4e78f1": {
+            "id": "e3349267-7ba8-40fd-293f-2267eb4e78f1",
+            "type": "draw",
+            "name": "Draw",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 81,
+            "point": [
+              10.16,
+              8769.44
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "points": [
+              [
+                0.5,
+                40.06,
+                0.5
+              ],
+              [
+                0.5,
+                40.06,
+                0.5
+              ],
+              [
+                0,
+                40.06,
+                0.5
+              ],
+              [
+                9.08,
+                40.06,
+                0.5
+              ],
+              [
+                33.14,
+                40.06,
+                0.5
+              ],
+              [
+                80.62,
+                40.06,
+                0.5
+              ],
+              [
+                133.6,
+                40.06,
+                0.5
+              ],
+              [
+                197.88,
+                40.06,
+                0.5
+              ],
+              [
+                262.16,
+                40.06,
+                0.5
+              ],
+              [
+                274.92,
+                40.06,
+                0.5
+              ],
+              [
+                290.88,
+                40.06,
+                0.5
+              ],
+              [
+                355.16,
+                40.06,
+                0.5
+              ],
+              [
+                426.62,
+                40.06,
+                0.5
+              ],
+              [
+                503.12,
+                40.06,
+                0.5
+              ],
+              [
+                611.64,
+                40.06,
+                0.5
+              ],
+              [
+                673.52,
+                40.06,
+                0.5
+              ],
+              [
+                726.52,
+                40.06,
+                0.5
+              ],
+              [
+                775.3,
+                40.06,
+                0.5
+              ],
+              [
+                824.08,
+                40.06,
+                0.5
+              ],
+              [
+                877.06,
+                40.06,
+                0.5
+              ],
+              [
+                943.64,
+                40.06,
+                0.5
+              ],
+              [
+                1022.8,
+                40.06,
+                0.5
+              ],
+              [
+                1099.3,
+                40.06,
+                0.5
+              ],
+              [
+                1175.8,
+                40.06,
+                0.5
+              ],
+              [
+                1257.68,
+                40.06,
+                0.5
+              ],
+              [
+                1371.14,
+                40.06,
+                0.5
+              ],
+              [
+                1455.6,
+                40.06,
+                0.5
+              ],
+              [
+                1532.1,
+                40.06,
+                0.5
+              ],
+              [
+                1596.38,
+                40.06,
+                0.5
+              ],
+              [
+                1660.66,
+                40.06,
+                0.5
+              ],
+              [
+                1718.16,
+                38.78,
+                0.5
+              ],
+              [
+                1771.16,
+                34.96,
+                0.5
+              ],
+              [
+                1819.94,
+                33.74,
+                0.5
+              ],
+              [
+                1864.68,
+                33.74,
+                0.5
+              ],
+              [
+                1911.4,
+                33.74,
+                0.5
+              ],
+              [
+                1950.46,
+                33.74,
+                0.5
+              ],
+              [
+                1984.12,
+                30.48,
+                0.5
+              ],
+              [
+                2019.48,
+                29.38,
+                0.5
+              ],
+              [
+                2062.26,
+                24.62,
+                0.5
+              ],
+              [
+                2136.88,
+                15.74,
+                0.5
+              ],
+              [
+                2187.8,
+                8.1,
+                0.5
+              ],
+              [
+                2228.66,
+                4.56,
+                0.5
+              ],
+              [
+                2264.04,
+                2.34,
+                0.5
+              ],
+              [
+                2301.22,
+                2.34,
+                0.5
+              ],
+              [
+                2338.4,
+                2.34,
+                0.5
+              ],
+              [
+                2391.38,
+                2.34,
+                0.5
+              ],
+              [
+                2444.38,
+                2.34,
+                0.5
+              ],
+              [
+                2495.22,
+                2.34,
+                0.5
+              ],
+              [
+                2544,
+                2.34,
+                0.5
+              ],
+              [
+                2590.72,
+                2.34,
+                0.5
+              ],
+              [
+                2661.06,
+                2.34,
+                0.5
+              ],
+              [
+                2702.1,
+                0,
+                0.5
+              ],
+              [
+                2748.82,
+                0,
+                0.5
+              ],
+              [
+                2804.02,
+                0,
+                0.5
+              ],
+              [
+                2857.02,
+                0,
+                0.5
+              ],
+              [
+                2908.18,
+                0,
+                0.5
+              ],
+              [
+                2959.02,
+                0,
+                0.5
+              ],
+              [
+                3014.24,
+                0,
+                0.5
+              ],
+              [
+                3065.08,
+                0,
+                0.5
+              ],
+              [
+                3100.54,
+                0,
+                0.5
+              ],
+              [
+                3139.6,
+                0,
+                0.5
+              ],
+              [
+                3176.78,
+                0,
+                0.5
+              ],
+              [
+                3235.34,
+                0,
+                0.5
+              ],
+              [
+                3274.34,
+                0,
+                0.5
+              ],
+              [
+                3304.62,
+                0,
+                0.5
+              ],
+              [
+                3336.62,
+                0,
+                0.5
+              ],
+              [
+                3363.7,
+                0,
+                0.5
+              ],
+              [
+                3377.8,
+                0,
+                0.5
+              ]
+            ],
+            "isComplete": true
+          },
+          "b31e029a-136d-4033-3fd9-49eb94e207c7": {
+            "id": "b31e029a-136d-4033-3fd9-49eb94e207c7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 82,
+            "point": [
+              1550.56,
+              8853.02
+            ],
+            "rotation": 0,
+            "text": "std::deque",
+            "style": {
+              "color": "red",
+              "size": "large",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "977a3bad-e576-45aa-2125-a7b57b23ffc3": {
+            "id": "977a3bad-e576-45aa-2125-a7b57b23ffc3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 83,
+            "point": [
+              508.96000000000004,
+              9010.8
+            ],
+            "rotation": 0,
+            "text": "short for \"double-ended queue\", is a containter that allows for constant-time insertions and deletions at both the front and the back of the container.\nits implemented as a dynamic array -> it can grow and shrink as needed.",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "f43be875-586f-4deb-0ae1-9cf27cc9dca9": {
+            "id": "f43be875-586f-4deb-0ae1-9cf27cc9dca9",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 84,
+            "point": [
+              74.92,
+              9227.48
+            ],
+            "rotation": 0,
+            "text": "---> contant time insertion means that:\ntime it takes to insert an element into deque is the same\nregardless of how many elements are already in it. ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "41c5703d-c4aa-4362-1c19-3c44e47b0656": {
+            "id": "41c5703d-c4aa-4362-1c19-3c44e47b0656",
+            "type": "ellipse",
+            "name": "Ellipse",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 85,
+            "point": [
+              24.18,
+              9187.48
+            ],
+            "radius": [
+              500.4800000000001,
+              138.3100000000004
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "violet",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "c7fd82b6-a91d-4594-1ef0-67fa57c9b5bf": {
+            "id": "c7fd82b6-a91d-4594-1ef0-67fa57c9b5bf",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 86,
+            "point": [
+              1156.64,
+              9271
+            ],
+            "size": [
+              1048.1,
+              261.86
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "violet",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "68fa7227-f129-4611-0254-526348f39520": {
+            "id": "68fa7227-f129-4611-0254-526348f39520",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 87,
+            "point": [
+              1206.12,
+              9293.28
+            ],
+            "rotation": 0,
+            "text": "deque is like a deck of cards where you can add\nor remove cards from both the top and the bottom of the deck.\nYou can access any card in the deckh, but the deck is dynamic\nand will change in size when you add or remove elemnts",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "ec5e0d3c-d233-41c5-3ca0-9e66fdff17ee": {
+            "id": "ec5e0d3c-d233-41c5-3ca0-9e66fdff17ee",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 88,
+            "point": [
+              2354.46,
+              9111.76
+            ],
+            "size": [
+              944.6,
+              1058.96
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "textAlign": "middle",
+              "font": "script"
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "356decf8-e8e1-40f0-324f-c0d89f4fe3ca": {
+            "id": "356decf8-e8e1-40f0-324f-c0d89f4fe3ca",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 89,
+            "point": [
+              2389.46,
+              9163.1
+            ],
+            "rotation": 0,
+            "text": "You can use 'deque' as the underlying container for std::stack",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.917271273926423,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "18813508-5d42-4a83-3f7a-79b185fc2335": {
+            "id": "18813508-5d42-4a83-3f7a-79b185fc2335",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 90,
+            "point": [
+              2451.5,
+              9259.78
+            ],
+            "rotation": 0,
+            "text": "std::stack<int, std::deque<int>> stack_name;",
+            "style": {
+              "color": "lightGray",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "mono",
+              "textAlign": "middle"
+            }
+          },
+          "0c5be15d-bc18-43e1-2f15-404dbd5d43ef": {
+            "id": "0c5be15d-bc18-43e1-2f15-404dbd5d43ef",
+            "type": "text",
+            "name": "Text",
+            "parentId": "ae86734a-eacf-4ad5-20ed-0b1c61bbbfe5",
+            "childIndex": 91,
+            "point": [
+              2720.32,
+              9349.3
+            ],
+            "rotation": 0,
+            "text": " ",
+            "style": {
+              "color": "lightGray",
+              "size": "medium",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "mono",
+              "textAlign": "middle"
+            }
           }
         },
         "bindings": {}

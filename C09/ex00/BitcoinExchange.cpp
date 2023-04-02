@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:13:02 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/02 18:30:51 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/02 22:18:14 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,29 +32,28 @@ void    BitcoinExchange::opendatabase(void) {
                 map[date] = rate;
         }
     }
+    else
+        std::cout << "Error: could not open file." << std::endl;
 }
 
 bool    check_date(std::string& date)
 {
-    if (date.length() != 11 || (date[4] != '-' || date[7] != '-'))
-    {
-        std::cout << "Error: bad input ==> " << date << std::endl;
-        return (false);
-    }
-    int year = std::stoi(date.substr(0, 4));
-    int month = std::stoi(date.substr(5, 2));
-    int day = std::stoi(date.substr(8, 2));
-    if (year > 9999 && year < 1980)
+    std::stringstream iss(date);
+    char    del;
+    int     year, month, day;
+
+    iss >> year >> del >> month >> del >> day;
+    if (year > 9999 || year < 1980)
     {    
         std::cout << "Error: bad input ==> " << date << std::endl;
         return (false);
     }
-    if (day < 1 && day > 31)
+    if (day < 1 || day > 31)
     {
         std::cout << "Error: bad input ==> " << date << std::endl;
         return (false);
     }
-    if (month < 1 && month > 12)
+    if (month < 1 || month > 12)
     {
         std::cout << "Error: bad input ==> " << date << std::endl;
         return (false);
@@ -92,25 +91,32 @@ void    BitcoinExchange::print_result(double &value, std::string &date) {
 void    BitcoinExchange::openinputfile(std::string filename) {
     
     std::string line;
-    std::ifstream   file(filename);
     double      value;
     std::string date;
     std::string tmp;
     bool        first_line = true;
 
-    if (file.is_open())
+    std::cout << filename;
+    if (!filename.empty())
     {
-        while (std::getline(file, line))
+        std::ifstream   file(filename);
+        if (file.is_open())
         {
-            std::stringstream   str(line);
-            std::getline(str, date, '|'), str >> value;
-            if (first_line)
-                first_line = false;
-            else
+            while (std::getline(file, line))
             {
-                if (check_date(date) && check_value(value))
-                    print_result(value, date);
+                std::stringstream   str(line);
+                std::getline(str, date, '|'), str >> value;
+                if (first_line)
+                    first_line = false;
+                else
+                {
+                    if (check_date(date) && check_value(value))
+                        print_result(value, date);
+                }
             }
         }
+        else
+            std::cout << "Error: could not open file." << std::endl;
     }
+    
 }
