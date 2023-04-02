@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:07:29 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/01 21:53:11 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/02 18:30:14 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 #include <fstream>
 #include <map>
 #include <sstream>
-
 class BitcoinExchange {
     
     private:

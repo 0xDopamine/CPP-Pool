@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:13:02 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/01 21:53:02 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/02 18:30:51 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,19 +81,11 @@ void    BitcoinExchange::print_result(double &value, std::string &date) {
 
     double  rate;
     double  result; 
-    std::map<std::string, double>::iterator it = map.find(date); 
-    
-    if (it == map.end())
-    {
-        std::map<std::string, double>::iterator closest = map.lower_bound(date);
-        rate = map[closest->first];
-        result = value * rate;
-    }
-    else
-    {
-        rate = map[date];
-        result = value * rate;
-    }
+    std::map<std::string, double>::iterator it = map.upper_bound(date);
+    if (it != map.begin())
+        it--;
+    rate = map[it->first];
+    result = value * it->second;
     std::cout << date << "==> " << value << " = " << result << std::endl;
 }
 
