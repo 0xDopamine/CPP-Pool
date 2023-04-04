@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/03 21:49:50 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/04 18:30:47 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/04 20:24:22 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,28 +54,36 @@ bool	RPN::protection(char token) {
 
 void	RPN::print_result(void) {
 
-	if (status)
+	if (status && stk.size() == 1)
 		std::cout << stk.top() << std::endl;
+	else if (stk.size() > 1)
+		std::cout << "Error: " << "'" << expression << "'" << " <== wrong expression!" << std::endl;
 }
 
-void    RPN::parse(char **argv) {
+void    RPN::parse(int argc, char **argv) {
 
-	if (argv[1])
+	if (argc == 2)
 	{
+		expression = argv[1];
 		int	i = 0;
-		while (argv[1][i] && protection(argv[1][i]))
+		while (expression[i] && protection(expression[i]))
 		{
-			if (isOperator(argv[1][i]))
+			if (isOperator(expression[i]) && stk.size() > 1)
 			{
-				a = stk.top();
-				stk.pop();
 				b = stk.top();
 				stk.pop();
-				stk.push(calculate(b, a, argv[1][i]));
+				a = stk.top();
+				stk.pop();
+				stk.push(calculate(a, b, expression[i]));
 			}
-			else if ((argv[1][i] >= '0' && argv[1][i] <= '9'))
-				stk.push(toFloat(argv[1][i]));
+			else if ((expression[i] >= '0' && expression[i] <= '9'))
+				stk.push(toFloat(expression[i]));
 			i++;
 		}
+	}
+	else
+	{
+		status = false;
+		std::cout << "Error: arguments number is wrong" << std::endl;
 	}
 }
