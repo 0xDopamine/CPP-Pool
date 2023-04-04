@@ -1,6 +1,6 @@
-TARGET = btc
+TARGET = PmergeMe
 
-SRCS = main.cpp BitcoinExchange.cpp
+SRCS = main.cpp PmergeMe.cpp
 
 OBJS = $(SRCS:%.cpp=%.o)
 
