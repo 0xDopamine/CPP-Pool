@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:46 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/05 21:05:21 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/06 21:29:23 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,25 @@ void	insertion(std::vector<int>& vec)
 			j--;
 		}
 		vec[j + 1] = key;
+	}
+}
+
+void	merge(std::vector<int>& vec, int right, int left, int mid)
+{
+	int	size1 = mid - left + 1;
+	int size2 = right - mid;
+	std::vector<int> L(size1), R(size2);
+
+	
+}
+
+void	merge_sort(std::vector<int>& vec, int right, int left)
+{
+	if (left < right) {
+		int	mid = (left + right) / 2;
+		merge_sort(vec, mid, left);
+		merge_sort(vec, right, mid + 1);
+		merge(vec, right, left, mid);
 	}
 }
 
