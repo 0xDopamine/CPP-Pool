@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:46 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/06 21:29:23 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/06 23:30:55 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ void	merge_sort(std::vector<int>& vec, int right, int left)
 		merge_sort(vec, right, mid + 1);
 		merge(vec, right, left, mid);
 	}
+	return ;
 }
 
 int main(int argc, char **argv) {
