@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:13:02 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/03 21:48:49 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/08 21:01:33 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -125,6 +125,8 @@ void    BitcoinExchange::openinputfile(char **argv) {
 				{
 					std::stringstream   str(data.line);
 					std::getline(str, data.date, '|'), str >> data.value;
+					// if (data.date == "date")
+						std::cout << "data: " << "'" << data.date << "'" << std::endl;
 					if (data.first_line)
 						data.first_line = false;
 					else
