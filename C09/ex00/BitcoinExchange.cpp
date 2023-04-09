@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:13:02 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/08 22:10:29 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/09 20:38:16 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -86,7 +86,12 @@ bool    check_date(std::string& date)
 
 bool    check_value(double& value)
 {
-	if (value <= 0)
+	if (value == 0)
+	{
+		std::cout << "Error: value can't be 0 or blank" << std::endl;
+		return (false);
+	}
+	else if (value < 0)
 	{
 		std::cout << "Error: not a positive number." << std::endl;
 		return (false);
@@ -108,6 +113,11 @@ void    BitcoinExchange::print_result(double &value, std::string &date) {
 		it--;
 	rate = map[it->first];
 	result = value * it->second;
+	if (result > 2147483647)
+	{
+		std::cout << "Error: bad result!" << std::endl;
+		return ;
+	}
 	std::cout << date << "==> " << value << " = " << result << std::endl;
 }
 
@@ -125,7 +135,7 @@ void    BitcoinExchange::openinputfile(char **argv) {
 				{
 					std::stringstream   str(data.line);
 					std::getline(str, data.date, '|'), str >> data.value;
-					std::cout << "data: " << data.value << std::endl;
+					// std::cout << "data: " << data.value << std::endl;
 					if (data.first_line && data.date == "date ")
 						data.first_line = false;
 					else
