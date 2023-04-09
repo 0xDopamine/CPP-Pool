@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/03 21:49:59 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/04 20:19:28 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/09 20:49:13 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ class RPN {
         void    parse(int argc, char **argv);
         bool    protection(char token);
         void    print_result(void);
+        bool    op_count(char *expression);
 } ;
 
 #endif

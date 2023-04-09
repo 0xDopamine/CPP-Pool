@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/03 21:49:50 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/04 20:24:22 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/04/09 21:00:32 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,23 @@ bool	RPN::protection(char token) {
 	}
 }
 
+bool	RPN::op_count(char *expression) {
+	
+	int operators = 0;
+	int	operands = 0;
+	for (int i = 0; expression[i]; i++) {
+		
+		if (isnumber(expression[i]))
+			operands++;
+		else if (isOperator(expression[i]))
+			operators++;
+	}
+	if (operands == operators + 1)
+		return (true);
+	std::cout << "Error: " << "'" << expression << "'" << " <== wrong expression!" << std::endl;
+	return (false);
+}
+
 void	RPN::print_result(void) {
 
 	if (status && stk.size() == 1)
@@ -66,7 +83,8 @@ void    RPN::parse(int argc, char **argv) {
 	{
 		expression = argv[1];
 		int	i = 0;
-		while (expression[i] && protection(expression[i]))
+		status = op_count(expression);
+		while (status && expression[i] && protection(expression[i]))
 		{
 			if (isOperator(expression[i]) && stk.size() > 1)
 			{
