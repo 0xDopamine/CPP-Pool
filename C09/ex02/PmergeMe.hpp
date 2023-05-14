@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:39 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/05/04 18:35:44 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/05/14 17:13:19 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,6 @@ class PmergeMe {
     private:
         std::vector<int> vec;
         
-}
+} ;
 
 #endif
