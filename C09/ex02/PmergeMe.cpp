@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:41 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/05/18 18:59:00 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/05/19 16:50:03 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ template <typename T, typename B>
 
 void    PmergeMe::insertion_sort(T& nums, B left, B right) {
 
-    for (B i = left + 1; i <= right; i++) {
+    for (B i = left + 1; i < right; i++) {
 		B key = nums[i];
 		B j = i - 1;
 
@@ -51,6 +51,8 @@ void    PmergeMe::insertion_sort(T& nums, B left, B right) {
 		}
 		nums[j + 1]  = key;
 	}
+	// for (int i = 0; i < static_cast<int>(nums.size()); i++)
+	// 	std::cout << nums[i] << " ";
 } ;
 
 template <typename T, typename B>
@@ -79,6 +81,7 @@ void	PmergeMe::merge(T& nums, B left, B mid, B right) {
 template <typename T, typename B>
 void	PmergeMe::merge_sort(T& vec, B left, B right)
 {
+	start = clock();
 	if (left < right) {
 
 		if (right - left + 1 <= 10)
@@ -90,6 +93,7 @@ void	PmergeMe::merge_sort(T& vec, B left, B right)
 			merge(vec, left, mid, right);
 		}
 	}
+	end = clock();
 } ;
 
 void    PmergeMe::parse(int argc, char **argv)  {
@@ -107,10 +111,10 @@ void    PmergeMe::parse(int argc, char **argv)  {
 	print(vec);
     std::cout << std::endl;
     merge_sort(vec, 0, static_cast<int>(vec.size()));
-    merge_sort(deq, 0, static_cast<int>(deq.size()));
     std::cout << "After: ";
-    print(deq);
+    print(vec);
     std::cout << std::endl;
-	std::cout << "Time to process a range of " << argc - 1 << " elements with std::vector : " << std::endl;
-	std::cout << "Time to process a range of " << argc - 1 << " elements with std::deque : " << std::endl;
+	std::cout << "Time to process a range of " << argc - 1 << " elements with std::vector : " << (double(end - start)/CLOCKS_PER_SEC) * 100000000 << " us" << std::endl;
+    merge_sort(deq, 0, static_cast<int>(deq.size()));
+	std::cout << "Time to process a range of " << argc - 1 << " elements with std::deque : " << ((double)(end - start)/CLOCKS_PER_SEC) * 100000000 << " us" << std::endl;
 }

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:39 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/05/18 17:29:50 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/05/19 16:20:39 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,15 @@
 #include <vector>
 #include <deque>
 #include <algorithm>
+#include <ctime>
 
 class PmergeMe {
 	
 	private:
 		std::vector<int> vec;
 		std::deque<int> deq;
+		clock_t	start;
+		clock_t end;
 	public:
 		PmergeMe();
 		~PmergeMe();
