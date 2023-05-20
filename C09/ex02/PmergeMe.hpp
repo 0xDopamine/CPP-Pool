@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:39 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/05/19 16:20:39 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/05/20 16:31:08 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,12 @@
 #include <deque>
 #include <algorithm>
 #include <ctime>
+
+enum {
+
+	ERROR,
+	OK
+} ;
 
 class PmergeMe {
 	
@@ -31,6 +37,7 @@ class PmergeMe {
 		~PmergeMe();
 		PmergeMe(const PmergeMe& src);
 		PmergeMe& operator=(const PmergeMe& src);
+		int		check_doubles(std::vector<int> vec, int value);
 		template <typename T>
 		void	print(T& nums);
 		template <typename T, typename B>

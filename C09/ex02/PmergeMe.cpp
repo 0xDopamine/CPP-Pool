@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:41 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/05/19 16:50:03 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/05/20 16:34:55 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,8 +51,6 @@ void    PmergeMe::insertion_sort(T& nums, B left, B right) {
 		}
 		nums[j + 1]  = key;
 	}
-	// for (int i = 0; i < static_cast<int>(nums.size()); i++)
-	// 	std::cout << nums[i] << " ";
 } ;
 
 template <typename T, typename B>
@@ -96,17 +94,35 @@ void	PmergeMe::merge_sort(T& vec, B left, B right)
 	end = clock();
 } ;
 
+int		PmergeMe::check_doubles(std::vector<int> vec, int value) {
+
+	for (int i = 0; i < static_cast<int>(vec.size()); i++) {
+		if (value == vec[i])
+			return (ERROR);
+	}
+	return (OK);
+}
+
 void    PmergeMe::parse(int argc, char **argv)  {
 
+	if (argc <= 3) {
+		
+		std::cout << "Error" << std::endl;
+		return ;
+	}
     for (int i = 1; i < argc; i++) {
-		int value = std::stoi(argv[i]);
+	
+		int value = std::atoi(argv[i]);
+		if (value < 0 || check_doubles(vec, value) == ERROR) {
+			std::cout << "Error" << std::endl;
+			return ;
+		}
 		vec.push_back(value);
 	}
 	for (int i = 1; i <= argc - 1; i++) {
-		int value = std::stoi(argv[i]);
+		int value = std::atoi(argv[i]);
 		deq.push_back(value);
 	}
-
 	std::cout << "Before: ";
 	print(vec);
     std::cout << std::endl;
