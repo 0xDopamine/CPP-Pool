@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:07:29 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/03 21:46:34 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/05/27 15:17:23 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #include <fstream>
 #include <map>
 #include <sstream>
+#include <algorithm>
 
 typedef struct s_data {
     

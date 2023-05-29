@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:41 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/05/20 16:34:55 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/05/21 15:21:09 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,6 +103,21 @@ int		PmergeMe::check_doubles(std::vector<int> vec, int value) {
 	return (OK);
 }
 
+void	PmergeMe::sort(std::vector<int> vec, std::deque<int> deq) {
+
+	std::cout << "Before: ";
+	print(vec);
+    std::cout << std::endl;
+    merge_sort(vec, 0, static_cast<int>(vec.size()));
+    std::cout << "After: ";
+    print(vec);
+    std::cout << std::endl;
+	std::cout << "Time to process a range of " << vec.size() << " elements with std::vector : " << double(end - start) << " us" << std::endl;
+    merge_sort(deq, 0, static_cast<int>(deq.size()));
+	std::cout << "Time to process a range of " << deq.size() << " elements with std::deque : " << double(end - start) << " us" << std::endl;
+}
+
+
 void    PmergeMe::parse(int argc, char **argv)  {
 
 	if (argc <= 3) {
@@ -123,14 +138,5 @@ void    PmergeMe::parse(int argc, char **argv)  {
 		int value = std::atoi(argv[i]);
 		deq.push_back(value);
 	}
-	std::cout << "Before: ";
-	print(vec);
-    std::cout << std::endl;
-    merge_sort(vec, 0, static_cast<int>(vec.size()));
-    std::cout << "After: ";
-    print(vec);
-    std::cout << std::endl;
-	std::cout << "Time to process a range of " << argc - 1 << " elements with std::vector : " << (double(end - start)/CLOCKS_PER_SEC) * 100000000 << " us" << std::endl;
-    merge_sort(deq, 0, static_cast<int>(deq.size()));
-	std::cout << "Time to process a range of " << argc - 1 << " elements with std::deque : " << ((double)(end - start)/CLOCKS_PER_SEC) * 100000000 << " us" << std::endl;
+	sort(vec, deq);
 }

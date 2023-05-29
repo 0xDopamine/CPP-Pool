@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:13:02 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/04/09 20:38:16 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/05/27 15:24:04 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -133,6 +133,7 @@ void    BitcoinExchange::openinputfile(char **argv) {
 			{
 				while (std::getline(file, data.line))
 				{
+					// check line after reading it as string (replace . with , and count points etc...)
 					std::stringstream   str(data.line);
 					std::getline(str, data.date, '|'), str >> data.value;
 					// std::cout << "data: " << data.value << std::endl;
