@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 20:27:41 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/05/21 15:21:09 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/06/01 14:42:29 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,7 +120,7 @@ void	PmergeMe::sort(std::vector<int> vec, std::deque<int> deq) {
 
 void    PmergeMe::parse(int argc, char **argv)  {
 
-	if (argc <= 3) {
+	if (argc < 2) {
 		
 		std::cout << "Error" << std::endl;
 		return ;
@@ -128,7 +128,7 @@ void    PmergeMe::parse(int argc, char **argv)  {
     for (int i = 1; i < argc; i++) {
 	
 		int value = std::atoi(argv[i]);
-		if (value < 0 || check_doubles(vec, value) == ERROR) {
+		if (value < 0) {
 			std::cout << "Error" << std::endl;
 			return ;
 		}

@@ -6,7 +6,7 @@
 /*   By: mbaioumy <mbaioumy@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 18:13:02 by mbaioumy          #+#    #+#             */
-/*   Updated: 2023/05/31 16:25:18 by mbaioumy         ###   ########.fr       */
+/*   Updated: 2023/06/01 15:10:39 by mbaioumy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,23 +65,33 @@ bool    check_date(std::string& date)
 	char    del;
 	int     year, month, day;
 
-	iss >> year >> del >> month >> del >> day;
-	if (year > 9999 || year < 1980)
-	{    
-		std::cout << "Error: bad input ==> " << date << std::endl;
-		return (false);
-	}
-	if (day < 1 || day > 31)
+	if (date.length() > 10)
 	{
-		std::cout << "Error: bad input ==> " << date << std::endl;
-		return (false);
+		iss >> year >> del >> month >> del >> day;
+		if (year > 9999 || year < 1980)
+		{    
+			std::cout << "Error: bad input ==> " << date << std::endl;
+			return (false);
+		}
+		if (day < 1 || day > 31)
+		{
+			std::cout << "Error: bad input ==> " << date << std::endl;
+			return (false);
+		}
+		if (month == 2 && day >= 29)
+		{
+			std::cout << "Error: bad input ==> " << date << std::endl;
+			return (false);
+		}
+		if (month < 1 || month > 12)
+		{
+			std::cout << "Error: bad input ==> " << date << std::endl;
+			return (false);
+		}
+		return (true);
 	}
-	if (month < 1 || month > 12)
-	{
-		std::cout << "Error: bad input ==> " << date << std::endl;
-		return (false);
-	}
-	return (true);
+	std::cout << "Error: bad input ==> " << date << std::endl;
+	return (false);
 }
 
 bool    check_value(double& value)
@@ -139,15 +149,8 @@ void    BitcoinExchange::openinputfile(char **argv) {
 					std::stringstream   str(data.line);
 					std::getline(str, data.date, '|'), str >> val;
 					
-					if (val.find(",") == std::string::npos) {
-						while ((pos = val.find("..")) != std::string::npos) {
-							val.replace(pos, 2, ".");
-						}
-					}
-					else {
-						while ((pos = val.find(",,")) != std::string::npos) {
-							val.replace(pos, 2, ".");
-						}
+					if ((pos = val.find(",")) != std::string::npos) {
+						val.replace(pos, 1, ".");
 					}
 					std::stringstream ss(val);
 					ss >> data.value;
